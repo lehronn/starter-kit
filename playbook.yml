@@ -1,0 +1,427 @@
+---
+- name: "Startkit"
+  hosts: localhost
+  connection: local
+  vars:
+    host_name: soda2@desktop
+    user_login: soda2
+    user_dir: /home/soda2/
+  become: yes
+  become_user: root
+  become_method: sudo
+  tasks:
+  # Add the user to wheel group for permissions to write in /etc
+    - name: Add the user to wheel group
+      become: yes
+      user:
+        name: "{{ user_login }}"
+        group: wheel
+
+  # hostname setting up
+    - name: changing hostname
+      command: sudo hostnamectl set-hostname "{{ host_name }}"
+
+  # hosts file updating
+    - name: setting up /etc/hosts file
+      template:
+        src: ./templates/hosts
+        dest: /etc/hosts
+        owner: root
+        group: root
+        mode: 0644
+        backup: true
+
+  # Setting up selinux policies
+    - name: Set virt_use_nfs flag on control machine to remote machine. If you want to co
+      seboolean:
+        name: virt_use_nfs
+        state: yes
+        persistent: yes
+
+    - name: Set virt_use_fusefs flag on
+      seboolean:
+        name: virt_use_fusefs
+        state: yes
+        persistent: yes
+
+    - name: Set virt_sandbox_use_fusefs flag on
+      seboolean:
+        name: virt_sandbox_use_fusefs
+        state: yes
+        persistent: yes
+
+    - name: Set use_virtualbox flag on
+      become_user: root
+      seboolean:
+        name: use_virtualbox
+        state: yes
+        persistent: yes
+
+  # turning on additional repositories
+
+    - name: install rpmfusion-free-release-32 repo
+      dnf:
+        name: ./templates/packages/rpmfusion-free-release-32.noarch.rpm
+        state: present
+
+    - name: install rpmfusion-nonfree-release-32 repo
+      dnf:
+        name: ./templates/packages/rpmfusion-nonfree-release-32.noarch.rpm
+        state: present
+
+    - name: import keys for vs code repo
+      command: sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+
+    - name: configure vs code repo
+      command: sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
+
+  # repository list and operating system update
+    - name: repolist update
+      command: sudo dnf repolist
+
+    - name: system update
+      command: sudo dnf update
+
+  # tuned deamon installation and configuration
+    - name: install tuned
+      package:
+        name: tuned
+        state: present
+
+    - name: setting up tuned to desktop profile
+      command: tuned-adm profile desktop
+
+  # exfat and ldm support installation and configuration
+    - name: Install libldm
+      become_user: root
+      package:
+        name: libldm
+        state: present
+
+    - name: Install fuse-exfat
+      package:
+        name: fuse-exfat
+        state: present
+
+    - name: Install exfat-utils
+      package:
+        name: exfat-utils
+        state: present
+
+    - name: Copying ldmtool service to systemd catalog
+      copy:
+        src: ./templates/ldmtool.service
+        dest: /etc/systemd/system/ldmtool.service
+
+    - name: Rescan ldm partitions
+      command: sudo ldmtool scan
+
+    - name: Create ldm partitions entry in mapper
+      command: sudo ldmtool create all
+
+    - name: Enabling ldm tool service (automounting ldm partitions)
+      command: sudo systemctl enable ldmtool.service
+
+  # packages installation
+    - name: install ansible
+      package:
+        name: ansible
+        state: present
+
+    - name: install vs code
+      package:
+        name: code
+        state: present
+
+    - name: install cockpit
+      package:
+        name: cockpit
+        state: present
+
+    - name: install audacity
+      package:
+        name: audacity
+        state: present
+
+    - name: install gnome-tweaks
+      package:
+        name: gnome-tweaks
+        state: present
+
+    - name: install brasero
+      package:
+        name: brasero
+        state: present
+
+    - name: install EasyTAG
+      package:
+        name: easytag
+        state: present
+
+    - name: install gimp
+      package:
+        name: gimp
+        state: present
+
+    - name: install inkscape
+      package:
+        name: inkscape
+        state: present
+
+    - name: install scribus
+      package:
+        name: scribus
+        state: present
+
+    - name: install calibre
+      package:
+        name: calibre
+        state: present
+
+    - name: install flameshot
+      package:
+        name: flameshot
+        state: present
+
+    - name: install git
+      package:
+        name: git
+        state: present
+
+    - name: install mc
+      package:
+        name: mc
+        state: present
+
+    - name: install vim
+      package:
+        name: vim
+        state: present
+
+    - name: install SoundConverter
+      package:
+        name: soundconverter
+        state: present
+
+    - name: install libreoffice-base
+      package:
+        name: libreoffice-base
+        state: present
+
+    - name: install gnome-maps
+      package:
+        name: gnome-maps
+        state: present
+
+    - name: install virt-manager
+      package:
+        name: virt-manager
+        state: present
+
+    - name: install links
+      package:
+        name: links
+        state: present
+
+    - name: install gthumb
+      package:
+        name: gthumb
+        state: present
+
+    - name: install sound-juicer
+      package:
+        name: sound-juicer
+        state: present
+
+    - name: install remmina
+      package:
+        name: remmina
+        state: present
+
+    - name: install transmission
+      package:
+        name: transmission
+        state: present
+
+    - name: install filezilla
+      package:
+        name: filezilla
+        state: present
+
+    - name: install vlc
+      package:
+        name: vlc
+        state: present
+
+    - name: install tilix
+      package:
+        name: tilix
+        state: present
+
+    - name: install gnome-contacts
+      package:
+        name: gnome-contacts
+        state: present
+
+    - name: install gnome-calendar
+      package:
+        name: gnome-calendar
+        state: present
+
+    - name: install pidgin
+      package:
+        name: pidgin
+        state: present
+
+    - name: install purple-facebook
+      package:
+        name: purple-facebook
+        state: present
+
+    - name: install purple-plugin_pack
+      package:
+        name: purple-plugin_pack
+        state: present
+
+    - name: install purple-plugin_pack-pidgin
+      package:
+        name: purple-plugin_pack-pidgin
+        state: present
+
+    - name: install gmic-gimp
+      package:
+        name: gmic-gimp
+        state: present
+
+    - name: install gedit-plugins
+      package:
+        name: gedit-plugins
+        state: present
+
+    - name: install gnome-passwordsafe
+      package:
+        name: gnome-passwordsafe
+        state: present
+
+    - name: install htop
+      package:
+        name: htop
+        state: present
+
+    - name: install neofetch
+      package:
+        name: neofetch
+        state: present
+
+    - name: install zip
+      package:
+        name: zip
+        state: present
+        
+    - name: install gnome-extensions-app
+      package:
+        name: gnome-extensions-app
+        state: present
+
+    - name: install purple-plugin_pack-pidgin
+      package:
+        name: purple-plugin_pack-pidgin
+        state: present
+
+    - name: install purple-plugin_pack
+      package:
+        name: purple-plugin_pack
+        state: present
+
+    - name: install obs-studio
+      package:
+        name: obs-studio
+        state: present
+
+    - name: install Typora
+      dnf:
+        name: ./templates/packages/typora-0.9.86-0.fc32.x86_64.rpm
+        state: present
+
+  # flatpak packages installation
+    - name: Install the Spotify by flatpak
+      flatpak:
+        name:  https://flathub.org/repo/appstream/com.spotify.Client.flatpakref
+        state: present
+
+    - name: Install the Flowblade by flatpak
+      flatpak:
+        name:  https://flathub.org/repo/appstream/io.github.jliljebl.Flowblade.flatpakref
+        state: present
+
+  # Configuration of kvm-machine-manager (statyczne ipki i domyślne ustawienia nowych maszyn) dodanie usera do grupy libvirt i ustawienie polityk selinux z libvirtem związane
+    - name: Add the user to libvirt group
+      user:
+        name: "{{ user_login }}"
+        group: libvirt
+        
+   # - name: Copying network configuration for libvirt's qemu network service (/etc/libvirt/qemu/default.xml)
+   #   copy:
+   #     src: ./templates/default.xml
+   #     dest: /etc/libvirt/qemu/default.xml
+
+  # gnome-shell extensions installation
+    - name: Create Gnome Shell extension catalog (systray)
+      become_user: "{{ user_login }}"
+      command: mkdir -p /{{ user_dir }}/.local/share/gnome-shell/extensions/TopIconsphocean.net.v27.shell-extension
+
+    - name: Installation of Gnome Shell extension (systray)
+      become_user: "{{ user_login }}"
+      command: gnome-extensions install --force ./templates/extensions/TopIconsphocean.net.v27.shell-extension.zip
+  
+    - name: Enabling Gnome Shell extension (systray)
+      become_user: "{{ user_login }}"
+      command: gnome-extensions enable TopIcons@phocean.net
+      
+    - name: Disable Gnome Shell extension (fedora logo)
+      become_user: "{{ user_login }}"
+      command: gnome-extensions disable background-logo@fedorahosted.org
+
+  # templates for new file menu importing
+    - name: Copying Gnome Shell templates for new files
+      become_user: "{{ user_login }}"
+      command: cp -r ./templates/new-files/. /{{ user_dir }}/Szablony/
+
+  # Importing configuration files for other software
+    - name: Importing configurations files to .config catalog
+      become_user: "{{ user_login }}"
+      command: cp -r ./templates/software-configs/config/. /{{ user_dir }}/.config/
+      
+   # - name: chown on configurations files to .config catalog
+   #   command: chown -R "{{ user_login }}" /{{ user_dir }}/.config/
+      
+   # - name: chmod on configurations files to .config catalog
+   #   command: chmod -R 600 /{{ user_dir }}/.config/
+
+    - name: Importing configurations files to .purple catalog
+      become_user: "{{ user_login }}"
+      command: cp -r ./templates/software-configs/purple/. /{{ user_dir }}/.purple/
+      
+   # - name: Chown configurations files to .purple catalog
+   #   command: chown -R "{{ user_login }}" /{{ user_dir }}/.purple/
+      
+   # - name: Chmod configurations files to .purple catalog
+   #   command: chmod -R 600 /{{ user_dir }}/.purple/
+
+  # gnome shell settings importing
+  # dconf dump / > dconf-settings.dconf
+    - name: create dconf backup
+      become_user: "{{ user_login }}"
+      raw: dconf dump / > settings-backup.dconf
+      
+    #- name: Chown configurations files to .purple catalog
+    #  command: chown -R "{{ user_login }}" ./settings-backup.dconf
+
+    #- name: chmod on configurations files to .config catalog
+    #  command: chmod -R 600 ./settings-backup.dconf
+
+    - name: setting up dconf
+      become_user: "{{ user_login }}"
+      raw: dconf load -f / < ./templates/settings.dconf
+      ignore_errors: yes
+
