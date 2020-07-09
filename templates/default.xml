@@ -1,0 +1,35 @@
+<!--
+WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE
+OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
+  virsh net-edit default
+or other application using the libvirt API.
+-->
+
+<network>
+  <name>default</name>
+  <uuid>83fbd90e-fee1-4fd8-b1fe-e10cdfb58df6</uuid>
+  <forward mode='nat'>
+    <nat>
+      <port start='1024' end='65535'/>
+    </nat>
+  </forward>
+  <bridge name='virbr0' stp='on' delay='0'/>
+  <mac address='52:54:00:d7:3a:86'/>
+  <ip address='192.168.122.1' netmask='255.255.255.0'>
+    <dhcp>
+      <range start='192.168.122.2' end='192.168.122.254'/>
+      <host mac='52:54:00:44:3d:52' name='alpha' ip='192.168.122.100'/>
+      <host mac='52:54:00:d5:73:39' name='betha' ip='192.168.122.101'/>
+      <host mac='52:54:00:83:73:d1' name='anc0' ip='192.168.122.110'/>
+      <host mac='52:54:00:4b:db:05' name='ann0' ip='192.168.122.120'/>
+      <host mac='52:54:00:f3:7b:df' name='ann1' ip='192.168.122.121'/>
+      <host mac='52:54:00:bd:5b:47' name='ann2' ip='192.168.122.122'/>
+      <host mac='52:54:00:be:8f:6d' name='ann3' ip='192.168.122.123'/>
+      <host mac='52:54:00:f7:fb:1b' name='ann4' ip='192.168.122.124'/>
+      <host mac='52:54:00:bd:5b:ee' name='cl0' ip='192.168.122.130'/>
+      <host mac='52:54:00:be:8f:dd' name='cl1' ip='192.168.122.131'/>
+      <host mac='52:54:00:f7:fb:cc' name='cl2' ip='192.168.122.132'/>
+      <host mac='52:54:00:fa:cf:21' name='centOS' ip='192.168.122.5'/>
+    </dhcp>
+  </ip>
+</network>

@@ -1,0 +1,9 @@
+[Unit]
+ Description= Windows Dynamic Disk LDMtool
+ After=network.target
+ [Service]
+ Type=forking
+ User=root
+ ExecStart=/usr/bin/ldmtool create all
+ [Install]
+ WantedBy=multi-user.target

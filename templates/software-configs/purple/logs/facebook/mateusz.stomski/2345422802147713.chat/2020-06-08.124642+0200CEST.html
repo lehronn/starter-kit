@@ -1,0 +1,68 @@
+<html><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>Conversation with 2345422802147713 at pon, 8 cze 2020, 12:46:42 on mateusz.stomski (facebook)</title></head><body><h3>Conversation with 2345422802147713 at pon, 8 cze 2020, 12:46:42 on mateusz.stomski (facebook)</h3>
+<font color="#16569E"><font size="2">(12:46:42)</font> <b>Mateusz Stomski:</b></font> <br/>fileName = &quot;test.html&quot;
+filePath = &quot;public&quot;
+meta = &quot;index.html&quot;
+header = &quot;header.html&quot;
+nav = &quot;nav.html&quot;
+aside = &quot;aside.html&quot;
+content = &quot;content.html&quot;
+footer = &quot;footer.html&quot;
+
+# generowanie pliku html
+def htmlGen(fileName, filePath, meta, header, nav, aside, content, footer):
+    #tworzenie pliku
+    os.mknod(filePath + &quot;/&quot; + fileName)
+    #zlepianie części składowych w jedną zmienną
+    with open(filePath + &quot;/&quot; + fileName,'wt') as f:
+        f.write(meta)
+        f.write(header)
+        f.write(nav)
+        f.write(aside)
+        f.write(content)
+        f.write(footer)
+        f.close()
+    #zapisanie zmiennej do pliku o danej nazwie<br/>
+<font color="#16569E"><font size="2">(12:47:06)</font> <b>Mateusz Stomski:</b></font> <br/>ten kod działa, ale to dlatego że meta header nav aside content i footer to po prostu krótkie stringi<br/>
+<font color="#16569E"><font size="2">(12:47:25)</font> <b>Mateusz Stomski:</b></font> <br/>a chodzi o to że pod tymi zmiennymi powinny się znajdować treści plików<br/>
+<font color="#16569E"><font size="2">(12:48:15)</font> <b>Mateusz Stomski:</b></font> <br/>jest róznica czy użyjesz read czy open :D<br/>
+<font color="#16569E"><font size="2">(12:48:33)</font> <b>Mateusz Stomski:</b></font> <br/>a one jeszcze mają różne tryby w r a z + i bez<br/>
+<font color="#16569E"><font size="2">(12:53:12)</font> <b>Mateusz Stomski:</b></font> <br/>a jak zmienisz na próbę jedną zmienną<br/>
+<font color="#16569E"><font size="2">(12:53:14)</font> <b>Mateusz Stomski:</b></font> <br/>meta = <span style='font-size: medium;'>str(open('index.html', 'r'))</span><br/>
+<font color="#16569E"><font size="2">(12:53:35)</font> <b>Mateusz Stomski:</b></font> <br/>to wkleja do pliku coś takiego:<br/>
+<font color="#16569E"><font size="2">(12:53:35)</font> <b>Mateusz Stomski:</b></font> <br/>&lt;_io.TextIOWrapper<span style='font-size: medium;'> name='index.html' mode='r' encoding='UTF-8'&gt;</span><br/>
+<font color="#16569E"><font size="2">(12:54:06)</font> <b>Mateusz Stomski:</b></font> <br/>czyli tak jakby zwróciło mi nagłówek obiektu w formie stringa zamiast teksty z tego pliku<br/>
+<font color="#16569E"><font size="2">(12:56:42)</font> <b>Mateusz Stomski:</b></font> <br/>próbowałem jeszcze tak meta = <span style='font-size: medium;'>str(open('index.html', 'r').read)</span><br/>
+<font color="#16569E"><font size="2">(12:57:10)</font> <b>Mateusz Stomski:</b></font> <br/>wtedy wyświetla zamiast zawartości pliku index.html takie coś: &lt;built-in<span style='font-size: medium;'> method read of _io.TextIOWrapper object at 0x7f85e0f5d380&gt;</span><br/>
+<font color="#16569E"><font size="2">(12:58:02)</font> <b>Mateusz Stomski:</b></font> <br/>zaś jak wywalisz str() to CI wywali że jest zły typ zmiennej TypeError: write() argument must be str, not builtin_function_or_method<br/><br/>
+<font color="#16569E"><font size="2">(14:16:46)</font> <b>Mateusz Stomski:</b></font> <br/>Dzień dobry Panie Mateuszu,
+
+pozwoliłam sobie na kontakt z Panem, ponieważ chciałam zapytać, czy aktualnie poszukuje Pan nowych możliwości zawodowych?
+Obecnie dla jednego z naszych klientów w Katowicach szukamy kandydatów, którzy chcieliby zajmować się monitoringiem infrastruktury IT i aplikacji.
+
+Szukamy osoby otwartej i komunikatywnej, która ma doświadczenie w jednej z następujących technologii: kafka, docker, kubernetes, graphite, grafana, ansible, Red Hat, CentOS. Wystarczy znajomość jednej z nich :)
+
+Proces rekrutacyjny jest całkiem sprawny – odbędzie się tylko jedno spotkanie online:)
+
+Jeśli chodzi o benefity to proponujemy:
+
+Opieke medyczną
+Multisport
+Ubezpieczenie
+Lekcje j. angielskiego
+Budżet na szkolenia
+
+
+Proszę o informację, czy chciałby Pan kontynuować rozmowę:)<br/>
+<font color="#A82F2F"><font size="2">(14:17:38)</font> <b>Tomasz Osławski:</b></font> <br/>pewnie dla ibm szukaja  ;p<br/>
+<font color="#A82F2F"><font size="2">(14:17:45)</font> <b>Tomasz Osławski:</b></font> <br/>ale pewnie, dajesz<br/>
+<font color="#16569E"><font size="2">(14:18:47)</font> <b>Mateusz Stomski:</b></font> <br/>W sumie mogę na rozmowę pójść. I tak jest online. Zobaczymy ile kasy mogę wyciągnąć 😀<br/>
+<font color="#A82F2F"><font size="2">(14:18:50)</font> <b>Michael Grandson:</b></font> <br/>to wyglda jak jakos monitorikng czy CC<br/>
+<font color="#A82F2F"><font size="2">(14:19:03)</font> <b>Michael Grandson:</b></font> <br/>ja bym tam z ciekawosci poszedl<br/>
+<font color="#A82F2F"><font size="2">(14:19:15)</font> <b>Michael Grandson:</b></font> <br/>zoabczysz jakei pytania zadaja<br/>
+<font color="#16569E"><font size="2">(14:19:19)</font> <b>Mateusz Stomski:</b></font> <br/>No i tak chyba zrobie<br/>
+<font color="#A82F2F"><font size="2">(16:13:25)</font> <b>Michael Grandson:</b></font> <br/>na poczatku myslalem ze to kumpel wrzucil cos odnosnie winnetou<br/>
+<font color="#A82F2F"><font size="2">(16:13:27)</font> <b>Michael Grandson:</b></font> <br/><img src='c34e551c7fbacdf1c5aec54dd520b6b78fd4e704.png' alt='' /><br/>
+<font color="#16569E"><font size="2">(16:14:36)</font> <b>Mateusz Stomski:</b></font> <br/>plemienia naopaków 😀<br/>
+<font color="#A82F2F"><font size="2">(16:15:05)</font> <b>Michael Grandson:</b></font> <br/>:D<br/>
+<font size="2">(20:52:12)</font><b> <br/>Konto zostało rozłączone i użytkownik nie jest już obecny w tej konferencji. Po nawiązaniu połączenia nastąpi ponowne dołączenie.</b><br/>
+</body></html>

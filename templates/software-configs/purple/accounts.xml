@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<account version='1.0'>
+	<account>
+		<protocol>prpl-facebook</protocol>
+		<name>mateusz.stomski</name>
+		<password>Iten8896ss</password>
+		<alias>Mateusz Stomski</alias>
+		<statuses>
+			<status type='available' name='Dostępny' active='true'>
+				<attributes/>
+			</status>
+			<status type='away' name='Zaraz wracam' active='false'>
+				<attributes/>
+			</status>
+			<status type='invisible' name='Niewidoczny' active='false'>
+				<attributes/>
+			</status>
+			<status type='offline' name='Offline' active='false'>
+				<attributes/>
+			</status>
+		</statuses>
+		<settings>
+			<setting name='show-unread' type='bool'>1</setting>
+			<setting name='inactive-as-away' type='bool'>0</setting>
+			<setting name='sync-interval' type='int'>5</setting>
+			<setting name='show-self' type='bool'>1</setting>
+			<setting name='mark-read-available' type='bool'>0</setting>
+			<setting name='uid' type='string'>100006269221577</setting>
+			<setting name='did' type='string'>abbb975c-e457-436b-9176-3a81542e5df6</setting>
+			<setting name='mark-read' type='bool'>1</setting>
+			<setting name='group-chat-open' type='bool'>1</setting>
+			<setting name='cid' type='string'>osSGd9cscvQzwN6scjFX</setting>
+			<setting name='work' type='bool'>0</setting>
+			<setting name='stoken' type='string'>1</setting>
+			<setting name='token' type='string'>EAADo1TDZCuu8BAH06dB1OENKKZAQImEqHDgEgHL75ZBxTYvtZAbs55yMymNebllUbFSu4fdHpmZCuXMX7WCnLdj11ZAFGW8fsji4k1ucePWpNLvd3FRQjVLIe9qMDfCnkxu0F39u3hpU3bQiOyWh1R1Qtuy4azSohUMsnzYrmuhRoyKKWPjpU9</setting>
+			<setting name='mid' type='string'>155404746</setting>
+		</settings>
+		<settings ui='gtk-gaim'>
+			<setting name='auto-login' type='bool'>1</setting>
+		</settings>
+		<current_error/>
+	</account>
+	<account>
+		<protocol>prpl-irc</protocol>
+		<name>soda2[m]@irc.freenode.net</name>
+		<password>IEvl3212ok</password>
+		<alias>soda2[m]</alias>
+		<statuses>
+			<status type='available' name='Dostępny' active='true'>
+				<attributes/>
+			</status>
+			<status type='away' name='Zaraz wracam' active='false'>
+				<attributes>
+					<attribute id='message' value='Nie ma mnie teraz przy komputerze'/>
+				</attributes>
+			</status>
+			<status type='offline' name='Offline' active='false'>
+				<attributes/>
+			</status>
+		</statuses>
+		<settings>
+			<setting name='autodetect_utf8' type='bool'>0</setting>
+			<setting name='sasl' type='bool'>0</setting>
+			<setting name='core-rlaager-irchelper_nickpassword' type='string'>IEvl3212ok</setting>
+			<setting name='ssl' type='bool'>0</setting>
+			<setting name='encoding' type='string'>UTF-8</setting>
+			<setting name='core-rlaager-irchelper_authname' type='string'>soda2[m]</setting>
+			<setting name='auth_plain_in_clear' type='bool'>0</setting>
+			<setting name='port' type='int'>6667</setting>
+			<setting name='core-rlaager-irchelper_disconnectghosts' type='bool'>0</setting>
+		</settings>
+		<settings ui='gtk-gaim'>
+			<setting name='auto-login' type='bool'>1</setting>
+		</settings>
+		<current_error/>
+	</account>
+</account>

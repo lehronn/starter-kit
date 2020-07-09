@@ -1,0 +1,1486 @@
+INFO 20.03.2020, 19:49:27  luanchFromDiffVersion, pre version is undefined
+INFO 20.03.2020, 19:49:27  overwriteThemeFolder
+INFO 20.03.2020, 19:49:27  ------------------start------------------
+INFO 20.03.2020, 19:49:27  typora version: 0.9.86
+DEBUG 20.03.2020, 19:49:27  [ '/opt/typora/Typora' ]
+INFO 20.03.2020, 19:49:27  [Raven] instanceKey = 19c78255-bdbf-42d4-9630-0af2e58f09cb
+DEBUG 20.03.2020, 19:49:27  app.openFile
+INFO 20.03.2020, 19:49:27  [focus] 1
+INFO 20.03.2020, 19:49:27  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+INFO 20.03.2020, 19:49:37  ----------------before-quit-----------------
+INFO 20.03.2020, 19:49:37  ------------------will-quit------------------
+INFO 21.03.2020, 12:04:27  ------------------start------------------
+INFO 21.03.2020, 12:04:27  typora version: 0.9.86
+DEBUG 21.03.2020, 12:04:27  [ '/opt/typora/Typora' ]
+INFO 21.03.2020, 12:04:27  [Raven] instanceKey = 99447e2d-cb3a-4b16-8356-a9d15e582dcb
+DEBUG 21.03.2020, 12:04:27  app.openFile
+INFO 21.03.2020, 12:04:27  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+INFO 21.03.2020, 12:04:27  [focus] 1
+INFO 21.03.2020, 12:04:30  [blur] 1
+INFO 21.03.2020, 12:05:13  [focus] 1
+INFO 21.03.2020, 12:05:23  [blur] 1
+INFO 21.03.2020, 12:05:40  [focus] 1
+INFO 21.03.2020, 12:05:40  addRecentFolder
+INFO 21.03.2020, 12:05:46  switchDocument
+INFO 21.03.2020, 12:05:46  addRecentDocument
+INFO 21.03.2020, 12:05:47  switchDocument
+INFO 21.03.2020, 12:05:47  addRecentDocument
+INFO 21.03.2020, 12:06:10  window.File && (function(){File.option.enableAutoSave = true;})();
+INFO 21.03.2020, 12:06:24  File.setIndentSize(3);
+INFO 21.03.2020, 12:06:41  window.File && (function(){File.setDefaultImageStorage("per-file-assert");})();
+INFO 21.03.2020, 12:06:48  File.option.applyImageMoveForWeb = true
+INFO 21.03.2020, 12:07:01  switchDocument
+INFO 21.03.2020, 12:07:01  addRecentDocument
+DEBUG 21.03.2020, 12:07:01  lastSync null, timestamp 1584788746476, mtime 1578991326000
+INFO 21.03.2020, 12:07:02  switchDocument
+INFO 21.03.2020, 12:07:02  addRecentDocument
+DEBUG 21.03.2020, 12:07:02  lastSync null, timestamp 1584788747203, mtime 1580408715000
+INFO 21.03.2020, 12:07:06  ----------------before-quit-----------------
+INFO 21.03.2020, 12:07:06  ------------------will-quit------------------
+INFO 21.03.2020, 12:09:30  ------------------start------------------
+INFO 21.03.2020, 12:09:30  typora version: 0.9.86
+DEBUG 21.03.2020, 12:09:30  [ '/opt/typora/Typora' ]
+INFO 21.03.2020, 12:09:30  [Raven] instanceKey = 0ac8fd9a-ea66-4944-a5bc-77b7a9317942
+DEBUG 21.03.2020, 12:09:30  reopen file
+DEBUG 21.03.2020, 12:09:30  reopenClosed
+DEBUG 21.03.2020, 12:09:30  app.openFile
+INFO 21.03.2020, 12:09:30  addRecentDocument
+INFO 21.03.2020, 12:09:30  [focus] 1
+INFO 21.03.2020, 12:09:30  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+INFO 21.03.2020, 12:10:08  [blur] 1
+INFO 21.03.2020, 12:10:26  [focus] 1
+INFO 21.03.2020, 12:12:21  File.option.prettyIndent = true;
+INFO 21.03.2020, 12:12:22  File.option.prettyIndent = false;
+INFO 21.03.2020, 12:12:36  File.option.useRelativePathForImg = true
+INFO 21.03.2020, 12:13:13  ----------------before-quit-----------------
+INFO 21.03.2020, 12:13:13  ------------------will-quit------------------
+INFO 29.03.2020, 23:37:42  ------------------start------------------
+INFO 29.03.2020, 23:37:42  typora version: 0.9.86
+DEBUG 29.03.2020, 23:37:42  [ '/opt/typora/Typora' ]
+INFO 29.03.2020, 23:37:42  [Raven] instanceKey = 43791490-e2cb-4ad6-a4f2-84d0aecb0897
+DEBUG 29.03.2020, 23:37:42  reopen file
+DEBUG 29.03.2020, 23:37:42  reopenClosed
+DEBUG 29.03.2020, 23:37:42  app.openFile
+INFO 29.03.2020, 23:37:42  addRecentDocument
+INFO 29.03.2020, 23:37:42  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+INFO 29.03.2020, 23:37:42  [focus] 1
+INFO 29.03.2020, 23:38:08  switchDocument
+INFO 29.03.2020, 23:38:08  addRecentDocument
+INFO 29.03.2020, 23:38:10  switchDocument
+INFO 29.03.2020, 23:38:10  addRecentDocument
+INFO 29.03.2020, 23:38:11  switchDocument
+INFO 29.03.2020, 23:38:11  addRecentDocument
+INFO 29.03.2020, 23:38:14  switchDocument
+INFO 29.03.2020, 23:38:14  addRecentDocument
+INFO 29.03.2020, 23:38:21  [blur] 1
+INFO 29.03.2020, 23:38:31  [focus] 1
+INFO 29.03.2020, 23:38:31  [blur] 1
+INFO 29.03.2020, 23:38:31  [focus] 1
+INFO 29.03.2020, 23:38:33  [blur] 1
+INFO 29.03.2020, 23:39:02  [focus] 1
+INFO 29.03.2020, 23:39:10  [blur] 1
+INFO 29.03.2020, 23:39:14  [focus] 1
+INFO 29.03.2020, 23:39:14  [blur] 1
+INFO 29.03.2020, 23:39:14  [focus] 1
+INFO 29.03.2020, 23:39:18  [blur] 1
+INFO 29.03.2020, 23:39:21  [focus] 1
+INFO 29.03.2020, 23:39:21  [blur] 1
+INFO 29.03.2020, 23:39:21  [focus] 1
+INFO 29.03.2020, 23:39:32  [blur] 1
+INFO 29.03.2020, 23:45:55  [focus] 1
+INFO 29.03.2020, 23:45:57  ----------------before-quit-----------------
+INFO 29.03.2020, 23:45:57  ------------------will-quit------------------
+INFO 30.03.2020, 14:52:53  ------------------start------------------
+INFO 30.03.2020, 14:52:53  typora version: 0.9.86
+DEBUG 30.03.2020, 14:52:53  [
+  '/opt/typora/Typora',
+  '/mnt/Pobrane/Pobrane Linux/Ansible/README.md'
+]
+DEBUG 30.03.2020, 14:52:53  app.openFile
+INFO 30.03.2020, 14:52:53  addRecentDocument
+INFO 30.03.2020, 14:52:53  [Raven] instanceKey = 8250243a-c79c-4129-82c7-3db5ebd8a672
+INFO 30.03.2020, 14:52:53  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+INFO 30.03.2020, 14:52:53  [focus] 1
+INFO 30.03.2020, 14:52:57  ----------------before-quit-----------------
+INFO 30.03.2020, 14:52:57  ------------------will-quit------------------
+INFO 30.03.2020, 15:23:42  ------------------start------------------
+INFO 30.03.2020, 15:23:42  typora version: 0.9.86
+DEBUG 30.03.2020, 15:23:42  [ '/opt/typora/Typora' ]
+INFO 30.03.2020, 15:23:42  [Raven] instanceKey = 7ec7f39d-c7e9-4dfa-9b2d-e3225425cda9
+DEBUG 30.03.2020, 15:23:42  reopen file
+DEBUG 30.03.2020, 15:23:42  reopenClosed
+DEBUG 30.03.2020, 15:23:42  app.openFile
+INFO 30.03.2020, 15:23:42  addRecentDocument
+INFO 30.03.2020, 15:23:42  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+INFO 30.03.2020, 15:23:42  [focus] 1
+INFO 30.03.2020, 15:23:47  addRecentFolder
+INFO 30.03.2020, 15:23:54  switchDocument
+INFO 30.03.2020, 15:23:54  addRecentDocument
+INFO 30.03.2020, 15:24:03  switchDocument
+INFO 30.03.2020, 15:24:03  addRecentDocument
+INFO 30.03.2020, 15:24:21  ----------------before-quit-----------------
+INFO 30.03.2020, 15:24:21  ------------------will-quit------------------
+INFO 30.03.2020, 19:36:30  ------------------start------------------
+INFO 30.03.2020, 19:36:30  typora version: 0.9.86
+DEBUG 30.03.2020, 19:36:30  [ '/opt/typora/Typora' ]
+INFO 30.03.2020, 19:36:30  [Raven] instanceKey = 031ca442-7f95-4858-8076-1783b7fa562c
+DEBUG 30.03.2020, 19:36:30  reopen file
+DEBUG 30.03.2020, 19:36:30  reopenClosed
+DEBUG 30.03.2020, 19:36:30  app.openFile
+INFO 30.03.2020, 19:36:30  addRecentDocument
+INFO 30.03.2020, 19:36:30  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+INFO 30.03.2020, 19:36:30  [focus] 1
+INFO 30.03.2020, 19:36:30  [blur] 1
+INFO 30.03.2020, 19:36:32  [focus] 1
+INFO 30.03.2020, 19:36:36  [blur] 1
+INFO 30.03.2020, 19:36:39  [focus] 1
+INFO 30.03.2020, 19:36:39  switchDocument
+INFO 30.03.2020, 19:36:39  addRecentDocument
+INFO 30.03.2020, 19:38:35  [blur] 1
+INFO 30.03.2020, 19:38:50  [focus] 1
+INFO 30.03.2020, 19:39:15  [blur] 1
+INFO 30.03.2020, 19:39:32  [focus] 1
+INFO 30.03.2020, 19:39:34  [blur] 1
+INFO 30.03.2020, 19:39:37  [focus] 1
+INFO 30.03.2020, 19:39:42  [blur] 1
+INFO 30.03.2020, 19:40:16  [focus] 1
+INFO 30.03.2020, 19:40:17  ----------------before-quit-----------------
+INFO 30.03.2020, 19:40:17  ------------------will-quit------------------
+INFO 30.03.2020, 19:43:05  ------------------start------------------
+INFO 30.03.2020, 19:43:05  typora version: 0.9.86
+DEBUG 30.03.2020, 19:43:05  [ '/opt/typora/Typora' ]
+INFO 30.03.2020, 19:43:05  [Raven] instanceKey = 542cf3e8-6568-401b-a896-fa330ab970d3
+DEBUG 30.03.2020, 19:43:05  reopen file
+DEBUG 30.03.2020, 19:43:05  reopenClosed
+DEBUG 30.03.2020, 19:43:05  app.openFile
+INFO 30.03.2020, 19:43:05  addRecentDocument
+INFO 30.03.2020, 19:43:05  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+INFO 30.03.2020, 19:43:05  [focus] 1
+INFO 30.03.2020, 19:43:13  [blur] 1
+INFO 30.03.2020, 19:50:59  [focus] 1
+INFO 30.03.2020, 19:50:59  [blur] 1
+INFO 30.03.2020, 19:59:11  [focus] 1
+INFO 30.03.2020, 19:59:26  [blur] 1
+INFO 30.03.2020, 19:59:32  [focus] 1
+INFO 30.03.2020, 19:59:43  [blur] 1
+INFO 30.03.2020, 19:59:55  [focus] 1
+INFO 30.03.2020, 20:00:20  [blur] 1
+INFO 30.03.2020, 20:04:38  [focus] 1
+INFO 30.03.2020, 20:04:52  [blur] 1
+INFO 30.03.2020, 20:08:15  [focus] 1
+INFO 30.03.2020, 20:08:17  [blur] 1
+INFO 30.03.2020, 20:22:43  [focus] 1
+INFO 30.03.2020, 20:22:49  [blur] 1
+INFO 30.03.2020, 20:43:38  [focus] 1
+INFO 30.03.2020, 20:43:48  [blur] 1
+INFO 30.03.2020, 20:44:04  [focus] 1
+INFO 30.03.2020, 20:44:12  [blur] 1
+INFO 30.03.2020, 20:45:09  [focus] 1
+INFO 30.03.2020, 20:45:15  ----------------before-quit-----------------
+INFO 30.03.2020, 20:45:15  ------------------will-quit------------------
+INFO 2.04.2020, 10:47:46  ------------------start------------------
+INFO 2.04.2020, 10:47:46  typora version: 0.9.86
+DEBUG 2.04.2020, 10:47:46  [ '/opt/typora/Typora' ]
+INFO 2.04.2020, 10:47:46  [Raven] instanceKey = 09c50e31-f3fd-4bce-824a-834731930d69
+INFO 2.04.2020, 10:47:46  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+DEBUG 2.04.2020, 10:47:46  reopen file
+DEBUG 2.04.2020, 10:47:46  reopenClosed
+DEBUG 2.04.2020, 10:47:46  app.openFile
+INFO 2.04.2020, 10:47:46  addRecentDocument
+INFO 2.04.2020, 10:47:46  [focus] 1
+INFO 2.04.2020, 10:47:52  switchDocument
+INFO 2.04.2020, 10:47:52  addRecentDocument
+INFO 2.04.2020, 10:48:34  [blur] 1
+INFO 2.04.2020, 10:48:41  [focus] 1
+INFO 2.04.2020, 10:48:57  [blur] 1
+INFO 2.04.2020, 10:49:22  [focus] 1
+INFO 2.04.2020, 10:49:41  [blur] 1
+INFO 2.04.2020, 10:49:43  [focus] 1
+INFO 2.04.2020, 10:51:07  [blur] 1
+INFO 2.04.2020, 10:51:09  [focus] 1
+INFO 2.04.2020, 10:52:15  [blur] 1
+INFO 2.04.2020, 10:52:36  [focus] 1
+INFO 2.04.2020, 10:55:37  [blur] 1
+INFO 2.04.2020, 10:55:46  [focus] 1
+INFO 2.04.2020, 10:56:18  [blur] 1
+INFO 2.04.2020, 10:56:21  [focus] 1
+INFO 2.04.2020, 10:57:57  [blur] 1
+INFO 2.04.2020, 10:58:02  [focus] 1
+INFO 2.04.2020, 11:00:34  [blur] 1
+INFO 2.04.2020, 11:00:39  [focus] 1
+INFO 2.04.2020, 11:01:02  [blur] 1
+INFO 2.04.2020, 11:01:06  [focus] 1
+INFO 2.04.2020, 11:01:47  [blur] 1
+INFO 2.04.2020, 11:01:48  [focus] 1
+INFO 2.04.2020, 11:01:49  [blur] 1
+INFO 2.04.2020, 11:01:50  [focus] 1
+INFO 2.04.2020, 11:01:51  [blur] 1
+INFO 2.04.2020, 11:01:52  [focus] 1
+INFO 2.04.2020, 11:01:53  [blur] 1
+INFO 2.04.2020, 11:01:54  [focus] 1
+INFO 2.04.2020, 11:01:56  [blur] 1
+INFO 2.04.2020, 11:01:57  [focus] 1
+INFO 2.04.2020, 11:01:58  [blur] 1
+INFO 2.04.2020, 11:01:59  [focus] 1
+INFO 2.04.2020, 11:02:00  [blur] 1
+INFO 2.04.2020, 11:02:02  [focus] 1
+INFO 2.04.2020, 11:02:03  [blur] 1
+INFO 2.04.2020, 11:02:04  [focus] 1
+INFO 2.04.2020, 11:02:06  [blur] 1
+INFO 2.04.2020, 11:02:07  [focus] 1
+INFO 2.04.2020, 11:02:08  [blur] 1
+INFO 2.04.2020, 11:02:10  [focus] 1
+INFO 2.04.2020, 11:02:11  [blur] 1
+INFO 2.04.2020, 11:02:12  [focus] 1
+INFO 2.04.2020, 11:02:13  [blur] 1
+INFO 2.04.2020, 11:02:15  [focus] 1
+INFO 2.04.2020, 11:02:16  [blur] 1
+INFO 2.04.2020, 11:02:17  [focus] 1
+INFO 2.04.2020, 11:02:18  [blur] 1
+INFO 2.04.2020, 11:02:20  [focus] 1
+INFO 2.04.2020, 11:03:22  [blur] 1
+INFO 2.04.2020, 11:07:06  [focus] 1
+INFO 2.04.2020, 11:07:52  [blur] 1
+INFO 2.04.2020, 11:07:56  [focus] 1
+INFO 2.04.2020, 11:09:10  [blur] 1
+INFO 2.04.2020, 11:10:40  [focus] 1
+INFO 2.04.2020, 11:10:47  [blur] 1
+INFO 2.04.2020, 11:11:06  [focus] 1
+INFO 2.04.2020, 11:11:10  [blur] 1
+INFO 2.04.2020, 11:11:41  [focus] 1
+INFO 2.04.2020, 11:11:45  [blur] 1
+INFO 2.04.2020, 11:13:21  [focus] 1
+INFO 2.04.2020, 11:13:24  [blur] 1
+INFO 2.04.2020, 11:13:37  [focus] 1
+INFO 2.04.2020, 11:13:40  [blur] 1
+INFO 2.04.2020, 11:14:58  [focus] 1
+INFO 2.04.2020, 11:15:20  [blur] 1
+INFO 2.04.2020, 11:15:59  [focus] 1
+INFO 2.04.2020, 11:16:00  [blur] 1
+INFO 2.04.2020, 11:16:38  [focus] 1
+INFO 2.04.2020, 11:16:41  [blur] 1
+INFO 2.04.2020, 11:16:55  [focus] 1
+INFO 2.04.2020, 11:16:59  [blur] 1
+INFO 2.04.2020, 11:17:12  [focus] 1
+INFO 2.04.2020, 11:17:16  [blur] 1
+INFO 2.04.2020, 11:18:39  [focus] 1
+INFO 2.04.2020, 11:18:50  [blur] 1
+INFO 2.04.2020, 11:19:09  [focus] 1
+INFO 2.04.2020, 11:19:41  [blur] 1
+INFO 2.04.2020, 11:20:06  [focus] 1
+INFO 2.04.2020, 11:20:16  [blur] 1
+INFO 2.04.2020, 11:24:04  [focus] 1
+INFO 2.04.2020, 11:24:09  [blur] 1
+INFO 2.04.2020, 11:25:18  [focus] 1
+INFO 2.04.2020, 11:25:26  [blur] 1
+INFO 2.04.2020, 11:25:52  [focus] 1
+INFO 2.04.2020, 11:26:04  [blur] 1
+INFO 2.04.2020, 11:27:17  [focus] 1
+INFO 2.04.2020, 11:27:19  [blur] 1
+INFO 2.04.2020, 11:27:26  [focus] 1
+INFO 2.04.2020, 11:27:30  [blur] 1
+INFO 2.04.2020, 11:27:56  [focus] 1
+INFO 2.04.2020, 11:27:58  [blur] 1
+INFO 2.04.2020, 11:28:19  [focus] 1
+INFO 2.04.2020, 11:28:44  [blur] 1
+INFO 2.04.2020, 11:28:52  [focus] 1
+INFO 2.04.2020, 11:29:14  [blur] 1
+INFO 2.04.2020, 11:29:21  [focus] 1
+INFO 2.04.2020, 11:29:28  [blur] 1
+INFO 2.04.2020, 11:29:55  [focus] 1
+INFO 2.04.2020, 11:29:58  [blur] 1
+INFO 2.04.2020, 11:30:09  [focus] 1
+INFO 2.04.2020, 11:30:20  [blur] 1
+INFO 2.04.2020, 11:30:25  [focus] 1
+INFO 2.04.2020, 11:30:37  [blur] 1
+INFO 2.04.2020, 11:30:51  [focus] 1
+INFO 2.04.2020, 11:30:54  [blur] 1
+INFO 2.04.2020, 11:31:07  [focus] 1
+INFO 2.04.2020, 11:31:12  [blur] 1
+INFO 2.04.2020, 11:31:20  [focus] 1
+INFO 2.04.2020, 11:31:44  [blur] 1
+INFO 2.04.2020, 11:34:53  [focus] 1
+INFO 2.04.2020, 11:36:18  [blur] 1
+INFO 2.04.2020, 11:36:21  [focus] 1
+INFO 2.04.2020, 11:37:06  [blur] 1
+INFO 2.04.2020, 11:37:07  [focus] 1
+INFO 2.04.2020, 11:37:07  [blur] 1
+INFO 2.04.2020, 11:38:27  [focus] 1
+INFO 2.04.2020, 11:39:00  [blur] 1
+INFO 2.04.2020, 12:18:52  [focus] 1
+INFO 2.04.2020, 12:18:52  [blur] 1
+INFO 2.04.2020, 13:13:29  [focus] 1
+INFO 2.04.2020, 13:13:29  [blur] 1
+INFO 2.04.2020, 13:39:31  [focus] 1
+INFO 2.04.2020, 13:39:31  [blur] 1
+INFO 2.04.2020, 13:44:01  [focus] 1
+INFO 2.04.2020, 13:44:02  ----------------before-quit-----------------
+INFO 2.04.2020, 13:44:02  ------------------will-quit------------------
+INFO 2.04.2020, 15:21:24  ------------------start------------------
+INFO 2.04.2020, 15:21:24  typora version: 0.9.86
+DEBUG 2.04.2020, 15:21:24  [ '/opt/typora/Typora' ]
+INFO 2.04.2020, 15:21:25  [Raven] instanceKey = 800c4558-cacb-4973-b9be-9544e007ef4f
+INFO 2.04.2020, 15:21:25  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+DEBUG 2.04.2020, 15:21:25  reopen file
+DEBUG 2.04.2020, 15:21:25  reopenClosed
+DEBUG 2.04.2020, 15:21:25  app.openFile
+INFO 2.04.2020, 15:21:25  addRecentDocument
+INFO 2.04.2020, 15:21:25  [focus] 1
+INFO 2.04.2020, 15:21:47  [blur] 1
+INFO 2.04.2020, 17:28:47  [focus] 1
+INFO 2.04.2020, 17:28:51  [blur] 1
+INFO 2.04.2020, 17:28:53  [focus] 1
+INFO 2.04.2020, 17:29:33  switchDocument
+INFO 2.04.2020, 17:29:33  addRecentDocument
+INFO 2.04.2020, 17:29:37  switchDocument
+INFO 2.04.2020, 17:29:37  addRecentDocument
+INFO 2.04.2020, 17:29:38  switchDocument
+INFO 2.04.2020, 17:29:38  addRecentDocument
+INFO 2.04.2020, 17:29:47  switchDocument
+INFO 2.04.2020, 17:29:47  addRecentDocument
+INFO 2.04.2020, 17:30:41  [blur] 1
+INFO 2.04.2020, 19:02:27  [focus] 1
+INFO 2.04.2020, 19:02:29  ----------------before-quit-----------------
+INFO 2.04.2020, 19:02:29  ------------------will-quit------------------
+INFO 3.04.2020, 12:17:30  ------------------start------------------
+INFO 3.04.2020, 12:17:30  typora version: 0.9.86
+DEBUG 3.04.2020, 12:17:30  [ '/opt/typora/Typora' ]
+INFO 3.04.2020, 12:17:30  [Raven] instanceKey = 9a82653c-cd06-4550-bf33-d490de9199da
+DEBUG 3.04.2020, 12:17:30  reopen file
+DEBUG 3.04.2020, 12:17:30  reopenClosed
+DEBUG 3.04.2020, 12:17:30  app.openFile
+INFO 3.04.2020, 12:17:30  addRecentDocument
+INFO 3.04.2020, 12:17:30  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+INFO 3.04.2020, 12:17:30  [focus] 1
+INFO 3.04.2020, 12:17:32  [blur] 1
+INFO 3.04.2020, 12:17:33  [focus] 1
+INFO 3.04.2020, 12:17:52  [blur] 1
+INFO 3.04.2020, 12:18:34  [focus] 1
+INFO 3.04.2020, 12:18:49  switchDocument
+INFO 3.04.2020, 12:18:49  addRecentDocument
+INFO 3.04.2020, 12:19:12  [blur] 1
+INFO 3.04.2020, 13:29:07  [focus] 1
+INFO 3.04.2020, 13:32:34  [blur] 1
+INFO 3.04.2020, 16:21:33  [focus] 1
+INFO 3.04.2020, 16:21:34  [blur] 1
+INFO 3.04.2020, 18:24:25  [focus] 1
+INFO 3.04.2020, 18:24:25  [blur] 1
+INFO 3.04.2020, 18:24:53  [focus] 1
+INFO 3.04.2020, 18:25:08  [blur] 1
+ERROR 3.04.2020, 18:25:08  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 3.04.2020, 18:26:16  [focus] 1
+ERROR 3.04.2020, 18:26:18  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 3.04.2020, 18:26:18  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 3.04.2020, 18:26:22  ----------------before-quit-----------------
+INFO 3.04.2020, 18:26:22  ------------------will-quit------------------
+INFO 6.04.2020, 13:00:50  ------------------start------------------
+INFO 6.04.2020, 13:00:50  typora version: 0.9.86
+DEBUG 6.04.2020, 13:00:50  [ '/opt/typora/Typora' ]
+INFO 6.04.2020, 13:00:50  [Raven] instanceKey = 32723c0f-2313-4bef-8059-963ff4b67d45
+DEBUG 6.04.2020, 13:00:50  reopen file
+DEBUG 6.04.2020, 13:00:50  reopenClosed
+DEBUG 6.04.2020, 13:00:50  app.openFile
+INFO 6.04.2020, 13:00:50  addRecentDocument
+INFO 6.04.2020, 13:00:50  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+INFO 6.04.2020, 13:00:50  [focus] 1
+INFO 6.04.2020, 13:00:58  switchDocument
+INFO 6.04.2020, 13:00:58  addRecentDocument
+INFO 6.04.2020, 13:02:08  [blur] 1
+INFO 6.04.2020, 13:02:11  [focus] 1
+INFO 6.04.2020, 13:03:25  [blur] 1
+INFO 6.04.2020, 13:03:31  [focus] 1
+INFO 6.04.2020, 13:03:32  [blur] 1
+INFO 6.04.2020, 13:03:33  [focus] 1
+INFO 6.04.2020, 13:03:35  [blur] 1
+INFO 6.04.2020, 13:03:36  [focus] 1
+INFO 6.04.2020, 13:03:36  [blur] 1
+INFO 6.04.2020, 13:03:36  [focus] 1
+INFO 6.04.2020, 13:03:37  [blur] 1
+INFO 6.04.2020, 13:03:48  [focus] 1
+INFO 6.04.2020, 13:04:04  [blur] 1
+INFO 6.04.2020, 13:04:34  [focus] 1
+INFO 6.04.2020, 13:05:19  [blur] 1
+INFO 6.04.2020, 13:05:19  [focus] 1
+INFO 6.04.2020, 13:05:23  [blur] 1
+INFO 6.04.2020, 13:05:36  [focus] 1
+INFO 6.04.2020, 13:06:19  ----------------before-quit-----------------
+INFO 6.04.2020, 13:06:19  ------------------will-quit------------------
+INFO 9.04.2020, 15:24:14  ------------------start------------------
+INFO 9.04.2020, 15:24:14  typora version: 0.9.86
+DEBUG 9.04.2020, 15:24:14  [ '/opt/typora/Typora' ]
+INFO 9.04.2020, 15:24:14  [Raven] instanceKey = c8edcf30-cca3-4ed2-b020-4031fc3177c7
+DEBUG 9.04.2020, 15:24:14  reopen file
+DEBUG 9.04.2020, 15:24:14  reopenClosed
+DEBUG 9.04.2020, 15:24:14  app.openFile
+INFO 9.04.2020, 15:24:14  addRecentDocument
+INFO 9.04.2020, 15:24:14  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+INFO 9.04.2020, 15:24:14  [focus] 1
+INFO 9.04.2020, 15:24:28  switchDocument
+INFO 9.04.2020, 15:24:28  addRecentDocument
+INFO 9.04.2020, 15:24:40  [blur] 1
+INFO 9.04.2020, 15:26:10  [focus] 1
+INFO 9.04.2020, 15:26:15  [blur] 1
+INFO 9.04.2020, 16:18:06  [focus] 1
+INFO 9.04.2020, 16:18:14  [blur] 1
+INFO 9.04.2020, 16:36:47  [focus] 1
+INFO 9.04.2020, 16:36:47  [blur] 1
+INFO 9.04.2020, 17:34:26  ----------------before-quit-----------------
+INFO 9.04.2020, 17:34:26  ------------------will-quit------------------
+INFO 9.04.2020, 18:01:57  ------------------start------------------
+INFO 9.04.2020, 18:01:57  typora version: 0.9.86
+DEBUG 9.04.2020, 18:01:57  [ '/opt/typora/Typora' ]
+INFO 9.04.2020, 18:01:57  [Raven] instanceKey = f2606f06-96cd-4c24-bd0d-eb4849757140
+INFO 9.04.2020, 18:01:57  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+DEBUG 9.04.2020, 18:01:57  reopen file
+DEBUG 9.04.2020, 18:01:57  reopenClosed
+DEBUG 9.04.2020, 18:01:57  app.openFile
+INFO 9.04.2020, 18:01:57  addRecentDocument
+INFO 9.04.2020, 18:01:57  [focus] 1
+INFO 9.04.2020, 18:01:59  ----------------before-quit-----------------
+INFO 9.04.2020, 18:01:59  ------------------will-quit------------------
+INFO 10.04.2020, 17:08:54  ------------------start------------------
+INFO 10.04.2020, 17:08:54  typora version: 0.9.86
+DEBUG 10.04.2020, 17:08:54  [ '/opt/typora/Typora' ]
+INFO 10.04.2020, 17:08:54  [Raven] instanceKey = 7c0142f9-5b39-4ace-be8f-705fb8d6180c
+INFO 10.04.2020, 17:08:54  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+DEBUG 10.04.2020, 17:08:55  reopen file
+DEBUG 10.04.2020, 17:08:55  reopenClosed
+DEBUG 10.04.2020, 17:08:55  app.openFile
+INFO 10.04.2020, 17:08:55  addRecentDocument
+INFO 10.04.2020, 17:08:55  [focus] 1
+INFO 10.04.2020, 17:10:20  [blur] 1
+INFO 10.04.2020, 18:15:31  [focus] 1
+INFO 10.04.2020, 18:15:39  [blur] 1
+INFO 10.04.2020, 18:23:42  [focus] 1
+INFO 10.04.2020, 18:23:45  [blur] 1
+INFO 10.04.2020, 18:24:52  ----------------before-quit-----------------
+INFO 10.04.2020, 18:24:52  ------------------will-quit------------------
+INFO 13.04.2020, 12:26:45  ------------------start------------------
+INFO 13.04.2020, 12:26:45  typora version: 0.9.86
+DEBUG 13.04.2020, 12:26:45  [ '/opt/typora/Typora' ]
+INFO 13.04.2020, 12:26:45  [Raven] instanceKey = 38c1b29e-472b-402c-8771-bf5827a26c28
+DEBUG 13.04.2020, 12:26:45  reopen file
+DEBUG 13.04.2020, 12:26:45  reopenClosed
+DEBUG 13.04.2020, 12:26:45  app.openFile
+INFO 13.04.2020, 12:26:45  addRecentDocument
+INFO 13.04.2020, 12:26:45  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+INFO 13.04.2020, 12:26:45  [focus] 1
+INFO 13.04.2020, 12:26:49  [blur] 1
+INFO 13.04.2020, 12:34:06  got argv [/opt/typora/Typora /mnt/Ansible/inventories/1.development/roles/nodejs/README.md] from secondary instance
+DEBUG 13.04.2020, 12:34:06  app.openFile
+INFO 13.04.2020, 12:34:06  addRecentDocument
+INFO 13.04.2020, 12:34:06  [focus] 2
+INFO 13.04.2020, 12:34:06  secondary instance would exit
+INFO 13.04.2020, 12:54:37  [focus] 1
+INFO 13.04.2020, 12:54:38  [blur] 1
+INFO 13.04.2020, 13:37:34  [focus] 1
+ERROR 13.04.2020, 13:37:57  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 13.04.2020, 13:37:57  [RenderProcess 1][Error] fs write failed -- 
+EROFS
+ERROR 13.04.2020, 13:38:06  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 13.04.2020, 13:38:07  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 13.04.2020, 13:38:08  ----------------before-quit-----------------
+INFO 13.04.2020, 13:38:08  ------------------will-quit------------------
+INFO 4.05.2020, 10:42:11  ------------------start------------------
+INFO 4.05.2020, 10:42:11  typora version: 0.9.86
+DEBUG 4.05.2020, 10:42:11  [ '/opt/typora/Typora' ]
+INFO 4.05.2020, 10:42:11  [Raven] instanceKey = e9b07b15-221d-4c5e-ad9f-9d2d8e95104e
+DEBUG 4.05.2020, 10:42:11  reopen file
+DEBUG 4.05.2020, 10:42:11  reopenClosed
+DEBUG 4.05.2020, 10:42:11  app.openFile
+INFO 4.05.2020, 10:42:11  addRecentDocument
+INFO 4.05.2020, 10:42:11  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+INFO 4.05.2020, 10:42:11  [focus] 1
+INFO 4.05.2020, 10:42:58  [blur] 1
+ERROR 4.05.2020, 10:42:58  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 10:43:04  [focus] 1
+INFO 4.05.2020, 10:43:13  [blur] 1
+ERROR 4.05.2020, 10:43:13  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 10:43:15  [focus] 1
+INFO 4.05.2020, 10:43:16  [blur] 1
+ERROR 4.05.2020, 10:43:16  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 10:43:20  [focus] 1
+INFO 4.05.2020, 10:43:40  [blur] 1
+ERROR 4.05.2020, 10:43:40  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 10:43:42  [focus] 1
+INFO 4.05.2020, 10:43:46  [blur] 1
+ERROR 4.05.2020, 10:43:46  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 10:45:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 10:48:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 10:51:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 10:52:04  [focus] 1
+INFO 4.05.2020, 10:52:41  [blur] 1
+ERROR 4.05.2020, 10:52:41  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 10:52:45  [focus] 1
+INFO 4.05.2020, 10:52:54  [blur] 1
+ERROR 4.05.2020, 10:52:54  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 10:53:07  [focus] 1
+INFO 4.05.2020, 10:53:15  [blur] 1
+ERROR 4.05.2020, 10:53:15  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 10:53:16  [focus] 1
+INFO 4.05.2020, 10:53:18  [blur] 1
+ERROR 4.05.2020, 10:53:18  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 10:53:19  [focus] 1
+INFO 4.05.2020, 10:53:27  [blur] 1
+ERROR 4.05.2020, 10:53:27  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 10:53:27  [focus] 1
+INFO 4.05.2020, 10:53:28  [blur] 1
+ERROR 4.05.2020, 10:53:28  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 10:53:29  [focus] 1
+INFO 4.05.2020, 10:53:37  [blur] 1
+ERROR 4.05.2020, 10:53:37  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 10:53:39  [focus] 1
+INFO 4.05.2020, 10:53:58  [blur] 1
+ERROR 4.05.2020, 10:53:58  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 10:54:00  [focus] 1
+ERROR 4.05.2020, 10:54:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 10:54:26  [blur] 1
+ERROR 4.05.2020, 10:54:26  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 10:54:28  [focus] 1
+INFO 4.05.2020, 10:54:33  [blur] 1
+ERROR 4.05.2020, 10:54:33  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 10:54:34  [focus] 1
+INFO 4.05.2020, 10:55:28  [blur] 1
+ERROR 4.05.2020, 10:55:28  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 10:55:33  [focus] 1
+INFO 4.05.2020, 10:56:01  [blur] 1
+ERROR 4.05.2020, 10:56:01  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 10:57:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 11:00:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:00:40  [focus] 1
+INFO 4.05.2020, 11:01:04  [blur] 1
+ERROR 4.05.2020, 11:01:04  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:01:05  [focus] 1
+INFO 4.05.2020, 11:01:10  [blur] 1
+ERROR 4.05.2020, 11:01:10  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:01:17  [focus] 1
+INFO 4.05.2020, 11:01:39  [blur] 1
+ERROR 4.05.2020, 11:01:39  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:01:39  [focus] 1
+INFO 4.05.2020, 11:01:40  [blur] 1
+ERROR 4.05.2020, 11:01:40  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:01:40  [focus] 1
+INFO 4.05.2020, 11:01:45  [blur] 1
+ERROR 4.05.2020, 11:01:45  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:01:46  [focus] 1
+INFO 4.05.2020, 11:01:49  [blur] 1
+ERROR 4.05.2020, 11:01:49  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:01:52  [focus] 1
+INFO 4.05.2020, 11:01:56  [blur] 1
+ERROR 4.05.2020, 11:01:56  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:01:57  [focus] 1
+INFO 4.05.2020, 11:02:02  [blur] 1
+ERROR 4.05.2020, 11:02:02  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:02:06  [focus] 1
+INFO 4.05.2020, 11:02:09  [blur] 1
+ERROR 4.05.2020, 11:02:09  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 11:03:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 11:06:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:07:59  [focus] 1
+INFO 4.05.2020, 11:08:27  [blur] 1
+ERROR 4.05.2020, 11:08:27  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:09:06  [focus] 1
+ERROR 4.05.2020, 11:09:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:09:24  [blur] 1
+ERROR 4.05.2020, 11:09:24  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 11:12:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 11:15:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:16:14  [focus] 1
+INFO 4.05.2020, 11:16:45  [blur] 1
+ERROR 4.05.2020, 11:16:45  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 11:18:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 11:21:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 11:24:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:24:38  [focus] 1
+INFO 4.05.2020, 11:24:39  [blur] 1
+ERROR 4.05.2020, 11:24:40  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:27:06  [focus] 1
+ERROR 4.05.2020, 11:27:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:27:17  [blur] 1
+ERROR 4.05.2020, 11:27:17  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:27:36  [focus] 1
+INFO 4.05.2020, 11:27:40  [blur] 1
+ERROR 4.05.2020, 11:27:40  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:27:41  [focus] 1
+INFO 4.05.2020, 11:27:44  [blur] 1
+ERROR 4.05.2020, 11:27:44  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:27:45  [focus] 1
+INFO 4.05.2020, 11:27:49  [blur] 1
+ERROR 4.05.2020, 11:27:49  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:30:09  [focus] 1
+INFO 4.05.2020, 11:30:10  [blur] 1
+ERROR 4.05.2020, 11:30:10  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 11:30:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:30:14  [focus] 1
+INFO 4.05.2020, 11:30:31  [blur] 1
+ERROR 4.05.2020, 11:30:31  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:30:36  [focus] 1
+INFO 4.05.2020, 11:30:51  [blur] 1
+ERROR 4.05.2020, 11:30:51  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:30:51  [focus] 1
+INFO 4.05.2020, 11:30:52  [blur] 1
+ERROR 4.05.2020, 11:30:52  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:30:56  [focus] 1
+INFO 4.05.2020, 11:30:56  [blur] 1
+ERROR 4.05.2020, 11:30:56  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:30:56  [focus] 1
+INFO 4.05.2020, 11:31:03  [blur] 1
+ERROR 4.05.2020, 11:31:03  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:31:16  [focus] 1
+INFO 4.05.2020, 11:31:19  [blur] 1
+ERROR 4.05.2020, 11:31:19  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 11:33:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:34:50  [focus] 1
+INFO 4.05.2020, 11:35:00  [blur] 1
+ERROR 4.05.2020, 11:35:00  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:35:36  [focus] 1
+INFO 4.05.2020, 11:35:45  [blur] 1
+ERROR 4.05.2020, 11:35:45  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 11:36:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:36:48  [focus] 1
+INFO 4.05.2020, 11:37:12  [blur] 1
+ERROR 4.05.2020, 11:37:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:39:03  [focus] 1
+ERROR 4.05.2020, 11:39:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:39:21  [blur] 1
+ERROR 4.05.2020, 11:39:21  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:41:49  [focus] 1
+INFO 4.05.2020, 11:41:56  [blur] 1
+ERROR 4.05.2020, 11:41:56  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:41:58  [focus] 1
+INFO 4.05.2020, 11:42:06  [blur] 1
+ERROR 4.05.2020, 11:42:06  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:42:08  [focus] 1
+ERROR 4.05.2020, 11:42:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:42:15  [blur] 1
+ERROR 4.05.2020, 11:42:15  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:42:17  [focus] 1
+INFO 4.05.2020, 11:42:22  [blur] 1
+ERROR 4.05.2020, 11:42:22  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:42:24  [focus] 1
+INFO 4.05.2020, 11:42:29  [blur] 1
+ERROR 4.05.2020, 11:42:29  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:42:31  [focus] 1
+INFO 4.05.2020, 11:42:37  [blur] 1
+ERROR 4.05.2020, 11:42:37  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:42:39  [focus] 1
+INFO 4.05.2020, 11:42:46  [blur] 1
+ERROR 4.05.2020, 11:42:46  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 11:45:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:46:04  [focus] 1
+INFO 4.05.2020, 11:46:42  [blur] 1
+ERROR 4.05.2020, 11:46:42  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:46:48  [focus] 1
+INFO 4.05.2020, 11:46:49  [blur] 1
+ERROR 4.05.2020, 11:46:49  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:46:51  [focus] 1
+INFO 4.05.2020, 11:46:53  [blur] 1
+ERROR 4.05.2020, 11:46:53  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:46:55  [focus] 1
+INFO 4.05.2020, 11:47:14  [blur] 1
+ERROR 4.05.2020, 11:47:14  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:47:16  [focus] 1
+INFO 4.05.2020, 11:47:17  [blur] 1
+ERROR 4.05.2020, 11:47:17  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:47:19  [focus] 1
+INFO 4.05.2020, 11:47:23  [blur] 1
+ERROR 4.05.2020, 11:47:23  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:47:24  [focus] 1
+INFO 4.05.2020, 11:47:32  [blur] 1
+ERROR 4.05.2020, 11:47:32  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:47:35  [focus] 1
+INFO 4.05.2020, 11:47:41  [blur] 1
+ERROR 4.05.2020, 11:47:41  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:47:43  [focus] 1
+INFO 4.05.2020, 11:47:48  [blur] 1
+ERROR 4.05.2020, 11:47:48  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:47:50  [focus] 1
+INFO 4.05.2020, 11:47:51  [blur] 1
+ERROR 4.05.2020, 11:47:51  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:47:52  [focus] 1
+INFO 4.05.2020, 11:48:06  [blur] 1
+ERROR 4.05.2020, 11:48:06  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:48:08  [focus] 1
+ERROR 4.05.2020, 11:48:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:48:25  [blur] 1
+ERROR 4.05.2020, 11:48:25  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:48:28  [focus] 1
+INFO 4.05.2020, 11:48:40  [blur] 1
+ERROR 4.05.2020, 11:48:40  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:48:48  [focus] 1
+INFO 4.05.2020, 11:48:52  [blur] 1
+ERROR 4.05.2020, 11:48:52  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:51:11  [focus] 1
+ERROR 4.05.2020, 11:51:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:51:16  [blur] 1
+ERROR 4.05.2020, 11:51:16  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:51:16  [focus] 1
+INFO 4.05.2020, 11:51:22  [blur] 1
+ERROR 4.05.2020, 11:51:22  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:51:23  [focus] 1
+INFO 4.05.2020, 11:51:25  [blur] 1
+ERROR 4.05.2020, 11:51:25  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:51:26  [focus] 1
+INFO 4.05.2020, 11:51:26  [blur] 1
+ERROR 4.05.2020, 11:51:26  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:51:28  [focus] 1
+INFO 4.05.2020, 11:51:34  [blur] 1
+ERROR 4.05.2020, 11:51:34  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:51:35  [focus] 1
+INFO 4.05.2020, 11:51:36  [blur] 1
+ERROR 4.05.2020, 11:51:36  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:51:37  [focus] 1
+INFO 4.05.2020, 11:51:39  [blur] 1
+ERROR 4.05.2020, 11:51:39  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:51:40  [focus] 1
+INFO 4.05.2020, 11:51:42  [blur] 1
+ERROR 4.05.2020, 11:51:42  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:51:47  [focus] 1
+INFO 4.05.2020, 11:51:51  [blur] 1
+ERROR 4.05.2020, 11:51:51  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:51:58  [focus] 1
+INFO 4.05.2020, 11:52:03  [blur] 1
+ERROR 4.05.2020, 11:52:03  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:52:04  [focus] 1
+INFO 4.05.2020, 11:52:04  [blur] 1
+ERROR 4.05.2020, 11:52:04  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 11:54:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 11:57:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:59:08  [focus] 1
+INFO 4.05.2020, 11:59:24  [blur] 1
+ERROR 4.05.2020, 11:59:24  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:59:27  [focus] 1
+INFO 4.05.2020, 11:59:35  [blur] 1
+ERROR 4.05.2020, 11:59:35  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 11:59:37  [focus] 1
+INFO 4.05.2020, 11:59:57  [blur] 1
+ERROR 4.05.2020, 11:59:57  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 12:00:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 12:02:31  [focus] 1
+INFO 4.05.2020, 12:02:32  [blur] 1
+ERROR 4.05.2020, 12:02:32  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 12:02:32  [focus] 1
+INFO 4.05.2020, 12:02:54  [blur] 1
+ERROR 4.05.2020, 12:02:54  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 12:03:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 12:06:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 12:09:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 12:12:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 12:15:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 12:18:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 12:21:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 12:24:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 12:27:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 12:30:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 12:33:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 12:36:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 12:39:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 12:42:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 12:45:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 12:48:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 12:49:29  [focus] 1
+ERROR 4.05.2020, 12:51:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 12:54:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 12:57:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 13:00:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 13:03:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 13:06:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 13:09:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 13:12:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 13:15:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 13:18:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 13:21:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 13:24:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 13:27:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 13:30:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 13:33:12  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 13:33:34  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 13:33:34  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 13:33:38  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+ERROR 4.05.2020, 13:33:38  [RenderProcess 1][Error] fs write failed -- 
+EROFS
+INFO 4.05.2020, 13:33:46  [blur] 1
+ERROR 4.05.2020, 13:33:46  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 13:33:52  [focus] 1
+ERROR 4.05.2020, 13:33:52  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible2.md'
+    at Object.openSync (fs.js:447:3)
+    at Object.func (electron/js2c/asar.js:138:31)
+    at Object.func [as openSync] (electron/js2c/asar.js:138:31)
+    at Object.writeFileSync (fs.js:1206:35)
+    at file:///opt/typora/resources/app//app/window/frame.js:1:1097875
+    at CallbacksRegistry.apply (/opt/typora/resources/electron.asar/renderer/callbacks-registry.js:41:29)
+    at /opt/typora/resources/electron.asar/renderer/api/remote.js:281:23
+    at EventEmitter.<anonymous> (/opt/typora/resources/electron.asar/renderer/api/remote.js:271:13)
+    at EventEmitter.emit (events.js:200:13)
+    at Object.onMessage (/opt/typora/resources/electron.asar/renderer/init.js:42:16)
+INFO 4.05.2020, 13:33:55  [blur] 1
+INFO 4.05.2020, 13:33:55  [focus] 1
+ERROR 4.05.2020, 13:33:55  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 13:34:01  [blur] 1
+ERROR 4.05.2020, 13:34:01  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Nauka/ansible.md'
+INFO 4.05.2020, 13:34:08  [focus] 1
+INFO 4.05.2020, 13:34:08  addRecentDocument
+INFO 4.05.2020, 13:34:09  ----------------before-quit-----------------
+INFO 4.05.2020, 13:34:09  ------------------will-quit------------------
+INFO 4.05.2020, 13:40:24  ------------------start------------------
+INFO 4.05.2020, 13:40:24  typora version: 0.9.86
+DEBUG 4.05.2020, 13:40:24  [ '/opt/typora/Typora' ]
+INFO 4.05.2020, 13:40:24  [Raven] instanceKey = b8fa6012-d692-4c92-9960-b551b26b6e68
+DEBUG 4.05.2020, 13:40:24  reopen file
+DEBUG 4.05.2020, 13:40:24  reopenClosed
+DEBUG 4.05.2020, 13:40:24  app.openFile
+INFO 4.05.2020, 13:40:24  addRecentDocument
+INFO 4.05.2020, 13:40:24  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+INFO 4.05.2020, 13:40:24  [focus] 1
+INFO 4.05.2020, 13:40:46  addRecentFolder
+INFO 4.05.2020, 13:40:48  switchDocument
+INFO 4.05.2020, 13:40:48  addRecentDocument
+ERROR 4.05.2020, 13:40:52  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+ERROR 4.05.2020, 13:40:52  [RenderProcess 1][Error] fs write failed -- 
+EROFS
+ERROR 4.05.2020, 13:40:56  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+ERROR 4.05.2020, 13:40:56  [RenderProcess 1][Error] fs write failed -- 
+EROFS
+INFO 4.05.2020, 13:40:57  [blur] 1
+ERROR 4.05.2020, 13:40:57  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+INFO 4.05.2020, 13:41:14  [focus] 1
+ERROR 4.05.2020, 13:41:14  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/Domowe/szybkie notatki.md'
+    at Object.openSync (fs.js:447:3)
+    at Object.func (electron/js2c/asar.js:138:31)
+    at Object.func [as openSync] (electron/js2c/asar.js:138:31)
+    at Object.writeFileSync (fs.js:1206:35)
+    at file:///opt/typora/resources/app//app/window/frame.js:1:1097875
+    at CallbacksRegistry.apply (/opt/typora/resources/electron.asar/renderer/callbacks-registry.js:41:29)
+    at /opt/typora/resources/electron.asar/renderer/api/remote.js:281:23
+    at EventEmitter.<anonymous> (/opt/typora/resources/electron.asar/renderer/api/remote.js:271:13)
+    at EventEmitter.emit (events.js:200:13)
+    at Object.onMessage (/opt/typora/resources/electron.asar/renderer/init.js:42:16)
+INFO 4.05.2020, 13:41:32  [blur] 1
+INFO 4.05.2020, 13:41:32  [focus] 1
+INFO 4.05.2020, 13:41:32  [blur] 1
+INFO 4.05.2020, 13:41:32  [focus] 1
+ERROR 4.05.2020, 13:41:32  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+INFO 4.05.2020, 13:41:33  [blur] 1
+ERROR 4.05.2020, 13:41:33  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+INFO 4.05.2020, 13:41:56  [focus] 1
+INFO 4.05.2020, 13:41:56  [blur] 1
+INFO 4.05.2020, 13:41:56  [focus] 1
+ERROR 4.05.2020, 13:41:56  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+ERROR 4.05.2020, 13:42:00  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+ERROR 4.05.2020, 13:42:01  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+INFO 4.05.2020, 13:42:02  ----------------before-quit-----------------
+INFO 4.05.2020, 13:42:02  ------------------will-quit------------------
+INFO 4.05.2020, 13:48:58  ------------------start------------------
+INFO 4.05.2020, 13:48:58  typora version: 0.9.86
+DEBUG 4.05.2020, 13:48:58  [ '/opt/typora/Typora' ]
+INFO 4.05.2020, 13:48:58  [Raven] instanceKey = a804818b-a1ef-4809-907d-c2e768c296fc
+DEBUG 4.05.2020, 13:48:58  reopen file
+DEBUG 4.05.2020, 13:48:58  reopenClosed
+DEBUG 4.05.2020, 13:48:58  app.openFile
+INFO 4.05.2020, 13:48:58  addRecentDocument
+INFO 4.05.2020, 13:48:58  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+INFO 4.05.2020, 13:48:59  [focus] 1
+ERROR 4.05.2020, 13:49:06  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+ERROR 4.05.2020, 13:49:06  [RenderProcess 1][Error] fs write failed -- 
+EROFS
+ERROR 4.05.2020, 13:49:11  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+ERROR 4.05.2020, 13:49:11  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+INFO 4.05.2020, 13:49:13  ----------------before-quit-----------------
+INFO 4.05.2020, 13:49:13  ------------------will-quit------------------
+INFO 4.05.2020, 13:50:48  ------------------start------------------
+INFO 4.05.2020, 13:50:48  typora version: 0.9.86
+DEBUG 4.05.2020, 13:50:48  [ '/opt/typora/Typora' ]
+INFO 4.05.2020, 13:50:48  [Raven] instanceKey = 39a4b169-5998-4192-8f74-56634e219129
+DEBUG 4.05.2020, 13:50:48  reopen file
+DEBUG 4.05.2020, 13:50:48  reopenClosed
+DEBUG 4.05.2020, 13:50:48  app.openFile
+INFO 4.05.2020, 13:50:48  addRecentDocument
+INFO 4.05.2020, 13:50:48  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+INFO 4.05.2020, 13:50:48  [focus] 1
+ERROR 4.05.2020, 13:50:54  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+ERROR 4.05.2020, 13:50:54  [RenderProcess 1][Error] fs write failed -- 
+EROFS
+INFO 4.05.2020, 13:51:03  [blur] 1
+ERROR 4.05.2020, 13:51:03  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+INFO 4.05.2020, 13:51:33  [focus] 1
+INFO 4.05.2020, 13:51:36  [blur] 1
+ERROR 4.05.2020, 13:51:36  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+ERROR 4.05.2020, 13:53:49  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+INFO 4.05.2020, 13:55:15  [focus] 1
+INFO 4.05.2020, 13:55:17  [blur] 1
+ERROR 4.05.2020, 13:55:17  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+ERROR 4.05.2020, 13:56:50  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+INFO 4.05.2020, 13:59:50  [focus] 1
+ERROR 4.05.2020, 13:59:50  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+ERROR 4.05.2020, 13:59:51  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+ERROR 4.05.2020, 13:59:52  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+INFO 4.05.2020, 13:59:53  ----------------before-quit-----------------
+INFO 4.05.2020, 13:59:53  ------------------will-quit------------------
+INFO 4.05.2020, 13:59:55  ------------------start------------------
+INFO 4.05.2020, 13:59:55  typora version: 0.9.86
+DEBUG 4.05.2020, 13:59:55  [ '/opt/typora/Typora' ]
+INFO 4.05.2020, 13:59:55  [Raven] instanceKey = e3d3c738-84fc-4f0e-8b63-98be8ff47df8
+DEBUG 4.05.2020, 13:59:55  reopen file
+DEBUG 4.05.2020, 13:59:55  reopenClosed
+DEBUG 4.05.2020, 13:59:55  app.openFile
+INFO 4.05.2020, 13:59:55  addRecentDocument
+INFO 4.05.2020, 13:59:55  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+INFO 4.05.2020, 13:59:55  [focus] 1
+ERROR 4.05.2020, 14:00:02  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+ERROR 4.05.2020, 14:00:02  [RenderProcess 1][Error] fs write failed -- 
+EROFS
+INFO 4.05.2020, 14:00:07  [blur] 1
+ERROR 4.05.2020, 14:00:07  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+ERROR 4.05.2020, 14:02:56  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+INFO 4.05.2020, 14:10:50  ------------------start------------------
+INFO 4.05.2020, 14:10:50  typora version: 0.9.86
+DEBUG 4.05.2020, 14:10:50  [ '/opt/typora/Typora' ]
+INFO 4.05.2020, 14:10:50  [Raven] instanceKey = 06062ff9-315b-405b-a8c8-a56d8ddf7c1e
+DEBUG 4.05.2020, 14:10:50  app.openFile
+INFO 4.05.2020, 14:10:50  addRecentDocument
+INFO 4.05.2020, 14:10:50  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+INFO 4.05.2020, 14:10:50  [focus] 1
+ERROR 4.05.2020, 14:10:58  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+ERROR 4.05.2020, 14:10:58  [RenderProcess 1][Error] fs write failed -- 
+EROFS
+ERROR 4.05.2020, 14:11:02  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+ERROR 4.05.2020, 14:11:03  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+INFO 4.05.2020, 14:11:03  ----------------before-quit-----------------
+INFO 4.05.2020, 14:11:03  ------------------will-quit------------------
+INFO 4.05.2020, 14:27:09  ------------------start------------------
+INFO 4.05.2020, 14:27:09  typora version: 0.9.86
+DEBUG 4.05.2020, 14:27:09  [ '/opt/typora/Typora' ]
+INFO 4.05.2020, 14:27:09  [Raven] instanceKey = 4d7f2c0b-85d4-4249-9e9b-a3ea480db3be
+DEBUG 4.05.2020, 14:27:09  reopen file
+DEBUG 4.05.2020, 14:27:09  reopenClosed
+DEBUG 4.05.2020, 14:27:09  app.openFile
+INFO 4.05.2020, 14:27:09  addRecentDocument
+INFO 4.05.2020, 14:27:09  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+INFO 4.05.2020, 14:27:09  [focus] 1
+ERROR 4.05.2020, 14:27:17  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+ERROR 4.05.2020, 14:27:17  [RenderProcess 1][Error] fs write failed -- 
+EROFS
+ERROR 4.05.2020, 14:30:10  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+ERROR 4.05.2020, 14:33:10  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+ERROR 4.05.2020, 14:36:10  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+ERROR 4.05.2020, 14:39:10  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+ERROR 4.05.2020, 14:42:10  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+ERROR 4.05.2020, 14:45:10  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+ERROR 4.05.2020, 14:48:10  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+ERROR 4.05.2020, 14:48:46  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+ERROR 4.05.2020, 14:48:47  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+INFO 4.05.2020, 14:48:48  ----------------before-quit-----------------
+INFO 4.05.2020, 14:48:48  ------------------will-quit------------------
+INFO 4.05.2020, 14:57:13  ------------------start------------------
+INFO 4.05.2020, 14:57:13  typora version: 0.9.86
+DEBUG 4.05.2020, 14:57:13  [ '/opt/typora/Typora' ]
+INFO 4.05.2020, 14:57:13  [Raven] instanceKey = 363be3a8-864c-4107-9627-3737c73249f1
+DEBUG 4.05.2020, 14:57:13  reopen file
+DEBUG 4.05.2020, 14:57:13  reopenClosed
+DEBUG 4.05.2020, 14:57:13  app.openFile
+INFO 4.05.2020, 14:57:13  addRecentDocument
+INFO 4.05.2020, 14:57:13  [focus] 1
+INFO 4.05.2020, 14:57:13  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+ERROR 4.05.2020, 14:57:16  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+ERROR 4.05.2020, 14:57:16  [RenderProcess 1][Error] fs write failed -- 
+EROFS
+ERROR 4.05.2020, 14:57:18  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+ERROR 4.05.2020, 14:57:19  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+INFO 4.05.2020, 14:57:19  [blur] 1
+INFO 4.05.2020, 14:57:19  [focus] 1
+ERROR 4.05.2020, 14:57:19  [RenderProcess 1][Error] Error: EROFS: read-only file system, open '/mnt/Windows/Users/soda2/Dysk Google/zbytatencyjny/Notatki/szybkie notatki.md'
+INFO 4.05.2020, 14:57:20  ----------------before-quit-----------------
+INFO 4.05.2020, 14:57:20  ------------------will-quit------------------
+INFO 4.05.2020, 15:09:50  ------------------start------------------
+INFO 4.05.2020, 15:09:50  typora version: 0.9.86
+DEBUG 4.05.2020, 15:09:50  [ '/opt/typora/Typora' ]
+INFO 4.05.2020, 15:09:50  [Raven] instanceKey = 530c0b4e-6b5d-40c7-a430-8dc23970e1b5
+DEBUG 4.05.2020, 15:09:50  reopen file
+DEBUG 4.05.2020, 15:09:50  reopenClosed
+DEBUG 4.05.2020, 15:09:50  app.openFile
+INFO 4.05.2020, 15:09:50  addRecentDocument
+INFO 4.05.2020, 15:09:50  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+INFO 4.05.2020, 15:09:50  [focus] 1
+INFO 4.05.2020, 15:09:56  switchDocument
+INFO 4.05.2020, 15:09:56  addRecentDocument
+INFO 4.05.2020, 15:09:57  switchDocument
+INFO 4.05.2020, 15:09:57  addRecentDocument
+DEBUG 4.05.2020, 15:09:57  lastSync 1585593914564.781, timestamp 1588597791634, mtime 1585593914564.781
+INFO 4.05.2020, 15:10:02  ----------------before-quit-----------------
+INFO 4.05.2020, 15:10:02  ------------------will-quit------------------
+INFO 5.05.2020, 00:10:31  ------------------start------------------
+INFO 5.05.2020, 00:10:31  typora version: 0.9.86
+DEBUG 5.05.2020, 00:10:31  [ '/opt/typora/Typora' ]
+INFO 5.05.2020, 00:10:31  [Raven] instanceKey = 92748d42-2dbc-4a26-8992-8ed8a7062736
+DEBUG 5.05.2020, 00:10:31  reopen file
+DEBUG 5.05.2020, 00:10:31  reopenClosed
+DEBUG 5.05.2020, 00:10:31  app.openFile
+INFO 5.05.2020, 00:10:31  addRecentDocument
+INFO 5.05.2020, 00:10:31  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+INFO 5.05.2020, 00:10:31  [focus] 1
+INFO 5.05.2020, 00:10:43  [blur] 1
+INFO 5.05.2020, 00:10:53  got argv [/opt/typora/Typora /home/soda2/ansible.md] from secondary instance
+DEBUG 5.05.2020, 00:10:53  app.openFile
+INFO 5.05.2020, 00:10:53  addRecentDocument
+INFO 5.05.2020, 00:10:53  [focus] 2
+INFO 5.05.2020, 00:10:53  secondary instance would exit
+INFO 5.05.2020, 00:10:56  [blur] 2
+INFO 5.05.2020, 00:10:56  [focus] 2
+INFO 5.05.2020, 00:10:58  [blur] 2
+INFO 5.05.2020, 00:10:58  [focus] 1
+INFO 5.05.2020, 00:11:07  switchDocument
+INFO 5.05.2020, 00:11:07  addRecentDocument
+INFO 5.05.2020, 00:11:10  [blur] 1
+INFO 5.05.2020, 00:11:10  [focus] 2
+INFO 5.05.2020, 00:11:24  [blur] 2
+INFO 5.05.2020, 00:11:24  [focus] 1
+INFO 5.05.2020, 00:11:36  [blur] 1
+INFO 5.05.2020, 00:11:41  [focus] 1
+INFO 5.05.2020, 00:11:48  [blur] 1
+INFO 5.05.2020, 00:11:51  [focus] 1
+INFO 5.05.2020, 00:11:54  ----------------before-quit-----------------
+INFO 5.05.2020, 00:11:54  ------------------will-quit------------------
+INFO 5.05.2020, 00:11:58  ------------------start------------------
+INFO 5.05.2020, 00:11:58  typora version: 0.9.86
+DEBUG 5.05.2020, 00:11:58  [ '/opt/typora/Typora' ]
+INFO 5.05.2020, 00:11:58  [Raven] instanceKey = 8c6cfa35-5a5c-435a-9723-be1fed177283
+DEBUG 5.05.2020, 00:11:58  reopen file
+DEBUG 5.05.2020, 00:11:58  reopenClosed
+DEBUG 5.05.2020, 00:11:58  app.openFile
+INFO 5.05.2020, 00:11:58  addRecentDocument
+INFO 5.05.2020, 00:11:58  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+INFO 5.05.2020, 00:11:58  [focus] 1
+INFO 5.05.2020, 00:12:01  [blur] 1
+INFO 5.05.2020, 00:12:11  [focus] 1
+INFO 5.05.2020, 00:12:20  ----------------before-quit-----------------
+INFO 5.05.2020, 00:12:20  ------------------will-quit------------------
+INFO 5.05.2020, 01:14:53  ------------------start------------------
+INFO 5.05.2020, 01:14:53  typora version: 0.9.86
+DEBUG 5.05.2020, 01:14:53  [ '/opt/typora/Typora' ]
+INFO 5.05.2020, 01:14:53  [Raven] instanceKey = 81ab5c58-33b8-4212-ad50-356ced388827
+DEBUG 5.05.2020, 01:14:53  reopen file
+DEBUG 5.05.2020, 01:14:53  reopenClosed
+DEBUG 5.05.2020, 01:14:53  app.openFile
+INFO 5.05.2020, 01:14:53  addRecentDocument
+INFO 5.05.2020, 01:14:53  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+INFO 5.05.2020, 01:14:53  [focus] 1
+INFO 5.05.2020, 01:15:18  [blur] 1
+INFO 5.05.2020, 01:15:30  [focus] 1
+INFO 5.05.2020, 01:15:36  [blur] 1
+INFO 5.05.2020, 01:16:47  [focus] 1
+INFO 5.05.2020, 01:16:57  [blur] 1
+INFO 5.05.2020, 01:19:26  [focus] 1
+INFO 5.05.2020, 01:19:59  [blur] 1
+INFO 5.05.2020, 01:20:02  [focus] 1
+INFO 5.05.2020, 01:20:05  [blur] 1
+INFO 5.05.2020, 01:23:23  [focus] 1
+INFO 5.05.2020, 01:23:24  ----------------before-quit-----------------
+INFO 5.05.2020, 01:23:24  ------------------will-quit------------------
+INFO 14.05.2020, 16:02:32  ------------------start------------------
+INFO 14.05.2020, 16:02:32  typora version: 0.9.86
+DEBUG 14.05.2020, 16:02:32  [ '/opt/typora/Typora' ]
+INFO 14.05.2020, 16:02:32  [Raven] instanceKey = 0b4817a8-17c3-4b16-bb9f-a4cc3867a877
+INFO 14.05.2020, 16:02:32  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+DEBUG 14.05.2020, 16:02:32  reopen file
+DEBUG 14.05.2020, 16:02:32  reopenClosed
+DEBUG 14.05.2020, 16:02:32  app.openFile
+INFO 14.05.2020, 16:02:32  addRecentDocument
+INFO 14.05.2020, 16:02:32  [focus] 1
+INFO 14.05.2020, 16:02:47  [blur] 1
+INFO 14.05.2020, 16:18:59  [focus] 1
+INFO 14.05.2020, 16:19:01  [blur] 1
+INFO 14.05.2020, 16:23:35  [focus] 1
+INFO 14.05.2020, 16:23:36  [blur] 1
+INFO 14.05.2020, 16:23:42  [focus] 1
+INFO 14.05.2020, 16:23:44  ----------------before-quit-----------------
+INFO 14.05.2020, 16:23:44  ------------------will-quit------------------
+INFO 14.05.2020, 16:28:20  ------------------start------------------
+INFO 14.05.2020, 16:28:20  typora version: 0.9.86
+DEBUG 14.05.2020, 16:28:20  [ '/opt/typora/Typora' ]
+INFO 14.05.2020, 16:28:20  [Raven] instanceKey = 4f139d37-eb30-47da-90b2-4c1f0f8381f1
+INFO 14.05.2020, 16:28:20  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+DEBUG 14.05.2020, 16:28:21  reopen file
+DEBUG 14.05.2020, 16:28:21  reopenClosed
+DEBUG 14.05.2020, 16:28:21  app.openFile
+INFO 14.05.2020, 16:28:21  addRecentDocument
+INFO 14.05.2020, 16:28:21  [focus] 1
+INFO 14.05.2020, 16:28:27  [blur] 1
+INFO 14.05.2020, 16:55:51  [focus] 1
+INFO 14.05.2020, 16:55:52  [blur] 1
+INFO 14.05.2020, 17:11:42  [focus] 1
+INFO 14.05.2020, 17:11:43  [blur] 1
+INFO 14.05.2020, 17:18:25  got argv [/opt/typora/Typora /mnt/LabShare/nodejs/18-Chat-Application-master/README.md] from secondary instance
+DEBUG 14.05.2020, 17:18:25  app.openFile
+INFO 14.05.2020, 17:18:25  addRecentDocument
+INFO 14.05.2020, 17:18:25  [focus] 2
+INFO 14.05.2020, 17:18:25  secondary instance would exit
+INFO 14.05.2020, 17:18:56  got argv [/opt/typora/Typora /mnt/LabShare/nodejs/18-Chat-Application-master/README.md] from secondary instance
+DEBUG 14.05.2020, 17:18:56  app.openFile
+INFO 14.05.2020, 17:18:56  addRecentDocument
+INFO 14.05.2020, 17:18:56  [focus] 3
+INFO 14.05.2020, 17:18:56  secondary instance would exit
+DEBUG 14.05.2020, 17:18:56  lastSync 1589469531496, timestamp 1589469518590, mtime 1589469531496
+DEBUG 14.05.2020, 17:18:56  lastSync 1589469531496, timestamp 1589469518590, mtime 1589469531496
+INFO 14.05.2020, 17:19:03  [blur] 3
+INFO 14.05.2020, 17:22:51  [focus] 3
+INFO 14.05.2020, 17:22:52  [blur] 3
+INFO 14.05.2020, 17:22:53  [focus] 1
+INFO 14.05.2020, 17:22:53  [blur] 1
+INFO 14.05.2020, 18:03:03  [focus] 3
+INFO 14.05.2020, 18:03:03  [blur] 3
+INFO 14.05.2020, 18:03:03  [focus] 1
+INFO 14.05.2020, 18:03:04  [blur] 1
+INFO 14.05.2020, 18:03:04  [focus] 3
+INFO 14.05.2020, 18:03:04  [blur] 3
+INFO 14.05.2020, 18:03:13  [focus] 3
+INFO 14.05.2020, 18:08:25  [focus] 1
+INFO 14.05.2020, 18:08:26  [blur] 1
+INFO 14.05.2020, 18:11:44  [focus] 1
+INFO 14.05.2020, 18:11:45  [blur] 1
+INFO 14.05.2020, 18:21:31  [focus] 1
+INFO 14.05.2020, 18:21:31  [blur] 1
+INFO 14.05.2020, 18:27:36  [focus] 1
+INFO 14.05.2020, 18:27:37  [blur] 1
+INFO 14.05.2020, 18:31:06  [focus] 1
+INFO 14.05.2020, 18:31:07  [blur] 1
+INFO 14.05.2020, 18:52:12  [focus] 1
+INFO 14.05.2020, 18:52:12  [blur] 1
+INFO 14.05.2020, 18:52:15  [focus] 1
+INFO 14.05.2020, 18:52:16  [blur] 1
+INFO 14.05.2020, 18:52:30  [focus] 1
+INFO 14.05.2020, 18:52:31  [blur] 1
+INFO 14.05.2020, 18:52:47  [focus] 1
+INFO 14.05.2020, 18:52:48  [blur] 1
+INFO 14.05.2020, 19:13:13  [focus] 1
+INFO 14.05.2020, 19:13:14  [blur] 1
+INFO 14.05.2020, 19:20:03  [focus] 1
+INFO 14.05.2020, 19:20:05  [blur] 1
+INFO 14.05.2020, 19:25:32  [focus] 1
+INFO 14.05.2020, 19:25:32  [blur] 1
+INFO 14.05.2020, 19:34:21  [focus] 1
+INFO 14.05.2020, 19:34:23  [blur] 1
+INFO 14.05.2020, 19:58:52  [focus] 1
+INFO 14.05.2020, 19:58:53  [blur] 1
+INFO 14.05.2020, 20:18:41  [focus] 1
+INFO 14.05.2020, 20:18:42  [blur] 1
+INFO 14.05.2020, 20:21:09  [focus] 1
+INFO 14.05.2020, 20:21:09  [blur] 1
+INFO 14.05.2020, 20:45:39  [focus] 1
+INFO 14.05.2020, 20:45:40  [blur] 1
+INFO 14.05.2020, 20:48:28  got argv [/opt/typora/Typora /home/soda2/DevOps/18-Chat-Application-master/README.md] from secondary instance
+DEBUG 14.05.2020, 20:48:28  app.openFile
+INFO 14.05.2020, 20:48:28  addRecentDocument
+INFO 14.05.2020, 20:48:29  [focus] 4
+INFO 14.05.2020, 20:48:29  secondary instance would exit
+INFO 14.05.2020, 20:52:12  [focus] 1
+INFO 14.05.2020, 20:52:13  [blur] 1
+INFO 14.05.2020, 20:53:07  [focus] 1
+INFO 14.05.2020, 20:53:08  [blur] 1
+INFO 14.05.2020, 21:16:44  [focus] 1
+INFO 14.05.2020, 21:16:49  [blur] 1
+INFO 14.05.2020, 21:28:46  [focus] 1
+INFO 14.05.2020, 21:28:47  ----------------before-quit-----------------
+INFO 14.05.2020, 21:28:47  ------------------will-quit------------------
+INFO 14.05.2020, 22:59:51  ------------------start------------------
+INFO 14.05.2020, 22:59:51  typora version: 0.9.86
+DEBUG 14.05.2020, 22:59:51  [ '/opt/typora/Typora' ]
+INFO 14.05.2020, 22:59:51  [Raven] instanceKey = b3806daf-6f2e-4079-bdab-66630bec3d69
+INFO 14.05.2020, 22:59:51  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+DEBUG 14.05.2020, 22:59:51  reopen file
+DEBUG 14.05.2020, 22:59:51  reopenClosed
+DEBUG 14.05.2020, 22:59:51  app.openFile
+INFO 14.05.2020, 22:59:51  addRecentDocument
+INFO 14.05.2020, 22:59:51  [focus] 1
+INFO 14.05.2020, 23:00:03  switchDocument
+INFO 14.05.2020, 23:00:03  addRecentDocument
+INFO 14.05.2020, 23:00:35  ----------------before-quit-----------------
+INFO 14.05.2020, 23:00:35  ------------------will-quit------------------
+INFO 15.05.2020, 11:14:58  ------------------start------------------
+INFO 15.05.2020, 11:14:58  typora version: 0.9.86
+DEBUG 15.05.2020, 11:14:58  [ '/opt/typora/Typora' ]
+INFO 15.05.2020, 11:14:58  [Raven] instanceKey = 80d9e731-cf4c-4a51-ad65-a479bd29e9d7
+DEBUG 15.05.2020, 11:14:58  reopen file
+DEBUG 15.05.2020, 11:14:58  reopenClosed
+DEBUG 15.05.2020, 11:14:58  app.openFile
+INFO 15.05.2020, 11:14:58  addRecentDocument
+INFO 15.05.2020, 11:14:58  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+INFO 15.05.2020, 11:14:58  [focus] 1
+INFO 15.05.2020, 11:15:01  [blur] 1
+INFO 15.05.2020, 12:41:35  [focus] 1
+INFO 15.05.2020, 12:41:35  [blur] 1
+INFO 15.05.2020, 14:28:07  [focus] 1
+INFO 15.05.2020, 14:28:09  ----------------before-quit-----------------
+INFO 15.05.2020, 14:28:09  ------------------will-quit------------------
+INFO 15.05.2020, 20:48:17  ------------------start------------------
+INFO 15.05.2020, 20:48:17  typora version: 0.9.86
+DEBUG 15.05.2020, 20:48:17  [
+  '/opt/typora/Typora',
+  '/mnt/Ansible/documentation/getting started.md'
+]
+DEBUG 15.05.2020, 20:48:17  app.openFile
+INFO 15.05.2020, 20:48:17  addRecentDocument
+INFO 15.05.2020, 20:48:18  [Raven] instanceKey = 5cfc64b4-9ee3-402e-a06b-dc6df82cf574
+INFO 15.05.2020, 20:48:18  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+INFO 15.05.2020, 20:48:18  [focus] 1
+INFO 15.05.2020, 20:48:32  switchDocument
+INFO 15.05.2020, 20:48:32  addRecentDocument
+INFO 15.05.2020, 20:50:58  switchDocument
+INFO 15.05.2020, 20:50:58  addRecentDocument
+DEBUG 15.05.2020, 20:50:59  lastSync 1589568512324, timestamp 1589568508915, mtime 1589568512324
+INFO 15.05.2020, 20:51:00  switchDocument
+INFO 15.05.2020, 20:51:00  addRecentDocument
+DEBUG 15.05.2020, 20:51:00  lastSync 1589568657711, timestamp 1589568655092, mtime 1589568657711
+INFO 15.05.2020, 20:51:01  switchDocument
+INFO 15.05.2020, 20:51:01  addRecentDocument
+INFO 15.05.2020, 20:51:11  switchDocument
+INFO 15.05.2020, 20:51:11  addRecentDocument
+INFO 15.05.2020, 20:51:12  switchDocument
+INFO 15.05.2020, 20:51:12  addRecentDocument
+INFO 15.05.2020, 20:53:21  switchDocument
+INFO 15.05.2020, 20:53:21  addRecentDocument
+DEBUG 15.05.2020, 20:53:21  lastSync null, timestamp 1589568671227, mtime 1589568659257
+INFO 15.05.2020, 20:53:22  switchDocument
+INFO 15.05.2020, 20:53:22  addRecentDocument
+INFO 15.05.2020, 20:53:23  switchDocument
+INFO 15.05.2020, 20:53:23  addRecentDocument
+INFO 15.05.2020, 20:53:31  switchDocument
+INFO 15.05.2020, 20:53:31  addRecentDocument
+INFO 15.05.2020, 20:53:33  switchDocument
+INFO 15.05.2020, 20:53:33  addRecentDocument
+INFO 15.05.2020, 20:53:34  switchDocument
+INFO 15.05.2020, 20:53:34  addRecentDocument
+INFO 15.05.2020, 20:53:38  switchDocument
+INFO 15.05.2020, 20:53:38  addRecentDocument
+INFO 15.05.2020, 20:53:41  switchDocument
+INFO 15.05.2020, 20:53:41  addRecentDocument
+INFO 15.05.2020, 20:53:43  switchDocument
+INFO 15.05.2020, 20:53:43  addRecentDocument
+INFO 15.05.2020, 20:53:44  switchDocument
+INFO 15.05.2020, 20:53:44  addRecentDocument
+DEBUG 15.05.2020, 20:53:44  lastSync null, timestamp 1589568821901, mtime 1589568659257
+INFO 15.05.2020, 20:53:45  switchDocument
+INFO 15.05.2020, 20:53:45  addRecentDocument
+INFO 15.05.2020, 20:53:50  switchDocument
+INFO 15.05.2020, 20:53:50  addRecentDocument
+DEBUG 15.05.2020, 20:53:50  lastSync null, timestamp 1589568821901, mtime 1589568659257
+INFO 15.05.2020, 20:53:52  switchDocument
+INFO 15.05.2020, 20:53:52  addRecentDocument
+INFO 15.05.2020, 20:55:18  switchDocument
+INFO 15.05.2020, 20:55:18  addRecentDocument
+INFO 15.05.2020, 20:55:46  switchDocument
+INFO 15.05.2020, 20:55:46  addRecentDocument
+INFO 15.05.2020, 20:55:47  switchDocument
+INFO 15.05.2020, 20:55:47  addRecentDocument
+INFO 15.05.2020, 20:55:57  switchDocument
+INFO 15.05.2020, 20:55:57  addRecentDocument
+INFO 15.05.2020, 20:56:04  switchDocument
+INFO 15.05.2020, 20:56:04  addRecentDocument
+INFO 15.05.2020, 20:56:05  switchDocument
+INFO 15.05.2020, 20:56:05  addRecentDocument
+INFO 15.05.2020, 20:56:07  ----------------before-quit-----------------
+INFO 15.05.2020, 20:56:07  ------------------will-quit------------------
+INFO 19.05.2020, 11:22:57  ------------------start------------------
+INFO 19.05.2020, 11:22:57  typora version: 0.9.86
+DEBUG 19.05.2020, 11:22:57  [ '/opt/typora/Typora' ]
+INFO 19.05.2020, 11:22:57  [Raven] instanceKey = fc65f2e8-e2b4-4f33-b70f-04df3556bccb
+INFO 19.05.2020, 11:22:57  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+DEBUG 19.05.2020, 11:22:57  reopen file
+DEBUG 19.05.2020, 11:22:57  reopenClosed
+DEBUG 19.05.2020, 11:22:57  app.openFile
+INFO 19.05.2020, 11:22:57  addRecentDocument
+INFO 19.05.2020, 11:22:58  [focus] 1
+INFO 19.05.2020, 11:23:08  [blur] 1
+INFO 19.05.2020, 11:24:10  [focus] 1
+INFO 19.05.2020, 11:24:10  [blur] 1
+INFO 19.05.2020, 11:24:15  [focus] 1
+INFO 19.05.2020, 11:24:23  addRecentFolder
+INFO 19.05.2020, 11:24:36  switchDocument
+INFO 19.05.2020, 11:24:36  addRecentDocument
+INFO 19.05.2020, 11:24:46  [blur] 1
+INFO 19.05.2020, 11:24:53  [focus] 1
+INFO 19.05.2020, 11:25:04  [blur] 1
+INFO 19.05.2020, 11:25:12  [focus] 1
+INFO 19.05.2020, 11:25:57  [blur] 1
+INFO 19.05.2020, 11:27:58  [focus] 1
+INFO 19.05.2020, 11:28:11  [blur] 1
+INFO 19.05.2020, 11:28:15  [focus] 1
+INFO 19.05.2020, 11:28:36  [blur] 1
+INFO 19.05.2020, 11:28:39  [focus] 1
+INFO 19.05.2020, 11:28:41  ----------------before-quit-----------------
+INFO 19.05.2020, 11:28:41  ------------------will-quit------------------
+INFO 2.06.2020, 11:55:04  ------------------start------------------
+INFO 2.06.2020, 11:55:04  typora version: 0.9.86
+DEBUG 2.06.2020, 11:55:04  [ '/opt/typora/Typora' ]
+INFO 2.06.2020, 11:55:04  [Raven] instanceKey = ffa278bc-d47b-415a-97a9-57e06e60263d
+DEBUG 2.06.2020, 11:55:04  reopen file
+DEBUG 2.06.2020, 11:55:04  reopenClosed
+DEBUG 2.06.2020, 11:55:04  app.openFile
+INFO 2.06.2020, 11:55:04  addRecentDocument
+INFO 2.06.2020, 11:55:04  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+INFO 2.06.2020, 11:55:04  [focus] 1
+INFO 2.06.2020, 11:55:10  switchDocument
+INFO 2.06.2020, 11:55:10  addRecentDocument
+INFO 2.06.2020, 11:55:15  switchDocument
+INFO 2.06.2020, 11:55:15  addRecentDocument
+INFO 2.06.2020, 11:55:18  [blur] 1
+INFO 2.06.2020, 11:55:26  [focus] 1
+INFO 2.06.2020, 11:55:28  [blur] 1
+INFO 2.06.2020, 12:07:07  [focus] 1
+INFO 2.06.2020, 12:07:11  [blur] 1
+INFO 2.06.2020, 12:07:12  [focus] 1
+INFO 2.06.2020, 12:07:16  [blur] 1
+INFO 2.06.2020, 13:24:05  ----------------before-quit-----------------
+INFO 2.06.2020, 13:24:05  ------------------will-quit------------------
+INFO 19.06.2020, 23:44:25  ------------------start------------------
+INFO 19.06.2020, 23:44:25  typora version: 0.9.86
+DEBUG 19.06.2020, 23:44:25  [ '/opt/typora/Typora' ]
+INFO 19.06.2020, 23:44:25  [Raven] instanceKey = fe212612-82ad-42a0-82b6-5b1dfb309f8f
+DEBUG 19.06.2020, 23:44:25  reopen file
+DEBUG 19.06.2020, 23:44:25  reopenClosed
+DEBUG 19.06.2020, 23:44:25  app.openFile
+INFO 19.06.2020, 23:44:25  addRecentDocument
+INFO 19.06.2020, 23:44:26  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+INFO 19.06.2020, 23:44:26  [focus] 1
+INFO 19.06.2020, 23:44:37  switchDocument
+INFO 19.06.2020, 23:44:37  addRecentDocument
+INFO 19.06.2020, 23:44:47  [blur] 1
+INFO 19.06.2020, 23:44:54  [focus] 1
+INFO 19.06.2020, 23:45:09  [blur] 1
+INFO 19.06.2020, 23:45:16  [focus] 1
+INFO 19.06.2020, 23:45:33  [blur] 1
+INFO 19.06.2020, 23:45:44  [focus] 1
+INFO 19.06.2020, 23:45:59  ----------------before-quit-----------------
+INFO 19.06.2020, 23:45:59  ------------------will-quit------------------
+INFO 19.06.2020, 23:46:33  ------------------start------------------
+INFO 19.06.2020, 23:46:33  typora version: 0.9.86
+DEBUG 19.06.2020, 23:46:33  [ '/opt/typora/Typora' ]
+INFO 19.06.2020, 23:46:33  [Raven] instanceKey = 3185a3c6-6454-429f-bfd2-2f9fa23b89b2
+DEBUG 19.06.2020, 23:46:33  reopen file
+DEBUG 19.06.2020, 23:46:33  reopenClosed
+DEBUG 19.06.2020, 23:46:33  app.openFile
+INFO 19.06.2020, 23:46:33  addRecentDocument
+INFO 19.06.2020, 23:46:33  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+INFO 19.06.2020, 23:46:34  [focus] 1
+INFO 19.06.2020, 23:47:36  [blur] 1
+INFO 19.06.2020, 23:47:49  [focus] 1
+INFO 19.06.2020, 23:49:40  ----------------before-quit-----------------
+INFO 19.06.2020, 23:49:40  ------------------will-quit------------------
+INFO 19.06.2020, 23:49:43  ------------------start------------------
+INFO 19.06.2020, 23:49:43  typora version: 0.9.86
+DEBUG 19.06.2020, 23:49:43  [ '/opt/typora/Typora' ]
+INFO 19.06.2020, 23:49:43  [Raven] instanceKey = 6cd0d216-0b54-4bc4-9900-d35aef800b54
+DEBUG 19.06.2020, 23:49:43  reopen file
+DEBUG 19.06.2020, 23:49:43  reopenClosed
+DEBUG 19.06.2020, 23:49:43  app.openFile
+INFO 19.06.2020, 23:49:43  addRecentDocument
+INFO 19.06.2020, 23:49:43  [focus] 1
+INFO 19.06.2020, 23:49:43  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+INFO 19.06.2020, 23:49:48  ----------------before-quit-----------------
+INFO 19.06.2020, 23:49:48  ------------------will-quit------------------
+INFO 24.06.2020, 08:56:08  ------------------start------------------
+INFO 24.06.2020, 08:56:08  typora version: 0.9.86
+DEBUG 24.06.2020, 08:56:08  [ '/opt/typora/Typora' ]
+INFO 24.06.2020, 08:56:08  [Raven] instanceKey = 8c2f2910-b295-4964-905c-65dcc5f8d47e
+DEBUG 24.06.2020, 08:56:08  reopen file
+DEBUG 24.06.2020, 08:56:08  reopenClosed
+DEBUG 24.06.2020, 08:56:08  app.openFile
+INFO 24.06.2020, 08:56:08  addRecentDocument
+INFO 24.06.2020, 08:56:08  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+INFO 24.06.2020, 08:56:08  [focus] 1
+INFO 24.06.2020, 08:56:09  [blur] 1
+DEBUG 24.06.2020, 08:56:10  lastSync 1592603379566.4795, timestamp 1592981769805, mtime 1592603379566.4795
+INFO 24.06.2020, 08:56:10  [focus] 1
+INFO 24.06.2020, 08:56:10  [blur] 1
+INFO 24.06.2020, 08:56:18  [focus] 1
+INFO 24.06.2020, 08:56:45  switchDocument
+INFO 24.06.2020, 08:56:45  addRecentDocument
+INFO 24.06.2020, 08:56:49  switchDocument
+INFO 24.06.2020, 08:56:49  addRecentDocument
+INFO 24.06.2020, 08:56:50  switchDocument
+INFO 24.06.2020, 08:56:50  addRecentDocument
+INFO 24.06.2020, 08:56:51  switchDocument
+INFO 24.06.2020, 08:56:51  addRecentDocument
+DEBUG 24.06.2020, 08:56:51  lastSync null, timestamp 1592981809187, mtime 1590769037506.6353
+INFO 24.06.2020, 09:05:59  ----------------before-quit-----------------
+INFO 24.06.2020, 09:05:59  ------------------will-quit------------------
+INFO 9.07.2020, 01:43:07  ------------------start------------------
+INFO 9.07.2020, 01:43:07  typora version: 0.9.86
+DEBUG 9.07.2020, 01:43:07  [ '/opt/typora/Typora' ]
+INFO 9.07.2020, 01:43:07  [Raven] instanceKey = 51be6e12-1e61-4602-a86d-7dff87172e28
+DEBUG 9.07.2020, 01:43:07  reopen file
+DEBUG 9.07.2020, 01:43:07  reopenClosed
+DEBUG 9.07.2020, 01:43:07  app.openFile
+INFO 9.07.2020, 01:43:07  addRecentDocument
+INFO 9.07.2020, 01:43:07  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+INFO 9.07.2020, 01:43:07  [focus] 1
+INFO 9.07.2020, 01:43:21  addRecentFolder
+INFO 9.07.2020, 01:43:28  switchDocument
+INFO 9.07.2020, 01:43:28  addRecentDocument
+INFO 9.07.2020, 01:43:52  switchDocument
+INFO 9.07.2020, 01:43:52  addRecentDocument
+INFO 9.07.2020, 01:44:14  [blur] 1
+INFO 9.07.2020, 01:44:17  [focus] 1
+INFO 9.07.2020, 01:44:17  [blur] 1
+INFO 9.07.2020, 01:44:17  [focus] 1
+INFO 9.07.2020, 01:44:22  [blur] 1
+INFO 9.07.2020, 01:44:27  [focus] 1
+INFO 9.07.2020, 01:44:28  [blur] 1
+INFO 9.07.2020, 01:44:32  [focus] 1
+INFO 9.07.2020, 01:44:36  [blur] 1
+INFO 9.07.2020, 01:44:42  [focus] 1
+INFO 9.07.2020, 01:44:47  [blur] 1
+INFO 9.07.2020, 01:45:06  [focus] 1
+INFO 9.07.2020, 01:45:08  [blur] 1
+INFO 9.07.2020, 01:45:18  [focus] 1
+INFO 9.07.2020, 01:45:20  ----------------before-quit-----------------
+INFO 9.07.2020, 01:45:20  ------------------will-quit------------------
+INFO 9.07.2020, 09:28:53  ------------------start------------------
+INFO 9.07.2020, 09:28:53  typora version: 0.9.86
+DEBUG 9.07.2020, 09:28:53  [ '/opt/typora/Typora' ]
+INFO 9.07.2020, 09:28:53  [Raven] instanceKey = 3c36fb27-c857-4bbd-abb1-5a043a78d164
+INFO 9.07.2020, 09:28:53  [Raven] userId = 4b331cba-cf80-491a-a0ea-f265cb8ce725
+DEBUG 9.07.2020, 09:28:53  reopen file
+DEBUG 9.07.2020, 09:28:53  reopenClosed
+DEBUG 9.07.2020, 09:28:53  app.openFile
+INFO 9.07.2020, 09:28:53  addRecentDocument
+INFO 9.07.2020, 09:28:53  [focus] 1
+INFO 9.07.2020, 09:28:56  [blur] 1
+INFO 9.07.2020, 09:29:03  [focus] 1
+INFO 9.07.2020, 09:29:04  [blur] 1
+INFO 9.07.2020, 09:34:19  [focus] 1
+INFO 9.07.2020, 09:34:20  [blur] 1
+INFO 9.07.2020, 09:53:34  [focus] 1
+INFO 9.07.2020, 09:54:28  [blur] 1
+INFO 9.07.2020, 09:54:32  [focus] 1
+INFO 9.07.2020, 10:31:46  [blur] 1
+INFO 9.07.2020, 10:32:32  [focus] 1
+INFO 9.07.2020, 10:32:33  [blur] 1
+INFO 9.07.2020, 10:38:27  [focus] 1
+INFO 9.07.2020, 10:38:29  [blur] 1
+INFO 9.07.2020, 10:42:27  [focus] 1
+INFO 9.07.2020, 10:42:28  [blur] 1
+INFO 9.07.2020, 10:53:24  [focus] 1
+INFO 9.07.2020, 10:53:25  [blur] 1
+INFO 9.07.2020, 11:09:15  [focus] 1
+INFO 9.07.2020, 11:09:16  [blur] 1
+INFO 9.07.2020, 11:09:32  [focus] 1
+INFO 9.07.2020, 11:09:33  [blur] 1
+INFO 9.07.2020, 11:09:36  [focus] 1
+INFO 9.07.2020, 11:09:37  [blur] 1
+INFO 9.07.2020, 11:13:45  [focus] 1
+INFO 9.07.2020, 11:13:47  [blur] 1
+INFO 9.07.2020, 11:13:49  [focus] 1
+INFO 9.07.2020, 11:13:53  [blur] 1
+INFO 9.07.2020, 11:15:01  [focus] 1
+INFO 9.07.2020, 11:15:02  [blur] 1
+INFO 9.07.2020, 11:15:37  [focus] 1
+INFO 9.07.2020, 11:15:38  [blur] 1
+INFO 9.07.2020, 11:17:39  [focus] 1
+INFO 9.07.2020, 11:17:41  [blur] 1
+INFO 9.07.2020, 11:17:42  [focus] 1
+INFO 9.07.2020, 11:17:47  [blur] 1
+INFO 9.07.2020, 11:23:08  [focus] 1
+INFO 9.07.2020, 11:23:15  [blur] 1
+INFO 9.07.2020, 11:25:56  [focus] 1
+INFO 9.07.2020, 11:26:03  ----------------before-quit-----------------
+INFO 9.07.2020, 11:26:03  ------------------will-quit------------------

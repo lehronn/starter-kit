@@ -1,0 +1,70 @@
+<html><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>Conversation with #fedora at nie, 19 kwi 2020, 14:16:23 on soda2[m]@irc.freenode.net (irc)</title></head><body><h3>Conversation with #fedora at nie, 19 kwi 2020, 14:16:23 on soda2[m]@irc.freenode.net (irc)</h3>
+<font size="2">(14:16:23)</font><b> <br/>Temat dla #fedora ustawiony przez użytkownika Southern_Gentlem!~notfred@fedora/Southern-Gentleman o godzinie 14:11:59 w dniu 17.03.2020</b><br/>
+<font color="#A82F2F"><font size="2">(14:16:53)</font> <b>FranciscoD:</b></font> <br/>either case will work for the package: the idea is that the version-release bits always increase, so that the &quot;upgrade path&quot; is maintained<br/>
+<font color="#A82F2F"><font size="2">(14:17:06)</font> <b>miku:</b></font> <br/>upstream = author of program?<br/>
+<font color="#A82F2F"><font size="2">(14:17:23)</font> <b>FranciscoD:</b></font> <br/>yes, the developers are &quot;upstream&quot;<br/>
+<font color="#A82F2F"><font size="2">(14:17:38)</font> <b>FranciscoD:</b></font> <br/>we package maintainers and linux distributions are &quot;downstream&quot; of them<br/>
+<font color="#A82F2F"><font size="2">(14:17:54)</font> <b>FranciscoD:</b></font> <br/>(like a river: developers are the source, and we&apos;re all downstream from the source)<br/>
+<font color="#A82F2F"><font size="2">(14:18:03)</font> <b>FranciscoD:</b></font> <br/>https://fedoraproject.org/wiki/Staying_close_to_upstream_projects<br/>
+<font color="#A82F2F"><font size="2">(14:18:15)</font> <b>miku:</b></font> <br/>gotcha<br/>
+<font size="2">(14:19:15)</font><b> <br/>Użytkownik gcdotd [<em>~gcdotd@host-92-8-107-207.as43234.net</em>] wszedł do pokoju.</b><br/>
+<font color="#A82F2F"><font size="2">(14:19:37)</font> <b>miku:</b></font> <br/>suppose I make 3 changes to 0.4.1, so fooapp-0.4.1-1.blabla, 0.4.1-2.blala, 0.4.1-3.blabla<br/>
+<font color="#A82F2F"><font size="2">(14:19:58)</font> <b>FranciscoD:</b></font> <br/>yes, then when a new release comes out, you get 0.4.1-...<br/>
+<font size="2">(14:19:58)</font><b> <br/>Użytkownik didiksupriadi41 [<em>~didiksupr@118.99.118.141</em>] wszedł do pokoju.</b><br/>
+<font color="#A82F2F"><font size="2">(14:20:00)</font> <b>FranciscoD:</b></font> <br/>er<br/>
+<font color="#A82F2F"><font size="2">(14:20:03)</font> <b>FranciscoD:</b></font> <br/>0.4.2-...<br/>
+<font color="#A82F2F"><font size="2">(14:20:07)</font> <b>miku:</b></font> <br/>then comes 0.4.2, do I go 0.4.2-1.blabla or continue 0.4.2-4.blabla?<br/>
+<font color="#A82F2F"><font size="2">(14:20:08)</font> <b>FranciscoD:</b></font> <br/>so the upgrade will be OK<br/>
+<font color="#16569E"><font size="2">(14:20:18)</font> <b>soda2[m]:</b></font> <br/>i have one question - why updating by gnome-software is so slow? when i use dnf all is ok<br/>
+<font color="#A82F2F"><font size="2">(14:20:19)</font> <b>FranciscoD:</b></font> <br/>no, the release can be reset for each version<br/>
+<font color="#A82F2F"><font size="2">(14:20:28)</font> <b>miku:</b></font> <br/>great!<br/>
+<font color="#A82F2F"><font size="2">(14:20:32)</font> <b>FranciscoD:</b></font> <br/>soda2[m]1: define &quot;slow&quot;?<br/>
+<font color="#A82F2F"><font size="2">(14:20:33)</font> <b>miku:</b></font> <br/>I am happy when I learn new things<br/>
+<font color="#A82F2F"><font size="2">(14:20:53)</font> <b>FranciscoD:</b></font> <br/>miku: reading the guidelines is a good start, lots of information there<br/>
+<font color="#16569E"><font size="2">(14:21:02)</font> <b>soda2[m]:</b></font> <br/>5-10 minutes of searching packages to update for example<br/>
+<font color="#A82F2F"><font size="2">(14:21:22)</font> <b>FranciscoD:</b></font> <br/>soda2[m]1: it downloads the metadata, then checks for updates<br/>
+<font color="#A82F2F"><font size="2">(14:21:29)</font> <b>FranciscoD:</b></font> <br/>dnf runs a timer that updates the cache periodically<br/>
+<font color="#16569E"><font size="2">(14:21:44)</font> <b>soda2[m]:</b></font> <br/>yup, but why so slow? when i use dnf or yum everything is fast<br/>
+<font color="#A82F2F"><font size="2">(14:22:19)</font> <b>FranciscoD:</b></font> <br/>soda2[m]1: if you use `sudo dnf --refresh` it&apos;ll also take time: it&apos;ll download the metadata again<br/>
+<font color="#16569E"><font size="2">(14:22:35)</font> <b>soda2[m]:</b></font> <br/>because of this gnome-software seems broken <br/>
+<font color="#A82F2F"><font size="2">(14:22:41)</font> <b>miku:</b></font> <br/>FranciscoD, guideline documents tend to be too dense for community outsides to grasp on their first few tries...<br/>
+<font color="#16569E"><font size="2">(14:22:41)</font> <b>soda2[m]:</b></font> <br/>in my opinion<br/>
+<font color="#A82F2F"><font size="2">(14:23:25)</font> <b>FranciscoD:</b></font> <br/>miku: there are lots of other documents: https://fedoraproject.org/wiki/How_to_create_an_RPM_package for example<br/>
+<font color="#A82F2F"><font size="2">(14:23:38)</font> <b>FranciscoD:</b></font> <br/>https://fedoraproject.org/wiki/Join_the_package_collection_maintainers is step by step<br/>
+<font color="#A82F2F"><font size="2">(14:24:03)</font> <b>miku:</b></font> <br/>a lot like manpages in that they are helpful when you already know a program and seek to improve your utilization of it<br/>
+<font color="#A82F2F"><font size="2">(14:24:14)</font> <b>miku:</b></font> <br/>but very frustrating and not much use when you are new to program<br/>
+<font color="#A82F2F"><font size="2">(14:24:29)</font> <b>FranciscoD:</b></font> <br/>miku: depends on the man page: most contain examples, which are great for beginners<br/>
+<font color="#A82F2F"><font size="2">(14:24:46)</font> <b>FranciscoD:</b></font> <br/>also depends on the person :)<br/>
+<font size="2">(14:25:06)</font><b> <br/>Użytkownik didiksupriadi41 opuścił pokój (quit: Read error: Connection reset by peer).</b><br/>
+<font color="#A82F2F"><font size="2">(14:25:07)</font> <b>FranciscoD:</b></font> <br/>soda2[m]1: file bugs, provide information, the developers will see what can be done to improve the user experience<br/>
+<font size="2">(14:25:20)</font><b> <br/>Użytkownik didiksupriadi41 [<em>~didiksupr@118.99.118.141</em>] wszedł do pokoju.</b><br/>
+<font color="#A82F2F"><font size="2">(14:25:32)</font> <b>miku:</b></font> <br/>I definitely do have somewhat of those TL;DR genes<br/>
+<font size="2">(14:26:21)</font><b> <br/>Użytkownik mthacker [<em>~mthacker@64.20.134.231.dyn-e-pool7.pool.hargray.net</em>] wszedł do pokoju.</b><br/>
+<font color="#A82F2F"><font size="2">(14:28:06)</font> <b>tnelis:</b></font> <br/>soda2[m]1: Maybe try using pkcon which is a CLI for PackageKit, which is the component behind GNOME Software (if you observe noticably better perf you could exclude PK and focus on the GNOME Software, otherwise it could be a problem in either of these)<br/>
+<font color="#A82F2F"><font size="2">(14:29:23)</font> <b>tnelis:</b></font> <br/>soda2[m]1: Note that apparently (per Wikipedia) PK might use hawkey/librepo directly (i.e. not via DNF), meaning it&apos;s very possible there are differences between both as you observe.<br/>
+<font color="#A82F2F"><font size="2">(14:31:05)</font> <b>tnelis:</b></font> <br/>soda2[m]1: One example you could check: Support for Zchunk added in F30 &lt;https://fedoraproject.org/wiki/Changes/Zchunk_Metadata&gt;. This improved perf immensely for me with DNF, but I&apos;m not sure if it&apos;s supported by PK/GNOME Software -- so if not it could explain what you&apos;re observing.<br/>
+<font size="2">(14:32:39)</font><b> <br/>Użytkownik uckelman [<em>~uckelman@host-78-149-200-135.as13285.net</em>] wszedł do pokoju.</b><br/>
+<font color="#16569E"><font size="2">(14:32:51)</font> <b>soda2[m]:</b></font> <br/>i was traying run gnome-software by terminal command to check logs but i noticed memory error ;/ probably i cant run this program in terminal<br/>
+<font color="#A82F2F"><font size="2">(14:33:51)</font> <b>tnelis:</b></font> <br/>soda2[m]1: Actually that might help figure it out. What kind of error? An OOM condition?<br/>
+<font color="#16569E"><font size="2">(14:34:36)</font> <b>soda2[m]:</b></font> <br/>Memory protection violation<br/>
+<font color="#16569E"><font size="2">(14:34:47)</font> <b>soda2[m]:</b></font> <br/>i think this is not related<br/>
+<font size="2">(14:34:50)</font><b> <br/>Użytkownik klokken [<em>~klokken@unaffiliated/klokken</em>] wszedł do pokoju.</b><br/>
+<font color="#A82F2F"><font size="2">(14:35:23)</font> <b>tnelis:</b></font> <br/>soda2[m]1: Well if you have some time it&apos;d be great if you could report it still. Regardless of whether you&apos;re launching from the CLI or the shell it shouldn&apos;t happen.<br/>
+<font color="#16569E"><font size="2">(14:35:32)</font> <b>soda2[m]:</b></font> <br/>probably conflict with running dnf/yum/gnome-software<br/>
+<font size="2">(14:35:37)</font><b> <br/>Użytkownik Mershl opuścił pokój (quit: Ping timeout: 265 seconds).</b><br/>
+<font color="#16569E"><font size="2">(14:36:07)</font> <b>soda2[m]:</b></font> <br/>an you try run gnome-software by terminal?<br/>
+<font color="#16569E"><font size="2">(14:36:26)</font> <b>soda2[m]:</b></font> <br/>i think you cannot do that, just like me<br/>
+<font color="#A82F2F"><font size="2">(14:37:08)</font> <b>tnelis:</b></font> <br/>soda2[m]1: I&apos;ll reinstall it and check, but again this shouldn&apos;t result in memory violation (that&apos;s usually wording for segmentation faults).<br/>
+<font size="2">(14:38:05)</font><b> <br/>Użytkownik didiksupriadi41 opuścił pokój (quit: Remote host closed the connection).</b><br/>
+<font color="#A82F2F"><font size="2">(14:38:14)</font> <b>tnelis:</b></font> <br/>soda2[m]1: Assuming it&apos;s a subprocess, and nondeterministic, and the app retries repeatedly, then with a little imagination it could also explain your issue (I know, lots of assumptions, but just sayin&apos; ;P)<br/>
+<font size="2">(14:38:32)</font><b> <br/>Użytkownik didiksupriadi41 [<em>~didiksupr@118.99.118.141</em>] wszedł do pokoju.</b><br/>
+<font color="#16569E"><font size="2">(14:38:52)</font> <b>soda2[m]:</b></font> <br/>hmm, i wondering how i can check what is up with that wihout command output xd<br/>
+<font color="#A82F2F"><font size="2">(14:39:51)</font> <b>tnelis:</b></font> <br/>soda2[m]1: Well again try pkcon, that would give you a chance to split to search in two and exclude one half.<br/>
+<font size="2">(14:40:14)</font><b> <br/>Użytkownik mthacker opuścił pokój (quit: Ping timeout: 240 seconds).</b><br/>
+<font color="#A82F2F"><font size="2">(14:45:43)</font> <b>tnelis:</b></font> <br/>soda2[m]1: Also use pkmon (while using GNOME Software and pkcon) to monitor PackageKit events/transactions.<br/>
+<font color="#16569E"><font size="2">(14:46:06)</font> <b>soda2[m]:</b></font> <br/>updates check in pkcon is fast too so this is not related<br/>
+<font color="#16569E"><font size="2">(14:46:23)</font> <b>soda2[m]:</b></font> <br/>ok i will check it<br/>
+<font color="#A82F2F"><font size="2">(14:47:04)</font> <b>tnelis:</b></font> <br/>soda2[m]1: Interesting, so it&apos;s pkmon + GNOME Software might yield something interesting. For the record I tried launching GNOME Software from the CLI, no problem on my machine, definitely no memory violation.<br/>
+<font color="#16569E"><font size="2">(14:48:40)</font> <b>soda2[m]:</b></font> <br/>yup! pkmon can show me output so we have step one :D<br/>
+<font size="2">(14:49:39)</font><b> <br/>Konto zostało rozłączone i użytkownik nie jest już obecny w tej konferencji. Po nawiązaniu połączenia nastąpi ponowne dołączenie.</b><br/>
+</body></html>

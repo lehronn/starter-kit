@@ -1,0 +1,4 @@
+---
+  - name: setting up hostname
+    hostname:
+      name: {{ host_name }}

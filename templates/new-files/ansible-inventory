@@ -1,0 +1,19 @@
+### functional groups ###
+
+[desktop]
+fedora@desktop 192.168.122.998
+fedora@thinkpad 192.168.122.999
+
+[servers]
+
+
+[station]
+
+
+[laptop]
+
+
+[virtual]
+fedora@vm 192.168.122.8
+
+[remote]

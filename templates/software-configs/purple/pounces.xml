@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<pounces version='1.0'>
+	<pounce ui='gtk-gaim'>
+		<account protocol='prpl-irc'>soda2[m]@irc.freenode.net</account>
+		<pouncee>autolog</pouncee>
+		<options/>
+		<events>
+			<event type='sign-on'/>
+		</events>
+		<actions>
+			<action type='send-message'>
+				<param name='message'>identify soda2[m] IEvl3212ok</param>
+			</action>
+		</actions>
+		<save/>
+	</pounce>
+</pounces>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<statuses version='1.0'>
+	<status name='Auto-Cached' transient='true' created='1584787461' lastused='1587459663' usage_count='1'>
+		<state>available</state>
+	</status>
+	<status name='fedora.pl' created='1587459659' lastused='1587459659' usage_count='1'>
+		<state>away</state>
+	</status>
+	<status name='Auto-Cached' transient='true' created='1587108480' lastused='0' usage_count='0'>
+		<state>away</state>
+	</status>
+	<status name='Auto-Cached' transient='true' created='1584787582' lastused='0' usage_count='0'>
+		<state>away</state>
+		<message>Nie ma mnie teraz przy komputerze</message>
+	</status>
+	<status name='Auto-Cached' transient='true' created='1587459653' lastused='0' usage_count='0'>
+		<state>away</state>
+	</status>
+	<status name='Auto-Cached' transient='true' created='1587459664' lastused='0' usage_count='0'>
+		<state>away</state>
+	</status>
+</statuses>

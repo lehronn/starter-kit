@@ -1,0 +1,45 @@
+<html><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>Conversation with #ansible-aws at czw, 14 maj 2020, 19:13:56 on soda2[m]@irc.freenode.net (irc)</title></head><body><h3>Conversation with #ansible-aws at czw, 14 maj 2020, 19:13:56 on soda2[m]@irc.freenode.net (irc)</h3>
+<font size="2">(19:13:56)</font><b> <br/>Temat dla #ansible-aws to: Ansible + AWS <a href="https://github.com/ansible/community/wiki/aws">https://github.com/ansible/community/wiki/aws</a></b><br/>
+<font size="2">(19:13:56)</font><b> <br/>Temat dla #ansible-aws ustawiony przez użytkownika gundalow!sid253491@ansible/owner/gundalow o godzinie 15:26:41 w dniu 13.02.2019</b><br/>
+<font color="#16569E"><font size="2">(19:15:28)</font> <b>soda2[m]:</b></font> <br/>hello all<br/>
+<font color="#16569E"><font size="2">(19:15:44)</font> <b>soda2[m]:</b></font> <br/>i have a problem with ansible - may I ask one question about roles variable?<br/>
+<font color="#A82F2F"><font size="2">(19:22:10)</font> <b>tremble:</b></font> <br/>andersson007_, jillr still has the relevant permissions :)<br/>
+<font size="2">(19:22:16)</font><b> <br/>Użytkownik Cheburek opuścił pokój (quit: Quit: Leaving).</b><br/>
+<font color="#A82F2F"><font size="2">(19:23:07)</font> <b>andersson007_:</b></font> <br/>tremble: jillr has already done what i did:)<br/>
+<font color="#A82F2F"><font size="2">(19:23:15)</font> <b>tremble:</b></font> <br/>soda2[m]1, You can ask, depending on the question you might get a faster answer on #ansible<br/>
+<font color="#A82F2F"><font size="2">(19:23:25)</font> <b>tremble:</b></font> <br/>andersson007_, Ok, :)<br/>
+<font color="#16569E"><font size="2">(19:24:18)</font> <b>soda2[m]:</b></font> <br/>so i have &quot;nodejs&quot; role with &quot;tasks&quot; and &quot;role_vars&quot; folders<br/>
+<font color="#16569E"><font size="2">(19:24:49)</font> <b>soda2[m]:</b></font> <br/>in tasks i have playbook and in role_vars i have main.yml with variables for that role<br/>
+<font color="#16569E"><font size="2">(19:25:26)</font> <b>soda2[m]:</b></font> <br/>when i run playbook, ansible cannot &quot;see&quot; my variables from /role_vars/main.yml file<br/>
+<font color="#A82F2F"><font size="2">(19:25:57)</font> <b>tremble:</b></font> <br/> /vars/ not /role_vars/<br/>
+<font color="#16569E"><font size="2">(19:26:07)</font> <b>soda2[m]:</b></font> <br/>i recived output like this: s: 'nodejs_user' is undefined\n\nThe error appears to be in '/home/user/Ansible/inventories/1.development/roles/nodejs/tasks/main.yml': line 3, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n# tasks file for nodejs\n- name: add nodejs user\n  ^ here\n&quot;<br/>
+<font color="#A82F2F"><font size="2">(19:26:34)</font> <b>jillr:</b></font> <br/>roles directorys should be: https://docs.ansible.com/ansible/latest/user_guide/playbooks_reuse_roles.html#role-directory-structure<br/>
+<font color="#A82F2F"><font size="2">(19:27:29)</font> <b>jillr:</b></font> <br/>andersson007_: thank you for that PR btw, sorry I got there just before you!  ;)<br/>
+<font color="#A82F2F"><font size="2">(19:28:38)</font> <b>tremble:</b></font> <br/>soda2[m]1, For the record, #ansible-aws tends to be pretty quiet, it&apos;s mostly for the AWS related modules (managing AWS resources), you&apos;re *generally* likely to get a faster answer on #ansible<br/>
+<font color="#A82F2F"><font size="2">(19:30:09)</font> <b>jillr:</b></font> <br/>tremble: I&apos;m seeing a lot of VpcLimitExceeded, other than that and the pasted snippet^ are you seeing other CI failures?<br/>
+<font color="#A82F2F"><font size="2">(19:31:44)</font> <b>tremble:</b></font> <br/>I saw one Rate Limit, and andersson007_ triggered one which looks to be a legit (test) bug in one of his failures<br/>
+<font color="#A82F2F"><font size="2">(19:31:56)</font> <b>andersson007_:</b></font> <br/>jillr: np! it wasn&apos;t difficult to launch the script:) but now we know that your PR is still relevant? no new ansible_metadata has been added for the last 19 hours:)<br/>
+<font color="#A82F2F"><font size="2">(19:33:10)</font> <b>jillr:</b></font> <br/>hehe, as of my last meeting this morning we were still just getting rid of metadata!<br/>
+<font color="#16569E"><font size="2">(19:33:56)</font> <b>soda2[m]:</b></font> <br/>ansible documentation is rlly smock if we talking about roles variables... sadly<br/>
+<font color="#A82F2F"><font size="2">(19:33:59)</font> <b>jillr:</b></font> <br/>tremble: cool thanks, I can mostly live with rate limiting<br/>
+<font color="#A82F2F"><font size="2">(19:35:42)</font> <b>jillr:</b></font> <br/>soda2[m]1: if there&apos;s something in the docs that&apos;s unclear or undocumented, it would be great if you can file a docs bug so we can help improve them<br/>
+<font size="2">(19:37:42)</font><b> <br/>Użytkownik tremble opuścił pokój (quit: Ping timeout: 260 seconds).</b><br/>
+<font size="2">(19:47:37)</font><b> <br/>Użytkownik tremble [<em>~tremble@fedora/tremble</em>] wszedł do pokoju.</b><br/>
+<font color="#A82F2F"><font size="2">(19:50:58)</font> <b>tremble:</b></font> <br/>Hmm my router fell over.<br/>
+<font color="#A82F2F"><font size="2">(19:51:14)</font> <b>tremble:</b></font> <br/>@jillr, don&apos;t know if these got sent:<br/>
+<font color="#A82F2F"><font size="2">(19:51:16)</font> <b>tremble:</b></font> <br/>&lt;tremble&gt; jillr, https://app.shippable.com/github/ansible-collections/community.aws/runs/162/14/tests<br/>
+<font color="#A82F2F"><font size="2">(19:51:17)</font> <b>tremble:</b></font> <br/>&lt;tremble&gt; ^ That one looks like a legit *test* but (or possibly data validation), but could easily be Amazon moving the goalposts on us<br/>
+<font color="#A82F2F"><font size="2">(19:51:17)</font> <b>tremble:</b></font> <br/>&lt;tremble&gt; test *bug*<br/>
+<font color="#A82F2F"><font size="2">(19:54:55)</font> <b>bcoca:</b></font> <br/>all my bugs are untested!<br/>
+<font size="2">(20:06:15)</font><b> <br/>Użytkownik mapu [<em>~mapu@c-73-167-238-214.hsd1.ma.comcast.net</em>] wszedł do pokoju.</b><br/>
+<font color="#A82F2F"><font size="2">(20:10:23)</font> <b>jillr:</b></font> <br/>tremble: if it was us it goes back to pre-migration which seems unlikely, so I&apos;m going to guess some default changed on either aws&apos; end or boto.<br/>
+<font color="#A82F2F"><font size="2">(20:11:06)</font> <b>tremble:</b></font> <br/>wouldn&apos;t be the first time Amazon&apos;s done that to us<br/>
+<font color="#A82F2F"><font size="2">(20:11:19)</font> <b>jillr:</b></font> <br/>definitely not<br/>
+<font color="#A82F2F"><font size="2">(21:01:57)</font> <b>flowerysong:</b></font> <br/>tremble: jillr: Definitely a change in AWS, it hit us little bit ago (in one region.) https://gist.github.com/flowerysong/c6f19309b22f20e82b8a247dd3143105<br/>
+<font color="#A82F2F"><font size="2">(21:02:41)</font> <b>flowerysong:</b></font> <br/>I fixed our use by overriding the default: https://bitbucket.org/its-application-delivery/ansible-aws/commits/226d130d<br/>
+<font color="#A82F2F"><font size="2">(21:03:22)</font> <b>jillr:</b></font> <br/>flowerysong: aha, thanks much!<br/>
+<font color="#062585"><font size="2">(21:03:26)</font> <b>***tremble</b></font> looks *so* surprised<br/>
+<font color="#A82F2F"><font size="2">(21:04:30)</font> <b>jillr:</b></font> <br/>I look forward to probably adding yet another nested if to this module<br/>
+<font color="#A82F2F"><font size="2">(21:04:55)</font> <b>jillr:</b></font> <br/>after lunch though<br/>
+<font color="#A82F2F"><font size="2">(21:06:14)</font> <b>flowerysong:</b></font> <br/>It was during the whole collection upheaval so I didn&apos;t open a bug in ansible/ansible, and then I forgot about it.<br/>
+</body></html>

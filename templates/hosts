@@ -1,0 +1,29 @@
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+
+##### labs #####
+### rhcsa8 ###
+192.168.122.100 alpha alpha.example.com
+192.168.122.101 betha betha.example.com
+
+### others ###
+192.168.122.5 centos centOS
+192.168.122.6 fedora
+
+### ansible ###
+# controllers #
+192.168.122.110 anc0
+
+# nodes # 
+192.168.122.120 ann0
+192.168.122.121 ann1
+192.168.122.122 ann2
+192.168.122.123 ann3
+192.168.122.124 ann4
+
+### high availability cluster ###
+192.168.122.130 cl0
+192.168.122.131 cl1
+192.168.122.132 cl2
+
+

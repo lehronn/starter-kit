@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<FileZilla3 version="3.46.3" platform="*nix">
+	<Layout Builddate="2020-01-28" Buildtime="00:00:00">
+		<Resources>
+			<xrc file="storj.xrc" date="1556825596" />
+			<xrc file="netconfwizard.xrc" date="1556825600" />
+			<xrc file="certificate.xrc" date="1556825596" />
+			<xrc file="settings.xrc" date="1565718036" />
+			<xrc file="dialogs.xrc" date="1567827004" />
+		</Resources>
+		<Language id="pl_PL" date="1580236500">
+			<Font font="Cantarell 11" width="834" height="19" />
+		</Language>
+	</Layout>
+</FileZilla3>

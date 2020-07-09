@@ -1,0 +1,201 @@
+<html><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>Conversation with 2345422802147713 at nie, 17 maj 2020, 22:16:11 on mateusz.stomski (facebook)</title></head><body><h3>Conversation with 2345422802147713 at nie, 17 maj 2020, 22:16:11 on mateusz.stomski (facebook)</h3>
+<font color="#A82F2F"><font size="2">(22:16:10)</font> <b>Michael Grandson:</b></font> <br/>panie teraz 14dni kwarantany jako ze byles w sosnowcu - zagranica :P<br/>
+<font color="#16569E"><font size="2">(22:16:40)</font> <b>Mateusz Stomski:</b></font> <br/>dałem radę się przetransportować ;p<br/>
+<font color="#A82F2F"><font size="2">(22:16:47)</font> <b>Michael Grandson:</b></font> <br/>kurcze wstalem a mysle pojade w gory, jako ze juz pozno bylo to mowie a podjade na skrzczne<br/>
+<font color="#A82F2F"><font size="2">(22:17:13)</font> <b>Michael Grandson:</b></font> <br/>ale jak dojechalem na miejsce zobaczylem tlum ludzi wiecej niz na targu to wrocilem i poszedlem na rower :P<br/>
+<font color="#16569E"><font size="2">(22:17:21)</font> <b>Mateusz Stomski:</b></font> <br/>zrobiłem konfigurację FTP za pomocą templejtu i kurła ansible nie umie mi go znaleźć bo szuka w innych katalogach -_- a w google nic nie ma w temacie. tak jakby to działało z palca wszystkim xd<br/>
+<font color="#16569E"><font size="2">(22:17:45)</font> <b>Mateusz Stomski:</b></font> <br/>przynajmniej się przejechałeś ;p<br/>
+<font color="#16569E"><font size="2">(22:17:57)</font> <b>Mateusz Stomski:</b></font> <br/>ja dzisiaj stawiki i ten trójkąt<br/>
+<font color="#A82F2F"><font size="2">(22:17:58)</font> <b>Michael Grandson:</b></font> <br/>j2 template?<br/>
+<font color="#16569E"><font size="2">(22:18:01)</font> <b>Mateusz Stomski:</b></font> <br/>tak<br/>
+<font color="#A82F2F"><font size="2">(22:18:19)</font> <b>Michael Grandson:</b></font> <br/>kurcze nie apmeitam jak sander to mial ale<br/>
+<font color="#16569E"><font size="2">(22:18:29)</font> <b>Mateusz Stomski:</b></font> <br/>wszystko by grało. ale ansible szuka tego w /role/tasks/templates a nie w /role/templates<br/>
+<font color="#16569E"><font size="2">(22:18:49)</font> <b>Mateusz Stomski:</b></font> <br/>nawet mi defaultsy działają bez zająknięcia xd<br/>
+<font color="#16569E"><font size="2">(22:18:54)</font> <b>Mateusz Stomski:</b></font> <br/>a to nie<br/>
+<font color="#A82F2F"><font size="2">(22:19:34)</font> <b>Michael Grandson:</b></font> <br/>holender ma to chyab wszytkow katalogu lab<br/>
+<font color="#16569E"><font size="2">(22:21:05)</font> <b>Mateusz Stomski:</b></font> <br/>a ta cała jinja to pic na wodę, dwa lata temu uczyłem się symphony to musiałem opanować twiga który był mega z dupy<br/>
+<font color="#A82F2F"><font size="2">(22:21:08)</font> <b>Michael Grandson:</b></font> <br/>juz ci podsylam<br/>
+<font color="#A82F2F"><font size="2">(22:21:16)</font> <b>Michael Grandson:</b></font> <br/>j2 template file for apache httpd:
+file name: https.j2
+content:
+
+listen {{ ansible_all_ipv4_addresses }}:443
+NameVirtualHost {{ ansible_fqdn }}
+
+&lt;virtualHost {{ ansible_fqdn }}:443&gt;
+ ServerName {{ ansible_fqdn }
+ DocumentRoot /var/www/html
+ SSLEngine on
+ SSLCertificateFile /etc/httpd/conf.d/ssl/server.crt
+ SSLCertificateKeyFile /etc/httpd/conf.d/ssl.server.key
+&lt;/VirtualHost&gt;<br/>
+<font color="#16569E"><font size="2">(22:21:17)</font> <b>Mateusz Stomski:</b></font> <br/>a sam używałem i wdrażałem puga w projektach<br/>
+<font color="#16569E"><font size="2">(22:21:32)</font> <b>Mateusz Stomski:</b></font> <br/>jinja2 w ansiblu to w sumie tylko 3 znaczniki<br/>
+<font color="#A82F2F"><font size="2">(22:21:33)</font> <b>Michael Grandson:</b></font> <br/>playbook
+filename: configure_web.yml
+content:
+---
+- shell:
+   rpm -q httpd
+  register: rpm_check
+  failed_when: rpm_check.rc == 1
+
+- block:
+
+  - get_url:
+     url: &quot;{{ https_url }}&quot;
+     dest: /etc/httpd/conf.d/
+
+  - file:
+   path: /etc/httpd/conf.d/ssl
+   state: directory
+   mode: 0775
+
+  - template:
+   src: https.j2
+   dest: /etc/httpd.conf.d/ssl.conf
+   owner: root
+   group: root
+   mode: 0755
+
+  - unarchive:
+   src: &quot;{{ ssl_uri }}&quot;
+   dest: /etc/httpd/conf.d/ssl/
+   copy: no
+  notify:
+   - restart_services
+
+  - copy:
+     content: &quot;{{ ansible_fqdn }} ({{ ansible_default_ipv4.address }}) has been customized by ansible\n&quot;
+     dest: /var/www/html/index.html
+
+ when:
+  rpm_check.rc == 0
+***<br/>
+<font color="#16569E"><font size="2">(22:22:23)</font> <b>Mateusz Stomski:</b></font> <br/>no i Michał pytanie<br/>
+<font color="#A82F2F"><font size="2">(22:22:30)</font> <b>Michael Grandson:</b></font> <br/>podaje te sekcje w block
+
+ - template:
+   src: https.j2
+   dest: /etc/httpd.conf.d/ssl.conf
+   owner: root
+   group: root
+   mode: 0755<br/>
+<font color="#16569E"><font size="2">(22:22:44)</font> <b>Mateusz Stomski:</b></font> <br/>gdzie leżą pliki? playbook i ten template? i czy to jest w roli czy nie?<br/>
+<font color="#A82F2F"><font size="2">(22:23:01)</font> <b>Michael Grandson:</b></font> <br/>ma jakis lab5 czy ctam lab<br/>
+<font color="#16569E"><font size="2">(22:23:12)</font> <b>Mateusz Stomski:</b></font> <br/>bo ja bez roli i playbook nie leży w tasks... to takie example na google widziałem ;p <br/>
+<font color="#16569E"><font size="2">(22:23:33)</font> <b>Mateusz Stomski:</b></font> <br/>i to może działać. ale ja to chce już w roli mieć<br/>
+<font color="#16569E"><font size="2">(22:23:45)</font> <b>Mateusz Stomski:</b></font> <br/>ja jak ten template przeniose do tasks to tez działa<br/>
+<font color="#16569E"><font size="2">(22:24:13)</font> <b>Mateusz Stomski:</b></font> <br/>a wszystkie example co znajduje w googlach to są takie mega proste. jak cep<br/>
+<font color="#16569E"><font size="2">(22:24:25)</font> <b>Mateusz Stomski:</b></font> <br/>cały projekt się składa z 3 plików xd<br/>
+<font color="#16569E"><font size="2">(22:24:38)</font> <b>Mateusz Stomski:</b></font> <br/>bez zmiennych, bez ról<br/>
+<font color="#A82F2F"><font size="2">(22:24:49)</font> <b>Michael Grandson:</b></font> <br/>a walsnie zamiast google korzystales z yahoo? google juz na sile wszystko z anagielskiego tlumaczy<br/>
+<font color="#A82F2F"><font size="2">(22:24:58)</font> <b>Michael Grandson:</b></font> <br/>lub ustaw sobie jezyk wyszukiwania angielski<br/>
+<font color="#A82F2F"><font size="2">(22:27:54)</font> <b>Michael Grandson:</b></font> <br/>Roles expect files to be in certain directory names. Roles must include at least one of these directories, however it is perfectly fine to exclude any which are not being used. When in use, each directory must contain a main.yml file, which contains the relevant content:
+
+    tasks - contains the main list of tasks to be executed by the role.
+    handlers - contains handlers, which may be used by this role or even anywhere outside this role.
+    defaults - default variables for the role (see Using Variables for more information).
+    vars - other variables for the role (see Using Variables for more information).
+    files - contains files which can be deployed via this role.
+    templates - contains templates which can be deployed via this role.
+    meta - defines some meta data for this role. See below for more details.<br/>
+<font color="#A82F2F"><font size="2">(22:28:19)</font> <b>Michael Grandson:</b></font> <br/>z tego co jest w domumentacji napisane to musisz miec katalog templates<br/>
+<font color="#16569E"><font size="2">(22:28:31)</font> <b>Mateusz Stomski:</b></font> <br/>no właśnie mam<br/>
+<font color="#A82F2F"><font size="2">(22:28:33)</font> <b>Michael Grandson:</b></font> <br/>ewentualnie w main/yml zdefiniowac<br/>
+<font color="#16569E"><font size="2">(22:28:52)</font> <b>Mateusz Stomski:</b></font> <br/>no i tego nie wiem właśnie bo nigdzie nie znalazłem przykładu jak to ma być zdefiniowane<br/>
+<font color="#16569E"><font size="2">(22:29:29)</font> <b>Mateusz Stomski:</b></font> <br/>tak wygląda w playbooku:<br/>
+<font color="#16569E"><font size="2">(22:29:31)</font> <b>Mateusz Stomski:</b></font> <br/>  - name: setting up vsftpd with template file<br/>    template:<br/>      src: templates/vsftpd.j2<br/>      dest: /etc/vsftpd/vsftpd.conf<br/>      owner: &quot;{{ ftp_user }}&quot;<br/>      group: &quot;{{ ftp_group }}&quot;<br/>      mode: 0600<br/>      backup: true<br/>
+<font color="#16569E"><font size="2">(22:29:49)</font> <b>Mateusz Stomski:</b></font> <br/>próbowałem i    src: templates/vsftpd.j2 i    src: vsftpd.j2<br/>
+<font color="#16569E"><font size="2">(22:30:23)</font> <b>Mateusz Stomski:</b></font> <br/>fatal: [ann3]: FAILED! =&gt; {&quot;changed&quot;: false, &quot;msg&quot;: &quot;Could not find or access 'vsftpd.j2'\nSearched in:\n\t/home/user/Ansible/inventories/1.development/roles/ftp/tasks/templates/vsftpd.j2\n\t/home/user/Ansible/inventories/1.development/roles/ftp/tasks/vsftpd.j2\n\t/home/user/Ansible/inventories/1.development/roles/ftp/tasks/templates/vsftpd.j2\n\t/home/user/Ansible/inventories/1.development/roles/ftp/tasks/vsftpd.j2 on the Ansible Controller.\nIf you are using a module and expect the file to exist on the remote, see the remote_src option&quot;}<br/><br/>
+<font color="#16569E"><font size="2">(22:30:34)</font> <b>Mateusz Stomski:</b></font> <br/>a jak widzisz on szuka tylko w katalogu tasks<br/>
+<font color="#A82F2F"><font size="2">(22:31:52)</font> <b>Michael Grandson:</b></font> <br/>a tak  z ciekawosci jakie uprawnienia ma ten template j2?<br/>
+<font color="#A82F2F"><font size="2">(22:32:02)</font> <b>Michael Grandson:</b></font> <br/>rwx<br/>
+<font color="#16569E"><font size="2">(22:32:14)</font> <b>Mateusz Stomski:</b></font> <br/>standardowe rw<br/>
+<font color="#16569E"><font size="2">(22:32:34)</font> <b>Mateusz Stomski:</b></font> <br/>problemem nie są accesy bo on w ogóle omija katalog /templates<br/>
+<font color="#16569E"><font size="2">(22:33:09)</font> <b>Mateusz Stomski:</b></font> <br/>to faktycznie wygląda tak jakby w /templates/main.yml trzeba by dodać jakiś import<br/>
+<font color="#A82F2F"><font size="2">(22:34:26)</font> <b>Michael Grandson:</b></font> <br/>searched in:
+/home/user/Ansible/inventories/1.development/roles/ftp/tasks/templates/vsftpd.j2
+/home/user/Ansible/inventories/1.development/roles/ftp/tasks/vsftpd.j2
+/home/user/Ansible/inventories/1.development/roles/ftp/tasks/templates/vsftpd.j2
+/home/user/Ansible/inventories/1.development/roles/ftp/tasks/vsftpd.j2 on the Ansible Controller.
+If you are using a module and expect the file to exist on the remote, see the remote_src option&quot;}<br/>
+<font color="#A82F2F"><font size="2">(22:34:38)</font> <b>Michael Grandson:</b></font> <br/>on ci przelatuje teraz te 4 sciezki<br/>
+<font color="#A82F2F"><font size="2">(22:35:55)</font> <b>Michael Grandson:</b></font> <br/>czytjac te doc to ja rozumiem tak jak nie amsz utworzonych tych katalogowó co sa standardem to musisz plik main zrobic i w nim definowac sciezki plików<br/>
+<font color="#A82F2F"><font size="2">(22:36:30)</font> <b>Michael Grandson:</b></font> <br/>i to masz chyab rpzykalda tego main<br/>
+<font color="#A82F2F"><font size="2">(22:36:31)</font> <b>Michael Grandson:</b></font> <br/># roles/example/tasks/main.yml
+- name: added in 2.4, previously you used 'include'
+  import_tasks: redhat.yml
+  when: ansible_facts['os_family']|lower == 'redhat'<br/>
+<font color="#16569E"><font size="2">(22:36:54)</font> <b>Mateusz Stomski:</b></font> <br/>no tak tylko tutaj masz przykład dla playbooków a nie dla templatów :)<br/>
+<font color="#16569E"><font size="2">(22:37:17)</font> <b>Mateusz Stomski:</b></font> <br/>może na galaxy zobacze jak ludzie to robią<br/>
+<font color="#16569E"><font size="2">(22:39:09)</font> <b>Mateusz Stomski:</b></font> <br/>ta dokumentacja mi się strasznie nie podoba<br/>
+<font color="#A82F2F"><font size="2">(22:39:09)</font> <b>Michael Grandson:</b></font> <br/>roli jeszcze z holenderm nie rpzerabialem ale z tego co widze w tym doku 
+
+to mzoe do tego main sprobowac wrzucic:
+
+name: Template a file to /etc/files.conf
+  template:
+    src: /mytemplates/foo.j2<br/>
+<font color="#16569E"><font size="2">(22:39:09)</font> <b>Mateusz Stomski:</b></font> <br/>ta dokumentacja mi się strasznie nie podoba<br/>
+<font color="#A82F2F"><font size="2">(22:40:40)</font> <b>Michael Grandson:</b></font> <br/>to widzialem mema: man date na linuxie po czym przyklad ta ze stackoverflow :P<br/>
+<font color="#16569E"><font size="2">(22:40:52)</font> <b>Mateusz Stomski:</b></font> <br/>xd<br/>
+<font color="#16569E"><font size="2">(22:41:08)</font> <b>Mateusz Stomski:</b></font> <br/>zrobiłem tak jak podałeś tylko poprawiłem pod siebie i dalej szuka w tasks<br/>
+<font color="#16569E"><font size="2">(22:41:47)</font> <b>Mateusz Stomski:</b></font> <br/>jak patrze po galaxy to mało kto z tego korzysta chyba w taki sposób<br/>
+<font color="#16569E"><font size="2">(22:42:17)</font> <b>Mateusz Stomski:</b></font> <br/>https://github.com/geerlingguy/ansible-role-nfs/tree/master/templates<br/>
+<font color="#A82F2F"><font size="2">(22:45:26)</font> <b>Michael Grandson:</b></font> <br/>z docka 
+
+This designates the following behaviors, for each role ‘x’:
+
+Any copy, script, template or include tasks (in the role) can reference files in roles/x/{files,templates,tasks}/ (dir depends on task) without having to path them relatively or absolutely.<br/>
+<font color="#A82F2F"><font size="2">(22:46:15)</font> <b>Michael Grandson:</b></font> <br/>czyli co jak to u Ciebie mialo by byc roles/nfs/templates/[dirdla tasku]/nazwaTempaltki.j2<br/>
+<font color="#16569E"><font size="2">(22:48:08)</font> <b>Mateusz Stomski:</b></font> <br/>tego co wkleiłes to właśnie nie rozumiem. widziałem to w manualu oficjalnym.<br/>
+<font color="#16569E"><font size="2">(22:48:29)</font> <b>Mateusz Stomski:</b></font> <br/>ale... śmiesznie. jak wrzuce ten task do main.yml to działa<br/>
+<font color="#16569E"><font size="2">(22:48:41)</font> <b>Mateusz Stomski:</b></font> <br/>a jak jest w innym tasku niż /tasks/main.yml<br/>
+<font color="#16569E"><font size="2">(22:48:44)</font> <b>Mateusz Stomski:</b></font> <br/>to nie działa<br/>
+<font color="#A82F2F"><font size="2">(22:50:12)</font> <b>Michael Grandson:</b></font> <br/>tj jak masz /tasks/[tu nazwe towjego] to niedziala?<br/>
+<font color="#A82F2F"><font size="2">(22:50:55)</font> <b>Michael Grandson:</b></font> <br/>Roles expect files to be in certain directory names. 
+
+
+    tasks - contains the main list of tasks to be executed by the role.
+    handlers - contains handlers, which may be used by this role or even anywhere outside this role.
+    defaults - default variables for the role (see Using Variables for more information).
+    vars - other variables for the role (see Using Variables for more information).
+    files - contains files which can be deployed via this role.
+    templates - contains templates which can be deployed via this role.
+    meta - defines some meta data for this role. See below for more details.<br/>
+<font color="#A82F2F"><font size="2">(22:51:44)</font> <b>Michael Grandson:</b></font> <br/>ja to oruzmiem ze jest troche jak struktua php/htmla masz plik inde i pozniej drzewo katalogów co musi byc zdefiniowane<br/>
+<font color="#16569E"><font size="2">(22:54:16)</font> <b>Mateusz Stomski:</b></font> <br/>no jak mam swoją nazwę to nie działa. a jak role/tasks/main.yml<br/>
+<font color="#16569E"><font size="2">(22:54:21)</font> <b>Mateusz Stomski:</b></font> <br/>to jest ok<br/>
+<font color="#16569E"><font size="2">(22:55:03)</font> <b>Mateusz Stomski:</b></font> <br/>jak zdążę jeszcze dzisiaj zrobić usuwanie ftpa i będzie to działać wrzucę całość na gita to sobie zobaczysz jak będziesz chciał<br/>
+<font color="#16569E"><font size="2">(22:55:42)</font> <b>Mateusz Stomski:</b></font> <br/>mam tam kilka rzeczy. filtr, defaults,  templata :) zmiany plików tekstowych<br/>
+<font color="#A82F2F"><font size="2">(22:56:27)</font> <b>Michael Grandson:</b></font> <br/>a patrz na to co jest w doku &quot;When in use, each directory must contain a main.yml &quot;<br/>
+<font color="#A82F2F"><font size="2">(22:56:39)</font> <b>Michael Grandson:</b></font> <br/>ten main.yml jest obowiazkowy<br/>
+<font color="#A82F2F"><font size="2">(22:57:57)</font> <b>Michael Grandson:</b></font> <br/>czyli co bys muail miec u sienie main
+
+tasks/main.yml
+
+
+w ktorym masz
+- name: added in 2.4, previously you used 'include'
+  import_tasks: [sciezka do twojego].yml<br/>
+<font color="#16569E"><font size="2">(22:58:20)</font> <b>Mateusz Stomski:</b></font> <br/>mam main i w tasks i w template<br/>
+<font color="#16569E"><font size="2">(22:58:44)</font> <b>Mateusz Stomski:</b></font> <br/>a import tasks... dla mnie kosmos nie używam ;p<br/>
+<font color="#16569E"><font size="2">(22:59:22)</font> <b>Mateusz Stomski:</b></font> <br/>inaczej - nie mam potrzeby. każdy mój playbook jest samowystarczalny i nie ma zależności<br/>
+<font color="#16569E"><font size="2">(23:00:06)</font> <b>Mateusz Stomski:</b></font> <br/>jak napiszę parę tych ról i będzię to całe fajnie działać to będę poprawiał. refaktoryzował ;)<br/>
+<font color="#16569E"><font size="2">(23:00:24)</font> <b>Mateusz Stomski:</b></font> <br/>i tak nie robię tego do końca dobrze bo powinienem robić zmienne w zależności od systemu<br/>
+<font color="#16569E"><font size="2">(23:00:37)</font> <b>Mateusz Stomski:</b></font> <br/>np w centos apache nazywa się httpd<br/>
+<font color="#16569E"><font size="2">(23:00:43)</font> <b>Mateusz Stomski:</b></font> <br/>w debianie po prostu apache<br/>
+<font color="#A82F2F"><font size="2">(23:01:12)</font> <b>Michael Grandson:</b></font> <br/>a cos z innej eczki, tez mi zaczelo huczeć w aucie tak jak Tobie. wymiana łozyska i spokoj, przy 180 i zakretach jest cisza :D<br/>
+<font color="#16569E"><font size="2">(23:01:19)</font> <b>Mateusz Stomski:</b></font> <br/>jak puścisz playbook z modułem package to zaskoczą oba. ale paczka httpd będzie tylko na jednym<br/>
+<font color="#16569E"><font size="2">(23:01:51)</font> <b>Mateusz Stomski:</b></font> <br/>ja łożysko też musiałem wymienić wtedy ale nie wiem czy to było to<br/>
+<font color="#A82F2F"><font size="2">(23:02:26)</font> <b>Michael Grandson:</b></font> <br/>u mnie pomoglo, jak mozna wieidzec ile za to Cie skasowali<br/>
+<font color="#16569E"><font size="2">(23:02:57)</font> <b>Mateusz Stomski:</b></font> <br/>niestety ci nie powiem. to było dawno a przy okazji robili kilka rzeczy chyba<br/>
+<font color="#16569E"><font size="2">(23:03:09)</font> <b>Mateusz Stomski:</b></font> <br/>więc nie dojdę do ceny<br/>
+<font color="#16569E"><font size="2">(23:03:16)</font> <b>Mateusz Stomski:</b></font> <br/>ale mechanicy tani nie są ;\<br/>
+<font color="#A82F2F"><font size="2">(23:03:52)</font> <b>Michael Grandson:</b></font> <br/>spoko, ja tam u siebe jestem wstanie poeksperymentowac z czesciami jako ze sam to wymieniam<br/>
+<font color="#A82F2F"><font size="2">(23:04:02)</font> <b>Michael Grandson:</b></font> <br/>na razie zle nie wychodze :P<br/>
+<font color="#16569E"><font size="2">(00:49:23)</font> <b>Mateusz Stomski:</b></font> <br/>ftp zrobiony i jest dostępne z mojej fedory. do teraz siedziałem i to naprawiałem xd<br/>
+<font color="#16569E"><font size="2">(00:49:27)</font> <b>Mateusz Stomski:</b></font> <br/><img src='e32b1e7da267a10c76cf3f8c03b3ff6eecac8f39.png' alt='' /><br/>
+<font size="2">(00:52:27)</font><b> <br/>Konto zostało rozłączone i użytkownik nie jest już obecny w tej konferencji. Po nawiązaniu połączenia nastąpi ponowne dołączenie.</b><br/>
+</body></html>

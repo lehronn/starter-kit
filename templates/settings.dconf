@@ -1,0 +1,747 @@
+[com/gexperts/Tilix]
+prompt-on-close=true
+quake-hide-headerbar=false
+quake-specific-monitor=0
+recent-session-files=['/home/soda2/ansible lab tilix.json']
+sidebar-on-right=false
+theme-variant='dark'
+use-tabs=false
+
+[com/gexperts/Tilix/profiles]
+list=['2b7c4080-0ddd-46c5-8f23-563fd3ba789d', '2f18607e-7e1f-4fc4-9356-96c73f212dd1', '27c142ca-8e70-491e-b23d-af56c3d622b7']
+
+[com/gexperts/Tilix/profiles/27c142ca-8e70-491e-b23d-af56c3d622b7]
+background-transparency-percent=15
+dim-transparency-percent=32
+palette=['#4E4E9A9A0606', '#CCCC00000000', '#4E4E9A9A0606', '#C4C4A0A00000', '#34346565A4A4', '#757550507B7B', '#060698209A9A', '#D3D3D7D7CFCF', '#555557575353', '#EFEF29292929', '#8A8AE2E23434', '#FCFCE9E94F4F', '#72729F9FCFCF', '#ADAD7F7FA8A8', '#3434E2E2E2E2', '#EEEEEEEEECEC']
+use-theme-colors=false
+visible-name='nodes'
+
+[com/gexperts/Tilix/profiles/2b7c4080-0ddd-46c5-8f23-563fd3ba789d]
+background-transparency-percent=16
+dim-transparency-percent=31
+login-shell=false
+palette=['#000000', '#AA0000', '#00AA00', '#AA5400', '#0000AA', '#AA00AA', '#00AAAA', '#AAAAAA', '#545454', '#FF5454', '#54FF54', '#FFFF54', '#5454FF', '#FF54FF', '#54FFFF', '#FFFFFF']
+use-theme-colors=true
+visible-name='Default'
+
+[com/gexperts/Tilix/profiles/2f18607e-7e1f-4fc4-9356-96c73f212dd1]
+background-transparency-percent=15
+badge-color='#A4A400000000'
+badge-color-set=true
+dim-transparency-percent=32
+foreground-color='#EDEDD4D40000'
+use-theme-colors=false
+visible-name='controlers'
+
+[org/fedorahosted/background-logo-extension]
+logo-border=uint32 44
+logo-opacity=uint32 255
+logo-size=10.321100917431192
+
+[org/gnome/Disks]
+image-dir-uri='file:///home/soda2/Pobrane'
+
+[org/gnome/Lollypop]
+dark-ui=false
+music-uris=['file:///home/soda2/Muzyka', 'file:///mnt/Media/Muzyka', 'file:///mnt/Media/Flac']
+network-access=true
+network-access-acl=131070
+notification-flag=3
+open-with='{"inode/directory": "nautilus --new-window %U"}'
+volume-rate=1.0
+window-maximized=true
+window-position=[0, 27]
+window-size=[1316, 855]
+
+[org/gnome/PasswordSafe]
+last-opened-database='file:///mnt/Windows/Users/soda2/Dysk%20Google/zbytatencyjny/klucze.kdbx'
+last-opened-list=['file:///mnt/Windows/Users/soda2/Dysk%20Google/zbytatencyjny/klucze.kdbx']
+unlock-method='password'
+window-size=[1050, 600]
+
+[org/gnome/Polari/Accounts/idle/irc/soda20]
+identify-command='IDENTIFY'
+identify-username='soda2[m]'
+identify-username-supported=true
+
+[org/gnome/Totem]
+active-plugins=['screenshot', 'autoload-subtitles', 'skipto', 'save-file', 'open-directory', 'recent', 'vimeo', 'movie-properties', 'media-player-keys', 'rotation', 'apple-trailers', 'variable-rate', 'screensaver']
+repeat=true
+subtitle-encoding='WINDOWS-1250'
+
+[org/gnome/Weather]
+automatic-location=false
+locations=[<(uint32 2, <('Katowice', 'EPKT', true, [(0.87673705510072075, 0.33219432847848984)], [(0.87731884315358044, 0.33190345190535253)])>)>]
+
+[org/gnome/boxes]
+first-run=false
+view='icon-view'
+window-maximized=false
+window-position=[352, 194]
+window-size=[1104, 745]
+
+[org/gnome/calculator]
+accuracy=9
+angle-units='degrees'
+base=10
+button-mode='basic'
+number-format='automatic'
+show-thousands=false
+show-zeroes=false
+source-currency=''
+source-units='degree'
+target-currency=''
+target-units='radian'
+window-position=(937, 645)
+word-size=64
+
+[org/gnome/calendar]
+active-view='month'
+window-maximized=false
+window-position=(750, 311)
+window-size=(800, 600)
+
+[org/gnome/cheese]
+burst-delay=1000
+camera='UVC Camera (046d:09a5)'
+photo-x-resolution=640
+photo-y-resolution=480
+video-x-resolution=640
+video-y-resolution=480
+
+[org/gnome/clocks]
+world-clocks=@aa{sv} []
+
+[org/gnome/control-center]
+last-panel='user-accounts'
+
+[org/gnome/desktop/app-folders]
+folder-children=['Utilities', 'YaST']
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'gnome-system-monitor.desktop', 'gucharmap.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Calculator.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.Screenshot.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'simple-scan.desktop', 'vinagre.desktop', 'yelp.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[org/gnome/desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/gnome/adwaita-timed.xml'
+primary-color='#3465a4'
+secondary-color='#000000'
+
+[org/gnome/desktop/calendar]
+show-weekdate=false
+
+[org/gnome/desktop/datetime]
+automatic-timezone=true
+
+[org/gnome/desktop/file-sharing]
+require-password='always'
+
+[org/gnome/desktop/input-sources]
+current=uint32 0
+sources=[('xkb', 'pl')]
+xkb-options=['lv3:ralt_switch']
+
+[org/gnome/desktop/interface]
+gtk-im-module='gtk-im-context-simple'
+toolkit-accessibility=false
+
+[org/gnome/desktop/media-handling]
+autorun-x-content-ignore=@as []
+autorun-x-content-open-folder=@as []
+autorun-x-content-start-app=['x-content/unix-software', 'x-content/audio-player']
+
+[org/gnome/desktop/notifications]
+application-children=['org-freedesktop-problems-applet', 'firefox', 'org-gnome-software', 'org-gnome-terminal', 'org-gnome-gedit', 'pidgin', 'org-gnome-passwordsafe', 'com-gexperts-tilix', 'org-gnome-nautilus', 'org-gnome-gitg', 'typora', 'org-gnome-screenshot', 'org-gnome-totem', 'org-gnome-polari', 'org-gnome-fractal', 'xdg-desktop-portal-gtk', 'org-gnome-lollypop', 'org-gnome-maps', 'org-gnome-evolution-alarm-notify', 'calibre-gui', 'org-gnome-chromegnomeshell', 'org-qbittorrent-qbittorrent', 'rhythmbox', 'filezilla', 'org-remmina-remmina', 'com-visualstudio-code', 'flameshot', 'org-gnome-fileroller', 'org-gimp-gimp', 'org-signal-signal']
+show-banners=true
+
+[org/gnome/desktop/notifications/application/calibre-gui]
+application-id='calibre-gui.desktop'
+
+[org/gnome/desktop/notifications/application/com-gexperts-tilix]
+application-id='com.gexperts.Tilix.desktop'
+
+[org/gnome/desktop/notifications/application/com-visualstudio-code]
+application-id='com.visualstudio.code.desktop'
+
+[org/gnome/desktop/notifications/application/filezilla]
+application-id='filezilla.desktop'
+
+[org/gnome/desktop/notifications/application/firefox]
+application-id='firefox.desktop'
+
+[org/gnome/desktop/notifications/application/flameshot]
+application-id='flameshot.desktop'
+
+[org/gnome/desktop/notifications/application/org-freedesktop-problems-applet]
+application-id='org.freedesktop.problems.applet.desktop'
+
+[org/gnome/desktop/notifications/application/org-gimp-gimp]
+application-id='org.gimp.GIMP.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-chromegnomeshell]
+application-id='org.gnome.ChromeGnomeShell.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-evolution-alarm-notify]
+application-id='org.gnome.Evolution-alarm-notify.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-fileroller]
+application-id='org.gnome.FileRoller.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-fractal]
+application-id='org.gnome.Fractal.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-gedit]
+application-id='org.gnome.gedit.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-gitg]
+application-id='org.gnome.gitg.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-lollypop]
+application-id='org.gnome.Lollypop.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-maps]
+application-id='org.gnome.Maps.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-passwordsafe]
+application-id='org.gnome.PasswordSafe.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-polari]
+application-id='org.gnome.Polari.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-screenshot]
+application-id='org.gnome.Screenshot.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-software]
+application-id='org.gnome.Software.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-terminal]
+application-id='org.gnome.Terminal.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-totem]
+application-id='org.gnome.Totem.desktop'
+
+[org/gnome/desktop/notifications/application/org-qbittorrent-qbittorrent]
+application-id='org.qbittorrent.qBittorrent.desktop'
+
+[org/gnome/desktop/notifications/application/org-remmina-remmina]
+application-id='org.remmina.Remmina.desktop'
+
+[org/gnome/desktop/notifications/application/org-signal-signal]
+application-id='org.signal.Signal.desktop'
+
+[org/gnome/desktop/notifications/application/pidgin]
+application-id='pidgin.desktop'
+
+[org/gnome/desktop/notifications/application/rhythmbox]
+application-id='rhythmbox.desktop'
+
+[org/gnome/desktop/notifications/application/typora]
+application-id='typora.desktop'
+
+[org/gnome/desktop/notifications/application/xdg-desktop-portal-gtk]
+application-id='xdg-desktop-portal-gtk.desktop'
+
+[org/gnome/desktop/peripherals/keyboard]
+numlock-state=true
+
+[org/gnome/desktop/peripherals/mouse]
+natural-scroll=true
+
+[org/gnome/desktop/peripherals/touchpad]
+two-finger-scrolling-enabled=true
+
+[org/gnome/desktop/privacy]
+disable-microphone=false
+report-technical-problems=true
+
+[org/gnome/desktop/remote-access]
+authentication-methods=['vnc']
+prompt-enabled=false
+view-only=false
+vnc-password='YVRFTjMyc3M='
+
+[org/gnome/desktop/screensaver]
+color-shading-type='solid'
+lock-delay=uint32 0
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/gnome/adwaita-timed.xml'
+primary-color='#3465a4'
+secondary-color='#000000'
+
+[org/gnome/desktop/search-providers]
+sort-order=['org.gnome.Contacts.desktop', 'org.gnome.Documents.desktop', 'org.gnome.Nautilus.desktop']
+
+[org/gnome/desktop/session]
+idle-delay=uint32 0
+
+[org/gnome/desktop/sound]
+event-sounds=true
+theme-name='__custom'
+
+[org/gnome/devhelp/state/main/contents]
+group-books-by-language=false
+
+[org/gnome/devhelp/state/main/window]
+height=500
+maximized=false
+width=1000
+
+[org/gnome/eog/ui]
+sidebar=false
+
+[org/gnome/eog/view]
+background-color='rgb(0,0,0)'
+use-background-color=true
+
+[org/gnome/evince/default]
+continuous=true
+dual-page=false
+dual-page-odd-left=false
+enable-spellchecking=true
+fullscreen=false
+inverted-colors=false
+show-sidebar=true
+sidebar-page='links'
+sidebar-size=148
+sizing-mode='automatic'
+window-ratio=(1.1113445378151261, 0.59672619047619047)
+
+[org/gnome/evolution-data-server]
+migrated=true
+network-monitor-gio-name=''
+
+[org/gnome/evolution-data-server/calendar]
+reminders-past=['642fabf927b7dc2b9c8bfe373d9763231187a196\n6d3a029919cc7db84de44841c6a00fb29ff12c58\n1587632400\n1587772800\n1587859200\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20190425\r\nDTEND;VALUE=DATE:20190426\r\nRRULE:FREQ=YEARLY\r\nDTSTAMP:20190425T122823Z\r\nUID:\r\n 65gjee34cosjgbb569ij2b9k64r36bb1coq3gb9m6cp3ee3664q3acpp60@google.com\r\nCREATED:20190425T122823Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20190425T122823Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:TENTATIVE\r\nSUMMARY:Urodziny Taty\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63691878503\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-P1DT15H\r\nX-EVOLUTION-ALARM-UID:6d3a029919cc7db84de44841c6a00fb29ff12c58\r\nEND:VALARM\r\nEND:VEVENT\r\n']
+
+[org/gnome/file-roller/dialogs/add]
+current-folder='file:///home/soda2'
+exclude-files=''
+exclude-folders=''
+include-files='*'
+no-symlinks=true
+selected-files=@as []
+update=false
+
+[org/gnome/file-roller/dialogs/new]
+default-extension='.7z'
+encrypt-header=false
+volume-size=0
+
+[org/gnome/file-roller/file-selector]
+show-hidden=false
+sidebar-size=168
+window-size=(840, 781)
+
+[org/gnome/file-roller/listing]
+list-mode='as-folder'
+name-column-width=250
+show-path=false
+sort-method='name'
+sort-type='ascending'
+
+[org/gnome/file-roller/ui]
+sidebar-width=200
+window-height=1006
+window-width=960
+
+[org/gnome/gedit/plugins]
+active-plugins=['drawspaces', 'time', 'textsize', 'terminal', 'sort', 'codecomment', 'multiedit', 'docinfo', 'spell', 'wordcompletion', 'charmap', 'quickhighlight', 'filebrowser', 'bracketcompletion', 'modelines', 'findinfiles']
+
+[org/gnome/gedit/plugins/drawspaces]
+draw-spaces=['space', 'tab', 'newline', 'nbsp', 'leading', 'text', 'trailing']
+
+[org/gnome/gedit/plugins/filebrowser]
+root='file:///'
+tree-view=true
+virtual-root='file:///home/soda2/DevOps/Fedora-Ansible/templates'
+
+[org/gnome/gedit/preferences/editor]
+background-pattern='none'
+display-right-margin=true
+scheme='cobalt'
+tabs-size=uint32 4
+wrap-last-split-mode='word'
+
+[org/gnome/gedit/preferences/ui]
+show-tabs-mode='auto'
+
+[org/gnome/gedit/state/window]
+bottom-panel-active-page='GeditTerminalPanel'
+bottom-panel-size=140
+side-panel-active-page='GeditWindowDocumentsPanel'
+side-panel-size=200
+size=(1139, 664)
+state=87168
+
+[org/gnome/gitg/preferences/history]
+default-selection='all-branches'
+reference-sort-order='last-activity'
+
+[org/gnome/gitg/preferences/interface]
+enable-monitoring=true
+use-gravatar=true
+
+[org/gnome/gitg/state/commit]
+paned-sidebar-position=360
+
+[org/gnome/gitg/state/history]
+paned-sidebar-position=200
+
+[org/gnome/gitg/state/window]
+size=(1146, 853)
+state=87168
+
+[org/gnome/gnome-screenshot]
+border-effect='none'
+delay=5
+include-border=true
+include-pointer=false
+last-save-directory='file:///home/soda2'
+
+[org/gnome/gnome-system-monitor]
+current-tab='resources'
+maximized=false
+show-dependencies=false
+show-whose-processes='user'
+window-state=(804, 539, 1093, 61)
+
+[org/gnome/gnome-system-monitor/disktreenew]
+col-6-visible=true
+col-6-width=0
+
+[org/gnome/gnome-system-monitor/proctree]
+col-15-visible=true
+col-15-width=113
+columns-order=[0, 1, 2, 3, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+sort-col=15
+sort-order=0
+
+[org/gnome/gthumb/browser]
+browser-sidebar-width=285
+fullscreen-sidebar='hidden'
+fullscreen-thumbnails-visible=false
+maximized=true
+properties-visible=false
+sidebar-sections=['GthFileProperties:expanded', 'GthFileComment:expanded', 'GthFileDetails:expanded', 'GthImageHistogram:expanded']
+sidebar-visible=true
+sort-inverse=false
+sort-type='file::mtime'
+startup-current-file='file:///home/soda2/Pobrane/iigrixvxp5aYN9ox7Gr1dfI_rhLRotWlLsCafjJqjEQ.png.webp'
+startup-location='file:///home/soda2/Pobrane'
+statusbar-visible=true
+thumbnail-list-visible=true
+viewer-sidebar='hidden'
+window-height=810
+window-width=1363
+
+[org/gnome/gthumb/data-migration]
+catalogs-2-10=true
+
+[org/gnome/gthumb/general]
+active-extensions=['23hq', 'bookmarks', 'burn_disc', 'catalogs', 'change_date', 'comments', 'contact_sheet', 'convert_format', 'desktop_background', 'edit_metadata', 'exiv2_tools', 'facebook', 'file_manager', 'find_duplicates', 'flicker', 'gstreamer_tools', 'gstreamer_utils', 'image_print', 'image_rotation', 'importer', 'jpeg_utils', 'list_tools', 'oauth', 'photo_importer', 'picasaweb', 'raw_files', 'red_eye_removal', 'rename_series', 'resize_images', 'search', 'selections', 'slideshow', 'terminal', 'webalbums']
+
+[org/gnome/login-screen]
+enable-fingerprint-authentication=true
+enable-password-authentication=true
+enable-smartcard-authentication=false
+
+[org/gnome/maps]
+last-viewed-location=[50.238532012337494, 19.046516418457031]
+map-type='MapsStreetSource'
+transportation-type='car'
+window-maximized=true
+zoom-level=12
+
+[org/gnome/mutter]
+center-new-windows=true
+
+[org/gnome/nautilus/compression]
+default-compression-format='zip'
+
+[org/gnome/nautilus/icon-view]
+captions=['size', 'none', 'none']
+default-zoom-level='large'
+
+[org/gnome/nautilus/list-view]
+default-column-order=['name', 'size', 'type', 'owner', 'group', 'permissions', 'where', 'date_modified', 'date_modified_with_time', 'date_accessed', 'recency', 'starred', 'detailed_type']
+default-visible-columns=['name', 'size', 'date_modified', 'starred']
+use-tree-view=true
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='icon-view'
+executable-text-activation='ask'
+search-filter-time-type='last_modified'
+search-view='list-view'
+show-create-link=true
+show-delete-permanently=true
+
+[org/gnome/nautilus/window-state]
+initial-size=(1038, 914)
+maximized=false
+sidebar-width=170
+
+[org/gnome/photos]
+window-maximized=true
+
+[org/gnome/polari]
+last-selected-channel={'account': <'/org/freedesktop/Telepathy/Account/idle/irc/soda20'>, 'channel': <'#fedora'>}
+saved-channel-list=[{'account': <'/org/freedesktop/Telepathy/Account/idle/irc/soda20'>, 'channel': <'#fedora'>}, {'account': <'/org/freedesktop/Telepathy/Account/idle/irc/soda20'>, 'channel': <'#fedora-workstation'>}, {'account': <'/org/freedesktop/Telepathy/Account/idle/irc/soda20'>, 'channel': <'#fedora-design'>}, {'account': <'/org/freedesktop/Telepathy/Account/idle/irc/soda20'>, 'channel': <'#fedora-pl'>}, {'account': <'/org/freedesktop/Telepathy/Account/idle/irc/soda20'>, 'channel': <'#fedora-planet'>}, {'account': <'/org/freedesktop/Telepathy/Account/idle/irc/soda20'>, 'channel': <'#'>}, {'account': <'/org/freedesktop/Telepathy/Account/idle/irc/soda20'>, 'channel': <'#NickServ'>}]
+window-maximized=false
+window-size=[1175, 819]
+
+[org/gnome/rhythmbox]
+maximized=true
+position=(0, 27)
+size=(1920, 1016)
+
+[org/gnome/rhythmbox/library]
+layout-filename='%tN - %tt'
+layout-path='%aa/%at'
+
+[org/gnome/rhythmbox/library/encoding]
+media-type='audio/x-vorbis'
+
+[org/gnome/rhythmbox/library/source]
+paned-position=429
+show-browser=true
+
+[org/gnome/rhythmbox/player]
+volume=1.0
+
+[org/gnome/rhythmbox/plugins]
+active-plugins=['cd-recorder', 'rb', 'generic-player', 'fmradio', 'mpris', 'dbus-media-server', 'mtpdevice', 'android', 'notification', 'ipod', 'iradio', 'audioscrobbler', 'mmkeys', 'power-manager', 'audiocd', 'artsearch', 'daap']
+seen-plugins=['cd-recorder', 'rb', 'im-status', 'replaygain', 'pythonconsole', 'fmradio', 'mpris', 'webremote', 'dbus-media-server', 'mtpdevice', 'lyrics', 'notification', 'grilo', 'magnatune', 'soundcloud', 'ipod', 'audioscrobbler', 'artsearch', 'daap', 'listenbrainz']
+
+[org/gnome/rhythmbox/plugins/audioscrobbler/Last.fm]
+scrobbling-enabled=true
+
+[org/gnome/rhythmbox/plugins/audioscrobbler/Libre.fm]
+scrobbling-enabled=true
+
+[org/gnome/rhythmbox/plugins/iradio]
+initial-stations-loaded=true
+
+[org/gnome/rhythmbox/plugins/iradio/source]
+show-browser=true
+
+[org/gnome/rhythmbox/podcast]
+download-location='file:///home/soda2/Muzyka'
+
+[org/gnome/rhythmbox/podcast/source]
+show-browser=true
+
+[org/gnome/rhythmbox/rhythmdb]
+locations=['file:///mnt/Media/Flac']
+monitor-library=true
+
+[org/gnome/rhythmbox/sources]
+visible-columns=['post-time', 'duration', 'track-number', 'album', 'artist']
+
+[org/gnome/settings-daemon/plugins/color]
+night-light-enabled=true
+night-light-last-coordinates=(50.048500719942403, 19.9802)
+night-light-temperature=uint32 3345
+
+[org/gnome/settings-daemon/plugins/power]
+power-button-action='interactive'
+sleep-inactive-ac-timeout=3600
+sleep-inactive-ac-type='nothing'
+
+[org/gnome/settings-daemon/plugins/sharing/gnome-user-share-webdav]
+enabled-connections=['8821dc33-bb2a-4f71-a117-559de660a1c5']
+
+[org/gnome/settings-daemon/plugins/sharing/rygel]
+enabled-connections=['8821dc33-bb2a-4f71-a117-559de660a1c5']
+
+[org/gnome/settings-daemon/plugins/xsettings]
+antialiasing='grayscale'
+hinting='slight'
+
+[org/gnome/shell]
+app-picker-view=uint32 1
+disabled-extensions=['background-logo@fedorahosted.org']
+enabled-extensions=['tray-icons@zhangkaizhao.com', 'Scroll_Workspace@heyheyco.gmail.com']
+favorite-apps=['firefox.desktop', 'org.signal.Signal.desktop', 'pidgin.desktop', 'org.gnome.Lollypop.desktop', 'com.spotify.Client.desktop', 'org.gnome.gedit.desktop', 'typora.desktop', 'com.visualstudio.code.desktop', 'libreoffice-startcenter.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.PasswordSafe.desktop', 'org.gnome.Terminal.desktop', 'virt-manager.desktop', 'flameshot.desktop']
+
+[org/gnome/shell/weather]
+automatic-location=false
+locations=[<(uint32 2, <('Katowice', 'EPKT', true, [(0.87673705510072075, 0.33219432847848984)], [(0.87731884315358044, 0.33190345190535253)])>)>]
+
+[org/gnome/shell/world-clocks]
+locations=@av []
+
+[org/gnome/software]
+check-timestamp=int64 1594279568
+first-run=false
+install-timestamp=int64 1594279190
+online-updates-timestamp=int64 1594249598
+
+[org/gnome/system/location]
+enabled=true
+
+[org/gnome/terminal/legacy]
+menu-accelerator-enabled=false
+
+[org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+background-transparency-percent=13
+cursor-blink-mode='on'
+use-system-font=false
+use-transparent-background=true
+
+[org/gtk/settings/color-chooser]
+custom-colors=[(0.0, 1.0, 0.0, 1.0)]
+selected-color=(true, 0.93725490196078431, 0.16078431372549021, 0.16078431372549021, 1.0)
+
+[org/gtk/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=true
+show-size-column=true
+show-type-column=true
+sidebar-width=170
+sort-column='modified'
+sort-directories-first=true
+sort-order='ascending'
+type-format='category'
+window-position=(359, 79)
+window-size=(1203, 902)
+
+[org/soundconverter]
+audio-profile=''
+create-subfolders=true
+last-used-folder='file:///mnt/Media/Flac/Vader/Albums'
+limit-jobs=0
+mp3-cbr-quality=320
+mp3-mode='vbr'
+mp3-vbr-quality=0
+name-pattern-index=2
+number-of-jobs=4
+output-mime-type='audio/mpeg'
+replace-messy-chars=true
+same-folder-as-input=false
+selected-folder='file:///mnt/Media/sciagniete nowe mp3'
+
+[org/virt-manager/virt-manager]
+manager-window-height=798
+manager-window-width=729
+xmleditor-enabled=true
+
+[org/virt-manager/virt-manager/confirm]
+delete-storage=false
+forcepoweroff=false
+removedev=false
+unapplied-dev=true
+
+[org/virt-manager/virt-manager/connections]
+autoconnect=['qemu:///system']
+uris=['qemu:///system']
+
+[org/virt-manager/virt-manager/conns/qemu:system]
+window-size=(960, 1016)
+
+[org/virt-manager/virt-manager/console]
+resize-guest=1
+
+[org/virt-manager/virt-manager/details]
+show-toolbar=true
+
+[org/virt-manager/virt-manager/new-vm]
+graphics-type='system'
+
+[org/virt-manager/virt-manager/stats]
+update-interval=5
+
+[org/virt-manager/virt-manager/urls]
+isos=['/home/soda2/Pobrane/Fedora-Workstation-Live-x86_64-32-1.6.iso', '/home/soda2/Pobrane/endeavouros-2020.05.08-x86_64.iso', '/home/soda2/Pobrane/ubuntu-20.04-desktop-amd64.iso', '/home/soda2/Pobrane/9front-7408.1d345066125a.386.iso', '/home/soda2/Pobrane/CentOS-8.1.1911-x86_64-dvd1.iso', '/mnt/Pobrane/Pobrane Linux/CentOS-8.1.1911-x86_64-dvd1.iso', '/var/lib/libvirt/images/rhcsa-alpha.qcow2']
+
+[org/virt-manager/virt-manager/vmlist-fields]
+disk-usage=false
+host-cpu-usage=true
+network-traffic=false
+
+[org/virt-manager/virt-manager/vms/1142f32b62ad43709dd41396c01a113d]
+vm-window-size=(929, 676)
+
+[org/virt-manager/virt-manager/vms/1f820fa7af954526860efbf9795d2375]
+vm-window-size=(800, 600)
+
+[org/virt-manager/virt-manager/vms/2afafa2aa11f466cb3c4eb187d509720]
+vm-window-size=(1084, 899)
+
+[org/virt-manager/virt-manager/vms/2c5503787a42428ba3bf60dc150ba1d6]
+vm-window-size=(1162, 714)
+
+[org/virt-manager/virt-manager/vms/36115a78b5854d2486a83d6964fb3ea6]
+vm-window-size=(1920, 1016)
+
+[org/virt-manager/virt-manager/vms/393c24c6d30b4f7db2520f5a289a898f]
+vm-window-size=(960, 1016)
+
+[org/virt-manager/virt-manager/vms/3afa79fb83ff42d6b603aa86ebb648bb]
+resize-guest=1
+scaling=0
+vm-window-size=(1440, 752)
+
+[org/virt-manager/virt-manager/vms/487a1612ee10489db4953d54a2ff4dae]
+vm-window-size=(929, 676)
+
+[org/virt-manager/virt-manager/vms/573c104518cc48039907de85a88477eb]
+vm-window-size=(960, 1016)
+
+[org/virt-manager/virt-manager/vms/58a01b435ea947aa9fb55573c0e69efa]
+vm-window-size=(1036, 887)
+
+[org/virt-manager/virt-manager/vms/5b49636df11549f389e2456517b56e1b]
+vm-window-size=(1418, 929)
+
+[org/virt-manager/virt-manager/vms/6e9c0448f09a44bbb687563d2746cca0]
+vm-window-size=(960, 1016)
+
+[org/virt-manager/virt-manager/vms/7ff19d8a57b34e8fa4780379514349f5]
+vm-window-size=(1920, 1016)
+
+[org/virt-manager/virt-manager/vms/8a58e47e14ec4a7abf4efba7f013612d]
+vm-window-size=(800, 600)
+
+[org/virt-manager/virt-manager/vms/8ae4fa9866f343c8bbd118ad9756efbf]
+vm-window-size=(929, 676)
+
+[org/virt-manager/virt-manager/vms/93b8b4bf3129476e8166442978b8faa0]
+vm-window-size=(911, 649)
+
+[org/virt-manager/virt-manager/vms/b06217fc817a4c5192206a897f311110]
+vm-window-size=(925, 676)
+
+[org/virt-manager/virt-manager/vms/ce40059302294a749ffc9378c389913f]
+vm-window-size=(800, 600)
+
+[org/virt-manager/virt-manager/vms/e6bd2ed4ef3648e29f0182a19775e73e]
+vm-window-size=(800, 600)
+
+[org/virt-manager/virt-manager/vms/edf7c06064254cde929a0445de6c37f0]
+vm-window-size=(915, 649)
+
+[org/virt-manager/virt-manager/vms/efdd63faf86a4cb6ba64edeefdefc128]
+vm-window-size=(929, 676)
+
+[org/virt-manager/virt-manager/vms/f0129e1be5404aaab205fa863df5b6b5]
+vm-window-size=(800, 600)
+
+[org/virt-manager/virt-manager/vms/f33c03ac900b4424add87d00a4abf23f]
+vm-window-size=(800, 600)
+
+[org/virt-manager/virt-manager/vms/f6cec88e0ffa4e999d40f93fe47a1590]
+vm-window-size=(925, 676)

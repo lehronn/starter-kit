@@ -1,0 +1,304 @@
+17:07:28.658: CPU Name: Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz
+17:07:28.658: CPU Speed: 3235.006MHz
+17:07:28.658: Physical Cores: 4, Logical Cores: 4
+17:07:28.658: Physical Memory: 7916MB Total, 185MB Free
+17:07:28.658: Kernel Version: Linux 5.6.2-301.fc32.x86_64
+17:07:28.658: Distribution: Generic 32
+17:07:28.658: Window System: X11.0 - vendor string: Fedora Project - vendor release: 12008000
+17:07:28.659: Portable mode: false
+17:07:28.800: OBS 25.0.4 (linux)
+17:07:28.800: ---------------------------------
+17:07:28.881: ---------------------------------
+17:07:28.881: audio settings reset:
+17:07:28.881: 	samples per sec: 44100
+17:07:28.881: 	speakers:        1
+17:07:28.893: ---------------------------------
+17:07:28.893: Initializing OpenGL...
+17:07:28.990: Loading up OpenGL on adapter NVIDIA Corporation GeForce GTX 770/PCIe/SSE2
+17:07:28.990: OpenGL loaded successfully, version 3.3.0 NVIDIA 440.64, shading language 3.30 NVIDIA via Cg compiler
+17:07:29.033: ---------------------------------
+17:07:29.033: video settings reset:
+17:07:29.033: 	base resolution:   1920x1080
+17:07:29.033: 	output resolution: 1920x1080
+17:07:29.033: 	downscale filter:  Bicubic
+17:07:29.033: 	fps:               30/1
+17:07:29.033: 	format:            NV12
+17:07:29.033: 	YUV mode:          601/Partial
+17:07:29.033: NV12 texture support not available
+17:07:29.073: Audio monitoring device:
+17:07:29.073: 	name: Domyślne
+17:07:29.073: 	id: default
+17:07:29.073: ---------------------------------
+17:07:29.079: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+17:07:29.224: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+17:07:29.224: No blackmagic support
+17:07:29.547: NVENC supported
+17:07:29.547: FFMPEG VAAPI supported
+17:07:29.592: VLC found, VLC video source enabled
+17:07:29.592: ---------------------------------
+17:07:29.592:   Loaded Modules:
+17:07:29.592:     vlc-video.so
+17:07:29.592:     text-freetype2.so
+17:07:29.592:     rtmp-services.so
+17:07:29.592:     obs-x264.so
+17:07:29.592:     obs-transitions.so
+17:07:29.592:     obs-outputs.so
+17:07:29.592:     obs-filters.so
+17:07:29.592:     obs-ffmpeg.so
+17:07:29.592:     linux-v4l2.so
+17:07:29.592:     linux-pulseaudio.so
+17:07:29.592:     linux-jack.so
+17:07:29.592:     linux-decklink.so
+17:07:29.592:     linux-capture.so
+17:07:29.592:     linux-alsa.so
+17:07:29.592:     image-source.so
+17:07:29.592:     frontend-tools.so
+17:07:29.592:     decklink-ouput-ui.so
+17:07:29.592: ---------------------------------
+17:07:29.602: ==== Startup complete ===============================================
+17:07:29.602: Service '' not found
+17:07:29.607: All scene data cleared
+17:07:29.607: ------------------------------------------------
+17:07:29.774: pulse-input: Server name: 'pulseaudio 13.99.1-rebootstrapped'
+17:07:29.774: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+17:07:29.775: pulse-input: Started recording from 'alsa_output.pci-0000_01_00.1.hdmi-stereo-extra1.monitor'
+17:07:29.782: pulse-input: Server name: 'pulseaudio 13.99.1-rebootstrapped'
+17:07:29.782: pulse-input: Audio format: s16le, 16000 Hz, 1 channels
+17:07:29.783: pulse-input: Started recording from 'alsa_input.usb-046d_09a5_D2A39120-02.mono-fallback'
+17:07:30.322: v4l2-input: Start capture from /dev/video0
+17:07:30.324: v4l2-input: Input: 0
+17:07:31.611: v4l2-input: Resolution: 320x240
+17:07:31.611: v4l2-input: Pixelformat: VYUY
+17:07:31.611: v4l2-input: Linesize: 640 Bytes
+17:07:31.611: v4l2-input: Framerate: 15,00 fps
+17:07:31.615: xshm-input: Geometry 1920x1080 @ 0,0
+17:07:31.628: Switched to scene '6 sam pulpit'
+17:07:31.628: ------------------------------------------------
+17:07:31.628: Loaded scenes:
+17:07:31.628: - scene '1 logo':
+17:07:31.628:     - source: 'Obraz 2' (image_source)
+17:07:31.628:     - source: 'Tekst (FreeType 2)' (text_ft2_source_v2)
+17:07:31.628: - scene '3 combo':
+17:07:31.628:     - source: 'Pulpit' (xshm_input)
+17:07:31.628:     - source: 'Webcam' (v4l2_input)
+17:07:31.628: - scene '6 sam pulpit':
+17:07:31.629:     - source: 'Pulpit' (xshm_input)
+17:07:31.629: - scene '2 wiekszywebcam':
+17:07:31.630:     - source: 'Pulpit' (xshm_input)
+17:07:31.630:     - source: 'Kolor' (color_source_v2)
+17:07:31.630:     - source: 'Webcam' (v4l2_input)
+17:07:31.630:     - source: 'Obraz 4' (image_source)
+17:07:31.630: - scene '4 ja':
+17:07:31.630:     - source: 'Obraz' (image_source)
+17:07:31.630:     - source: 'Webcam' (v4l2_input)
+17:07:31.630:     - source: 'Obraz 3' (image_source)
+17:07:31.630: - scene '5 maly pulpit':
+17:07:31.630:     - source: 'Webcam' (v4l2_input)
+17:07:31.630:     - source: 'Pulpit' (xshm_input)
+17:07:31.630:     - source: 'Obraz 4' (image_source)
+17:07:31.630: - scene '6 tylko pulpit':
+17:07:31.630: ------------------------------------------------
+17:07:32.117: adding 69 milliseconds of audio buffering, total audio buffering is now 69 milliseconds (source: Mikrofon/Wejście liniowe)
+17:07:32.117: 
+17:07:36.410: User switched to scene '3 combo'
+17:07:36.442: A sprite cannot be drawn without a width/height
+17:07:37.290: User switched to scene '1 logo'
+17:07:44.425: User switched to scene '1 logo'
+17:07:44.808: User switched to scene '2 wiekszywebcam'
+17:07:45.520: User switched to scene '1 logo'
+17:07:45.981: User switched to scene '2 wiekszywebcam'
+17:07:49.224: User switched to scene '1 logo'
+17:07:50.353: User switched to scene '2 wiekszywebcam'
+17:07:52.717: User switched to scene '4 ja'
+17:07:54.843: User switched to scene '2 wiekszywebcam'
+17:08:10.914: User switched to scene '3 combo'
+17:08:22.106: User switched to scene '4 ja'
+17:08:22.888: User switched to scene '5 maly pulpit'
+17:08:23.529: User switched to scene '6 sam pulpit'
+17:08:23.977: User switched to scene '4 ja'
+17:09:13.426: User switched to scene '5 maly pulpit'
+17:09:14.280: User switched to scene '6 tylko pulpit'
+17:09:14.866: User switched to scene '5 maly pulpit'
+17:09:36.729: User switched to scene '6 sam pulpit'
+17:09:40.768: User switched to scene '6 tylko pulpit'
+17:09:43.281: User switched to scene '6 sam pulpit'
+17:09:45.961: User switched to scene '6 tylko pulpit'
+17:09:47.340: User switched to scene '6 sam pulpit'
+17:09:47.940: User switched to scene '6 tylko pulpit'
+17:09:50.764: User switched to scene '6 sam pulpit'
+17:09:50.767: User Removed scene '6 tylko pulpit'
+17:09:52.336: User switched to scene '1 logo'
+17:09:53.720: User switched to scene '2 wiekszywebcam'
+17:09:59.720: User switched to scene '3 combo'
+17:10:03.232: User switched to scene '4 ja'
+17:10:05.793: User switched to scene '5 maly pulpit'
+17:10:09.209: User switched to scene '6 sam pulpit'
+17:10:13.446: User switched to scene '1 logo'
+17:10:13.949: User switched to scene '2 wiekszywebcam'
+17:10:14.274: User switched to scene '3 combo'
+17:10:14.615: User switched to scene '4 ja'
+17:10:14.990: User switched to scene '5 maly pulpit'
+17:10:30.047: Settings changed (hotkeys)
+17:10:30.047: ------------------------------------------------
+17:10:33.874: User switched to scene '3 combo'
+17:10:44.110: User switched to scene '1 logo'
+17:10:44.709: User switched to scene '2 wiekszywebcam'
+17:10:45.092: User switched to scene '3 combo'
+17:10:45.887: User switched to scene '4 ja'
+17:10:47.096: User switched to scene '5 maly pulpit'
+17:10:49.113: User switched to scene '6 sam pulpit'
+17:10:51.376: User switched to scene '5 maly pulpit'
+17:10:57.278: User switched to scene '5 maly pulpit'
+17:10:59.600: User switched to scene '3 combo'
+17:11:02.248: User switched to scene '4 ja'
+17:11:06.870: User switched to scene '3 combo'
+17:11:08.973: User switched to scene '2 wiekszywebcam'
+17:11:09.607: User switched to scene '3 combo'
+17:11:10.351: User switched to scene '4 ja'
+17:11:24.518: User switched to scene '4 ja'
+17:11:25.474: User switched to scene '3 combo'
+17:11:27.022: User switched to scene '4 ja'
+17:11:34.455: ---------------------------------
+17:11:34.457: [NVENC encoder: 'simple_h264_recording'] settings:
+17:11:34.457: 	rate_control: CQP
+17:11:34.457: 	bitrate:      0
+17:11:34.457: 	cqp:          23
+17:11:34.457: 	keyint:       250
+17:11:34.457: 	preset:       hq
+17:11:34.457: 	profile:      high
+17:11:34.457: 	width:        1920
+17:11:34.457: 	height:       1080
+17:11:34.457: 	2-pass:       false
+17:11:34.457: 	b-frames:     2
+17:11:34.457: 	GPU:          0
+17:11:34.457: 
+17:11:34.585: ---------------------------------
+17:11:34.585: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 192, channels: 1, channel_layout: 4
+17:11:34.585: 
+17:11:34.588: ==== Recording Start ===============================================
+17:11:34.588: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/soda2/2020-04-09 17-11-34.mkv'...
+17:11:38.988: User switched to scene '3 combo'
+17:16:49.930: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/soda2/2020-04-09 17-11-34.mkv' stopped
+17:16:49.930: Output 'simple_file_output': stopping
+17:16:49.930: Output 'simple_file_output': Total frames output: 9448
+17:16:49.930: Output 'simple_file_output': Total drawn frames: 9460
+17:16:49.930: ==== Recording Stop ================================================
+17:17:41.810: ---------------------------------
+17:17:41.810: [NVENC encoder: 'simple_h264_recording'] settings:
+17:17:41.810: 	rate_control: CQP
+17:17:41.810: 	bitrate:      0
+17:17:41.810: 	cqp:          23
+17:17:41.810: 	keyint:       250
+17:17:41.810: 	preset:       hq
+17:17:41.810: 	profile:      high
+17:17:41.810: 	width:        1920
+17:17:41.810: 	height:       1080
+17:17:41.810: 	2-pass:       false
+17:17:41.810: 	b-frames:     2
+17:17:41.810: 	GPU:          0
+17:17:41.810: 
+17:17:41.916: ---------------------------------
+17:17:41.916: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 192, channels: 1, channel_layout: 4
+17:17:41.916: 
+17:17:41.918: ==== Recording Start ===============================================
+17:17:41.919: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/soda2/2020-04-09 17-17-41.mkv'...
+17:17:45.683: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/soda2/2020-04-09 17-17-41.mkv' stopped
+17:17:45.683: Output 'simple_file_output': stopping
+17:17:45.683: Output 'simple_file_output': Total frames output: 101
+17:17:45.683: Output 'simple_file_output': Total drawn frames: 113
+17:17:45.684: ==== Recording Stop ================================================
+17:18:08.489: Starting recording due to hotkey
+17:18:08.492: ---------------------------------
+17:18:08.492: [NVENC encoder: 'simple_h264_recording'] settings:
+17:18:08.492: 	rate_control: CQP
+17:18:08.492: 	bitrate:      0
+17:18:08.492: 	cqp:          23
+17:18:08.492: 	keyint:       250
+17:18:08.492: 	preset:       hq
+17:18:08.492: 	profile:      high
+17:18:08.492: 	width:        1920
+17:18:08.492: 	height:       1080
+17:18:08.492: 	2-pass:       false
+17:18:08.492: 	b-frames:     2
+17:18:08.492: 	GPU:          0
+17:18:08.492: 
+17:18:08.579: ---------------------------------
+17:18:08.580: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 192, channels: 1, channel_layout: 4
+17:18:08.580: 
+17:18:08.581: ==== Recording Start ===============================================
+17:18:08.581: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/soda2/2020-04-09 17-18-08.mkv'...
+17:18:08.817: Stopping recording due to hotkey
+17:18:09.247: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/soda2/2020-04-09 17-18-08.mkv' stopped
+17:18:09.247: Output 'simple_file_output': stopping
+17:18:09.247: Output 'simple_file_output': Total frames output: 8
+17:18:09.247: Output 'simple_file_output': Total drawn frames: 20
+17:18:09.247: ==== Recording Stop ================================================
+17:18:10.407: User switched to scene '2 wiekszywebcam'
+17:18:11.079: User switched to scene '1 logo'
+17:18:11.729: User switched to scene '2 wiekszywebcam'
+17:18:12.464: User switched to scene '3 combo'
+17:18:12.878: User switched to scene '4 ja'
+17:18:13.304: User switched to scene '5 maly pulpit'
+17:18:14.397: User switched to scene '6 sam pulpit'
+17:18:22.371: Starting recording due to hotkey
+17:18:22.373: ---------------------------------
+17:18:22.374: [NVENC encoder: 'simple_h264_recording'] settings:
+17:18:22.374: 	rate_control: CQP
+17:18:22.374: 	bitrate:      0
+17:18:22.374: 	cqp:          23
+17:18:22.374: 	keyint:       250
+17:18:22.374: 	preset:       hq
+17:18:22.374: 	profile:      high
+17:18:22.374: 	width:        1920
+17:18:22.374: 	height:       1080
+17:18:22.374: 	2-pass:       false
+17:18:22.374: 	b-frames:     2
+17:18:22.374: 	GPU:          0
+17:18:22.374: 
+17:18:22.463: ---------------------------------
+17:18:22.463: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 192, channels: 1, channel_layout: 4
+17:18:22.463: 
+17:18:22.465: ==== Recording Start ===============================================
+17:18:22.465: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/soda2/2020-04-09 17-18-22.mkv'...
+17:18:23.662: User switched to scene '1 logo'
+17:18:26.476: User switched to scene '2 wiekszywebcam'
+17:18:28.206: User switched to scene '3 combo'
+17:18:29.609: User switched to scene '4 ja'
+17:18:31.555: User switched to scene '5 maly pulpit'
+17:18:33.449: User switched to scene '2 wiekszywebcam'
+17:18:34.974: User switched to scene '3 combo'
+17:18:36.145: User switched to scene '4 ja'
+17:18:37.957: User switched to scene '1 logo'
+17:18:39.348: User switched to scene '5 maly pulpit'
+17:18:41.405: User switched to scene '3 combo'
+17:24:53.124: User switched to scene '5 maly pulpit'
+17:24:58.590: User switched to scene '1 logo'
+17:25:02.307: Stopping recording due to hotkey
+17:25:02.748: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/soda2/2020-04-09 17-18-22.mkv' stopped
+17:25:02.748: Output 'simple_file_output': stopping
+17:25:02.748: Output 'simple_file_output': Total frames output: 11997
+17:25:02.748: Output 'simple_file_output': Total drawn frames: 12009
+17:25:02.748: ==== Recording Stop ================================================
+18:01:47.478: ==== Shutting down ==================================================
+18:01:47.493: Switched to scene '(null)'
+18:01:47.497: pulse-input: Stopped recording from 'alsa_output.pci-0000_01_00.1.hdmi-stereo-extra1.monitor'
+18:01:47.497: pulse-input: Got 712171 packets with 143664818 frames
+18:01:47.498: pulse-input: Stopped recording from 'alsa_input.usb-046d_09a5_D2A39120-02.mono-fallback'
+18:01:47.498: pulse-input: Got 325717 packets with 52093864 frames
+18:01:47.499: All scene data cleared
+18:01:47.499: ------------------------------------------------
+18:01:47.511: X Error: GLXBadDrawable, Major opcode: 150, Minor opcode: 26, Serial: 1010680
+18:01:47.511: Failed to make context current.
+18:01:47.513: X Error: GLXBadDrawable, Major opcode: 150, Minor opcode: 26, Serial: 1010682
+18:01:47.513: Failed to make context current.
+18:01:47.513: Failed to fetch parent window geometry!
+18:01:47.514: X Error: BadDrawable (invalid Pixmap or Window parameter), Major opcode: 150, Minor opcode: BadLength (poly request too large or internal Xlib length error), Serial: 1010684
+18:01:47.514: X Error: GLXBadDrawable, Major opcode: 150, Minor opcode: BadAlloc (insufficient resources for operation), Serial: 1010685
+18:01:47.514: X Error: GLXBadDrawable, Major opcode: 150, Minor opcode: 26, Serial: 1010687
+18:01:47.514: Failed to make context current.
+18:01:47.516: X Error: GLXBadDrawable, Major opcode: 150, Minor opcode: 26, Serial: 1010689
+18:01:47.516: Failed to make context current.
+18:01:47.516: X Error: GLXBadDrawable, Major opcode: 150, Minor opcode: 26, Serial: 1010691
+18:01:47.516: Failed to make context current.
+18:01:47.595: Freeing OBS context data
+18:01:47.617: v4l2-input: Stopped capture after 48858 frames

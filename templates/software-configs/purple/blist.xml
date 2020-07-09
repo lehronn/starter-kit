@@ -1,0 +1,2722 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<purple version='1.0'>
+	<blist>
+		<group name='bots'>
+			<setting name='collapsed' type='bool'>0</setting>
+		</group>
+		<group name='irc'>
+			<setting name='collapsed' type='bool'>0</setting>
+			<chat proto='prpl-irc' account='soda2[m]@irc.freenode.net'>
+				<component name='channel'>##poland</component>
+				<setting name='core-rlaager-irchelper_chanserv_join_msg' type='string'>Witaj na ##poland \o/</setting>
+				<setting name='core-rlaager-irchelper_topic' type='string'>Welcome to ##Poland :) || Please use UTF-8. || Most of us live in CET and speak English. || Kanał o ogólnej tematyce, spotykają się tu ludzie z Polski, i nie tylko. || This channel requires you to be registered in order to speak.</setting>
+			</chat>
+			<chat proto='prpl-irc' account='soda2[m]@irc.freenode.net'>
+				<component name='channel'>#ansible-awx</component>
+			</chat>
+			<chat proto='prpl-irc' account='soda2[m]@irc.freenode.net'>
+				<component name='channel'>#fedora</component>
+				<setting name='core-rlaager-irchelper_chanserv_join_msg' type='string'>&amp;quot;Any advice you read here is provided by individual community members. You should use it at your OWN RISK. This advice is owned by each individual, and does NOT represent the views of Freenode, Fedora or Red Hat. This channel may be logged&amp;quot;</setting>
+				<setting name='gtk-mute-sound' type='bool'>0</setting>
+				<setting name='core-rlaager-irchelper_topic' type='string'>#Fedora F30, F31, F32 end user support || Please READ: https://tinyurl.com/chanfaq || Common bugs: https://tinyurl.com/f30-common https://tinyurl.com/f31commonbugs https://tinyurl.com/F32-common ||Only Use Fedora,rpmfusion and Copr Repos || IRC Feedback: https://tinyurl.com/fedoraircsig || Updated F31 Live isos: https://tinyurl.com/Live-respins2 || Default to OPEN: https://tinyurl.com/de</setting>
+				<setting name='gtk-autojoin' type='bool'>0</setting>
+			</chat>
+			<chat proto='prpl-irc' account='soda2[m]@irc.freenode.net'>
+				<component name='channel'>#fedora-pl</component>
+				<setting name='core-rlaager-irchelper_topic' type='string'>Fedora 32 Beta: https://fedoramagazine.org/announcing-the-release-of-fedora-32-beta/ | Fedora 31 wydana: https://getfedora.org/ | http://tnij.org/f.a.q | http://wiki.fedora.pl | http://www.fedorafaq.org | Linux to nie Windows: http://tnij.org/dnmg</setting>
+				<setting name='gtk-autojoin' type='bool'>0</setting>
+			</chat>
+			<chat proto='prpl-irc' account='soda2[m]@irc.freenode.net'>
+				<component name='channel'>#fedora-join</component>
+				<setting name='core-rlaager-irchelper_chanserv_join_msg' type='string'>Looking to contribute to Fedora? Don&amp;apos;t know where to start? Ask away! | https://fedoraproject.org/wiki/Fedora_Join_SIG | Easy tasks to get started on: http://fedoraproject.org/easyfix/ | No one around? Drop us an e-mail at fedora-join@lists.fedoraproject.org | Mailing list: https://admin.fedoraproject.org/mailman/listinfo/fedora-join |</setting>
+				<setting name='core-rlaager-irchelper_topic' type='string'>&quot;Please register with Freenode to join the channel: https://da.gd/register | Looking to contribute to Fedora? Ask us anything! Also on Telegram at: https://t.me/joinfedora | See who is here: https://fedoraproject.org/wiki/SIGs/Join/OfficeHours | For Outreachy/Summer Coding, please head to #fedora-summer-coding on IRC or https://t.me/fedoraSummerCoding on Telegram |</setting>
+			</chat>
+			<chat proto='prpl-irc' account='soda2[m]@irc.freenode.net'>
+				<component name='channel'>#fedora-magazine</component>
+				<setting name='core-rlaager-irchelper_topic' type='string'>Official channel for the Fedora Magazine | https://fedoramagazine.org | https://lists.fedoraproject.org/admin/lists/magazine@lists.fedoraproject.org | Remember, default to OPEN!</setting>
+				<setting name='gtk-autojoin' type='bool'>0</setting>
+			</chat>
+			<chat proto='prpl-irc' account='soda2[m]@irc.freenode.net'>
+				<component name='channel'>#fedora-design</component>
+				<setting name='core-rlaager-irchelper_topic' type='string'>Fedora Design Team</setting>
+			</chat>
+			<chat proto='prpl-irc' account='soda2[m]@irc.freenode.net'>
+				<component name='channel'>#fedora-social-hour</component>
+				<setting name='gtk-autojoin' type='bool'>0</setting>
+			</chat>
+			<chat proto='prpl-irc' account='soda2[m]@irc.freenode.net'>
+				<component name='channel'>#fedora-i18n</component>
+				<setting name='core-rlaager-irchelper_topic' type='string'>Fedora software internationalization (https://fedoraproject.org/wiki/I18N)</setting>
+				<setting name='gtk-autojoin' type='bool'>0</setting>
+			</chat>
+			<chat proto='prpl-irc' account='soda2[m]@irc.freenode.net'>
+				<component name='channel'>#fedora-social</component>
+				<setting name='core-rlaager-irchelper_topic' type='string'>This is not a support Channel | Fedora end user support is in #fedora | ≋≋≋ Welcome to Fedora™&apos;s Professional Bacon Social Realm ≋≋≋ https://fedoraproject.org/wiki/Fedora_Social_Channel_FAQ ≋≋≋ Join us for the never ending bacon party - Bring Bacon! ≋≋≋ No Politics, No Excuses</setting>
+				<setting name='gtk-autojoin' type='bool'>0</setting>
+			</chat>
+		</group>
+		<group name='Konferencje'>
+			<setting name='collapsed' type='bool'>0</setting>
+			<chat proto='prpl-facebook' account='mateusz.stomski'>
+				<alias>SWAT</alias>
+				<component name='name'>2345422802147713</component>
+				<setting name='gtk-mute-sound' type='bool'>0</setting>
+				<setting name='gtk-autojoin' type='bool'>0</setting>
+				<setting name='gtk-persistent' type='bool'>1</setting>
+			</chat>
+		</group>
+		<group name='Facebook Friends'>
+			<setting name='collapsed' type='bool'>0</setting>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100003111384192</name>
+					<setting name='buddy_icon' type='string'>c8be0bae1cbee70a5d99ea547c67f17aa9aa9585.jpg</setting>
+					<setting name='icon_checksum' type='string'>272fa9485fed8b0b7a2524bb54d72ccb</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>1774196360</name>
+					<setting name='buddy_icon' type='string'>a58f9d634ed5f17ec70f79aadbbccf9e218192a0.jpg</setting>
+					<setting name='icon_checksum' type='string'>696092d44366364a4f01cfb4cc58c9f9</setting>
+					<setting name='last_seen' type='int'>1591642332</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001541603500</name>
+					<setting name='buddy_icon' type='string'>96ba8a407c46f2aedacdd89d6e2e3f285140e3de.jpg</setting>
+					<setting name='icon_checksum' type='string'>685a26e1a1c5c410d8085e4211b6a8fb</setting>
+					<setting name='last_seen' type='int'>1594291947</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100006166783167</name>
+					<setting name='buddy_icon' type='string'>3412a59e71ca028e1265a19f6d5340380130318e.jpg</setting>
+					<setting name='icon_checksum' type='string'>1d31a5aaeb1aa820a607717add5595ce</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002148505666</name>
+					<setting name='buddy_icon' type='string'>b7a0f7096568192f7406fd34d422c689cb39dea9.jpg</setting>
+					<setting name='icon_checksum' type='string'>61e736cb3a90e8d9b34b6b0aad5d13e5</setting>
+					<setting name='last_seen' type='int'>1594287266</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100012732577987</name>
+					<setting name='buddy_icon' type='string'>f036d525da676d64853237205854b72bef695f96.jpg</setting>
+					<setting name='icon_checksum' type='string'>1d0b96d1992269a7fd134a937728e5ef</setting>
+					<setting name='last_seen' type='int'>1592903052</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100007805496474</name>
+					<setting name='buddy_icon' type='string'>a48ddf9c9ba81bbb61b4d9d097755f6265cfa3e6.jpg</setting>
+					<setting name='icon_checksum' type='string'>58732649fe4addea8c2ceb9162ea87da</setting>
+					<setting name='last_seen' type='int'>1591642332</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100004571287119</name>
+					<setting name='buddy_icon' type='string'>3ba3d897976326b211b825f916e1f6a5ac4ebf29.jpg</setting>
+					<setting name='icon_checksum' type='string'>03b97f6a8a2b4659a671c1195bf8eeb9</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100034856773399</name>
+					<setting name='buddy_icon' type='string'>11f74392f6cc69bc3ce060287545282cd342db3e.jpg</setting>
+					<setting name='icon_checksum' type='string'>3031051bfcb8f11c8ff8fccbd00c3003</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100010845467300</name>
+					<setting name='buddy_icon' type='string'>11f74392f6cc69bc3ce060287545282cd342db3e.jpg</setting>
+					<setting name='icon_checksum' type='string'>3031051bfcb8f11c8ff8fccbd00c3003</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100023561150334</name>
+					<setting name='buddy_icon' type='string'>a2589e04bd1163562c939ff7207310bb9ddae8a2.jpg</setting>
+					<setting name='icon_checksum' type='string'>11b5807c7e57a7f04e33e80e4ba4bfd0</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100004260720442</name>
+					<setting name='buddy_icon' type='string'>a2589e04bd1163562c939ff7207310bb9ddae8a2.jpg</setting>
+					<setting name='icon_checksum' type='string'>1d970c496b6199e3ea870c55552fda68</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001056661577</name>
+					<setting name='buddy_icon' type='string'>2cbdf5ae340ca429e0e532e9cd71cebda7ea0430.jpg</setting>
+					<setting name='icon_checksum' type='string'>b602d09bab97a734cb3c63b5229231c6</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002902668410</name>
+					<setting name='buddy_icon' type='string'>b3e2fdc79a0b5c9ad4d5e41728111bccbb51d594.jpg</setting>
+					<setting name='icon_checksum' type='string'>b509c3246d789f638b650ccdbd0e6ac9</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001664652801</name>
+					<setting name='buddy_icon' type='string'>0aeccb654dba89a3b107ebedcf3b0aa65c6a3262.jpg</setting>
+					<setting name='icon_checksum' type='string'>3f13446128fcd746fa9d29a9e1196fa9</setting>
+					<setting name='last_seen' type='int'>1594284850</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000772600812</name>
+					<setting name='buddy_icon' type='string'>2f8a6d8e49da95288c4b7c955064b07d4225d9fc.jpg</setting>
+					<setting name='icon_checksum' type='string'>67b4e909dfa36cf78558ae944bd4291b</setting>
+					<setting name='last_seen' type='int'>1594293004</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000547569452</name>
+					<setting name='buddy_icon' type='string'>ea8196c02701b47092ae6c9ac86df64cdb950368.jpg</setting>
+					<setting name='icon_checksum' type='string'>19856897a1b7ceb5eec50b09dcbbef86</setting>
+					<setting name='last_seen' type='int'>1594293759</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100023152448358</name>
+					<setting name='buddy_icon' type='string'>799975471b57976eea2ca0a4219252cff11cc76a.jpg</setting>
+					<setting name='icon_checksum' type='string'>3b41e91088012481ab2aa912464b8bde</setting>
+					<setting name='last_seen' type='int'>1587116934</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100031272283009</name>
+					<setting name='buddy_icon' type='string'>edb8257e0bb82fbe9719f109de460a6e6653570f.jpg</setting>
+					<setting name='icon_checksum' type='string'>df5a8489dc3308bb7064bf148dd6c52b</setting>
+					<setting name='last_seen' type='int'>1594293910</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100004260909246</name>
+					<setting name='buddy_icon' type='string'>ed09365b5ea9f0e21b2c88c4884e5d78ac227f0d.jpg</setting>
+					<setting name='icon_checksum' type='string'>0d74a786142306dffeaebde4bbe68079</setting>
+					<setting name='last_seen' type='int'>1589746094</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002038713056</name>
+					<setting name='buddy_icon' type='string'>02167507c340100dd9f172058728c6f7c823904b.jpg</setting>
+					<setting name='icon_checksum' type='string'>947abfd84f47fa0c9fcb5d8d6cdf3aba</setting>
+					<setting name='last_seen' type='int'>1592896257</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001932403819</name>
+					<setting name='buddy_icon' type='string'>20b1083daaef8bb8d5e8c946d308da4d2a207f24.jpg</setting>
+					<setting name='icon_checksum' type='string'>d9cfadc30f934f4f8f9e74b36a688daa</setting>
+					<setting name='last_seen' type='int'>1594283961</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002063872188</name>
+					<setting name='buddy_icon' type='string'>0941cf0c28d99f63e8f370d23dc450baef7002e1.jpg</setting>
+					<setting name='icon_checksum' type='string'>c5948aa5e8183620964ac8bb382b0964</setting>
+					<setting name='last_seen' type='int'>1594292702</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000015971730</name>
+					<setting name='buddy_icon' type='string'>00fa3217aa18d2716c53ad997ce9fce6abc5267c.jpg</setting>
+					<setting name='icon_checksum' type='string'>3ea4ba80bd839e3177f0209b7a8db4d9</setting>
+					<setting name='last_seen' type='int'>1594294816</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000927369420</name>
+					<setting name='buddy_icon' type='string'>8722f6941b37de55e50e70b2bcb4d7c85312cb09.jpg</setting>
+					<setting name='icon_checksum' type='string'>f565f08ed021585499a79eba1667c0f6</setting>
+					<setting name='last_seen' type='int'>1594295118</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000542014804</name>
+					<setting name='buddy_icon' type='string'>0ddfaeab49430878c48102bb9a3830cb29bb646f.jpg</setting>
+					<setting name='icon_checksum' type='string'>303f88b3551cd9cf94d59b57980e4405</setting>
+					<setting name='last_seen' type='int'>1594290135</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100003318761667</name>
+					<setting name='buddy_icon' type='string'>a48ddf9c9ba81bbb61b4d9d097755f6265cfa3e6.jpg</setting>
+					<setting name='icon_checksum' type='string'>58732649fe4addea8c2ceb9162ea87da</setting>
+					<setting name='last_seen' type='int'>1594293608</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100003068107451</name>
+					<setting name='buddy_icon' type='string'>66d6f3e52c386906da5b54573ce38cd668719484.jpg</setting>
+					<setting name='icon_checksum' type='string'>c68a9ec1c8b0937b4c5e63920dea2f64</setting>
+					<setting name='last_seen' type='int'>1594295118</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001028253537</name>
+					<setting name='buddy_icon' type='string'>3c64b657cb8f721ec9e4d242318787201f165fd7.jpg</setting>
+					<setting name='icon_checksum' type='string'>2de84775f3daf01869bbba4b0ce9788b</setting>
+					<setting name='last_seen' type='int'>1594295420</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001960500950</name>
+					<setting name='buddy_icon' type='string'>c2a2ebcb4d4a2364d4db0cbb4b3a9ba00190d8ab.jpg</setting>
+					<setting name='icon_checksum' type='string'>d53ebefa16b45ccfd8788a6f19a87d52</setting>
+					<setting name='last_seen' type='int'>1592828121</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002037829069</name>
+					<setting name='buddy_icon' type='string'>45221a8b2ebe6cbed7ac71c711984e2ec50d4fa0.jpg</setting>
+					<setting name='icon_checksum' type='string'>17cee650200f514aa200a70503f6580c</setting>
+					<setting name='last_seen' type='int'>1594292551</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100005079337684</name>
+					<setting name='buddy_icon' type='string'>20ffa505442a5b9bd3e6a0dba542c59e1a0a84ad.jpg</setting>
+					<setting name='icon_checksum' type='string'>53947934c751e26df8dd8eec1a093727</setting>
+					<setting name='last_seen' type='int'>1594294967</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100004500583049</name>
+					<setting name='buddy_icon' type='string'>a48ddf9c9ba81bbb61b4d9d097755f6265cfa3e6.jpg</setting>
+					<setting name='icon_checksum' type='string'>58732649fe4addea8c2ceb9162ea87da</setting>
+					<setting name='last_seen' type='int'>1594292098</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000910435578</name>
+					<setting name='buddy_icon' type='string'>a48ddf9c9ba81bbb61b4d9d097755f6265cfa3e6.jpg</setting>
+					<setting name='icon_checksum' type='string'>58732649fe4addea8c2ceb9162ea87da</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002194344626</name>
+					<setting name='buddy_icon' type='string'>83bf2a6eeebaf564b4635d2b5cdcc180953a09fe.jpg</setting>
+					<setting name='icon_checksum' type='string'>38dbcf954efaf2f2dcfd3a34b151438c</setting>
+					<setting name='last_seen' type='int'>1594289380</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100006240211386</name>
+					<setting name='buddy_icon' type='string'>fbf3916193208e2fd3abc71ba0f88df050c7e76d.jpg</setting>
+					<setting name='icon_checksum' type='string'>d5f09a53f70013c420f9ce56513a6857</setting>
+					<setting name='last_seen' type='int'>1592824595</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001332951375</name>
+					<setting name='buddy_icon' type='string'>788ea0e2ba380cf8e9ade454d0c900027c4425c3.jpg</setting>
+					<setting name='icon_checksum' type='string'>5d0365e783eefc5bea01d2ed4dc93024</setting>
+					<setting name='last_seen' type='int'>1594293910</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100007943104414</name>
+					<setting name='buddy_icon' type='string'>b537af1896231189b79bf2a57508332523b0ec6a.jpg</setting>
+					<setting name='icon_checksum' type='string'>7a2f01f1bc028d99882847735e6b15f8</setting>
+					<setting name='last_seen' type='int'>1594288776</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000899296207</name>
+					<setting name='buddy_icon' type='string'>51c020df08651fcd333b9c684b5064792a015ee8.jpg</setting>
+					<setting name='icon_checksum' type='string'>7b15477ec0a44a0db402284b25f3645a</setting>
+					<setting name='last_seen' type='int'>1594293608</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100024656956835</name>
+					<setting name='buddy_icon' type='string'>52d9b4a7e79e469384b912f1b6a348b8d0ac6ddf.jpg</setting>
+					<setting name='icon_checksum' type='string'>fe66ee7358b940e15566fdf81cd6053d</setting>
+					<setting name='last_seen' type='int'>1594281383</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001447749132</name>
+					<setting name='buddy_icon' type='string'>31f668a9433f14e7b6a21dc77e3ff80c8a0700ad.jpg</setting>
+					<setting name='icon_checksum' type='string'>8d1f89b7c4afca38428962c382aaa3ee</setting>
+					<setting name='last_seen' type='int'>1591605355</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000707351610</name>
+					<setting name='buddy_icon' type='string'>f3981a40b243b343988f148d21db27f5816bc652.jpg</setting>
+					<setting name='icon_checksum' type='string'>d0f9632308d818ecc94bdfab81c916be</setting>
+					<setting name='last_seen' type='int'>1594294514</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002553333877</name>
+					<setting name='buddy_icon' type='string'>bcddd7e9e673a1418e2393cc1e23ee07cb083c0f.jpg</setting>
+					<setting name='icon_checksum' type='string'>869d40d7fda239d7356a3322fa1cf8ef</setting>
+					<setting name='last_seen' type='int'>1594294967</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001589334215</name>
+					<setting name='buddy_icon' type='string'>7a38612ea0b9db84c9dde7f91b1c5d4eac45c9b6.jpg</setting>
+					<setting name='icon_checksum' type='string'>e86abe454fd3f550fd6e43d56bee0e8b</setting>
+					<setting name='last_seen' type='int'>1594290587</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000663723406</name>
+					<setting name='buddy_icon' type='string'>8075c01500972982979374bd5b552cf0408d9e33.jpg</setting>
+					<setting name='icon_checksum' type='string'>43e61db289ad7ed894de858ea67f817f</setting>
+					<setting name='last_seen' type='int'>1594295420</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100003384873097</name>
+					<setting name='buddy_icon' type='string'>a48ddf9c9ba81bbb61b4d9d097755f6265cfa3e6.jpg</setting>
+					<setting name='icon_checksum' type='string'>58732649fe4addea8c2ceb9162ea87da</setting>
+					<setting name='last_seen' type='int'>1594291494</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100004605185533</name>
+					<setting name='buddy_icon' type='string'>4fcd94ed08484ae33f855bb1d5f73c365a7c478c.jpg</setting>
+					<setting name='icon_checksum' type='string'>c25eb6c03592437e277aadbd904c825a</setting>
+					<setting name='last_seen' type='int'>1594295269</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100005209842924</name>
+					<setting name='buddy_icon' type='string'>7470d2f7720b886030bfdfe43dbfc28c951db2b4.jpg</setting>
+					<setting name='icon_checksum' type='string'>997d180995725b09b7f6336eca0a7706</setting>
+					<setting name='last_seen' type='int'>1593863443</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001739824233</name>
+					<setting name='buddy_icon' type='string'>abcfbb68a62c9027d32464a9efc8a0ae693bf6d8.jpg</setting>
+					<setting name='icon_checksum' type='string'>b5bf7c29d245910307bd12479d750be2</setting>
+					<setting name='last_seen' type='int'>1594291796</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001187991375</name>
+					<setting name='buddy_icon' type='string'>5c175f2efa71c1070d21dbbfa731e2236b384de8.jpg</setting>
+					<setting name='icon_checksum' type='string'>a1938897e287223f0d2457827a16d249</setting>
+					<setting name='last_seen' type='int'>1594295420</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>1764330412</name>
+					<setting name='buddy_icon' type='string'>87e88fb6928e91c48bc267cd3164152b70eff0f0.jpg</setting>
+					<setting name='icon_checksum' type='string'>b05150ab86888691da0cf0d59801f785</setting>
+					<setting name='last_seen' type='int'>1594294363</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100012194359735</name>
+					<setting name='buddy_icon' type='string'>03b3a32effdf9d579f24fcd114f288314205b92c.jpg</setting>
+					<setting name='icon_checksum' type='string'>cd3fced2b5728476d4db3dca1d020b4b</setting>
+					<setting name='last_seen' type='int'>1594294363</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>1315066869</name>
+					<setting name='buddy_icon' type='string'>5bfdf4e4988b3e502cb8beb2a336edccfbc105b9.jpg</setting>
+					<setting name='icon_checksum' type='string'>3d7b93c4b8c6d8dd9898e2eea8502c5f</setting>
+					<setting name='last_seen' type='int'>1594294363</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001114322472</name>
+					<setting name='buddy_icon' type='string'>5e75e201de05ed38f9b12c18f1682e2ef724cae1.jpg</setting>
+					<setting name='icon_checksum' type='string'>290377c0a9cc3ff699915f0ef95215a1</setting>
+					<setting name='last_seen' type='int'>1592895955</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001590647829</name>
+					<setting name='buddy_icon' type='string'>328f636017319179057e9ed1c410561adeb23b40.jpg</setting>
+					<setting name='icon_checksum' type='string'>018bd7d06173398cff58977865fbca2a</setting>
+					<setting name='last_seen' type='int'>1594294363</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100003308905101</name>
+					<setting name='buddy_icon' type='string'>a48ddf9c9ba81bbb61b4d9d097755f6265cfa3e6.jpg</setting>
+					<setting name='icon_checksum' type='string'>58732649fe4addea8c2ceb9162ea87da</setting>
+					<setting name='last_seen' type='int'>1594285756</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000792002621</name>
+					<setting name='buddy_icon' type='string'>2f27b02c42d14e4f540bdca41d9983045fcf7516.jpg</setting>
+					<setting name='icon_checksum' type='string'>337d1024af19ca12feff127f1f24e2c5</setting>
+					<setting name='last_seen' type='int'>1593851880</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001982044696</name>
+					<setting name='buddy_icon' type='string'>e8289f96ee6d495e6199f947772f4238b2e3a97a.jpg</setting>
+					<setting name='icon_checksum' type='string'>b6155d4f789236ea25cb48bef3eeb250</setting>
+					<setting name='last_seen' type='int'>1594295269</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100003019788458</name>
+					<setting name='buddy_icon' type='string'>916b9061e16693ec734b37d8c4f1eed3da27eded.jpg</setting>
+					<setting name='icon_checksum' type='string'>054138ec32bdb5be84189511999f5d30</setting>
+					<setting name='last_seen' type='int'>1592901089</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002190010899</name>
+					<setting name='buddy_icon' type='string'>a48ddf9c9ba81bbb61b4d9d097755f6265cfa3e6.jpg</setting>
+					<setting name='icon_checksum' type='string'>58732649fe4addea8c2ceb9162ea87da</setting>
+					<setting name='last_seen' type='int'>1594294213</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000173262421</name>
+					<setting name='buddy_icon' type='string'>e3b609f8e5cc29d7c905b620381f217ca1d56b7a.jpg</setting>
+					<setting name='icon_checksum' type='string'>1b9182fb36061bbda3414a5348855fd1</setting>
+					<setting name='last_seen' type='int'>1594295118</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002323067046</name>
+					<setting name='buddy_icon' type='string'>beae28273bbb7a776c730e94227729991a97383d.jpg</setting>
+					<setting name='icon_checksum' type='string'>c9433e8e37603adf0d95158a6b8c2611</setting>
+					<setting name='last_seen' type='int'>1592911017</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000957520687</name>
+					<setting name='buddy_icon' type='string'>a95f6a127e92a73419b599204b0fb04bec7b465f.jpg</setting>
+					<setting name='icon_checksum' type='string'>0cea40cc870de2ad73fb1d928e3027e7</setting>
+					<setting name='last_seen' type='int'>1594295420</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100027368194437</name>
+					<setting name='buddy_icon' type='string'>f3a92d6f965f77d01c93197b2cb538899188a8fe.jpg</setting>
+					<setting name='icon_checksum' type='string'>e9dec6475fefeba1c95c2328d25f3638</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000380813883</name>
+					<setting name='buddy_icon' type='string'>194ce7f3108ae40ed8b512ac75b679cfdcc7a80c.jpg</setting>
+					<setting name='icon_checksum' type='string'>b12819683eefd9c11275f3a0f54a51d3</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002885932350</name>
+					<setting name='buddy_icon' type='string'>a20d5085b6ee7b1caeac3e57f7498f4953f3c5fb.jpg</setting>
+					<setting name='icon_checksum' type='string'>95ab2017ac2eb1c0ecb1d59f5c4f2cbb</setting>
+					<setting name='last_seen' type='int'>1594295118</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000673028174</name>
+					<setting name='buddy_icon' type='string'>3fdd2a67878d98eca2eeb4399d5c8d469bc70e14.jpg</setting>
+					<setting name='icon_checksum' type='string'>b26206dfebbe909dcc72fecce650f300</setting>
+					<setting name='last_seen' type='int'>1594290587</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100006199814012</name>
+					<setting name='buddy_icon' type='string'>9f1375be592bd8453322af71a01d25ca7ef9749e.jpg</setting>
+					<setting name='icon_checksum' type='string'>e602e65cde2efd349399e040a4756950</setting>
+					<setting name='last_seen' type='int'>1592910904</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100003161215821</name>
+					<setting name='buddy_icon' type='string'>47e090b36552ac6d654a9da8e7961eb4aad9240b.jpg</setting>
+					<setting name='icon_checksum' type='string'>f170ecb15ce016a442ad5cc9fbe48604</setting>
+					<setting name='last_seen' type='int'>1594294665</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100003269151730</name>
+					<setting name='buddy_icon' type='string'>6a9b63b61bc43e6bfe9dcfe4d811dc6fece99c68.jpg</setting>
+					<setting name='icon_checksum' type='string'>6b252cf53d56b6f066a1dc4048e9f00a</setting>
+					<setting name='last_seen' type='int'>1594293457</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002675451547</name>
+					<setting name='buddy_icon' type='string'>7b83e8e56df1ec0ece937d4b9cbb6143fa749002.jpg</setting>
+					<setting name='icon_checksum' type='string'>adfd9fc641bf3620cab1e9297d7eb244</setting>
+					<setting name='last_seen' type='int'>1594293759</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100003571491044</name>
+					<setting name='buddy_icon' type='string'>461897aa878fcf14d68368d585c9fe18c03c1082.jpg</setting>
+					<setting name='icon_checksum' type='string'>5d3a87e38e8b6cfe434c8959b0d992ca</setting>
+					<setting name='last_seen' type='int'>1594295118</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001067169524</name>
+					<setting name='buddy_icon' type='string'>f6b94561056ed325a474f9fc3853f5aed00cb2c2.jpg</setting>
+					<setting name='icon_checksum' type='string'>f749c62c39a29d23a743cc8b3081d5a6</setting>
+					<setting name='last_seen' type='int'>1591104211</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>1320971339</name>
+					<setting name='buddy_icon' type='string'>50800e1c710b1ce537066cacbcafc62f7e97bd53.jpg</setting>
+					<setting name='icon_checksum' type='string'>b2ad4758f75f6bb44bbd2f160ef0d0d0</setting>
+					<setting name='last_seen' type='int'>1594295420</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001343520920</name>
+					<setting name='buddy_icon' type='string'>a48ddf9c9ba81bbb61b4d9d097755f6265cfa3e6.jpg</setting>
+					<setting name='icon_checksum' type='string'>58732649fe4addea8c2ceb9162ea87da</setting>
+					<setting name='last_seen' type='int'>1594292702</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001849248264</name>
+					<setting name='buddy_icon' type='string'>78bf544d00236ce16c64820b5693b0a06069ce3f.jpg</setting>
+					<setting name='icon_checksum' type='string'>4bff88cf173c64385ccfd92fee8a1bb3</setting>
+					<setting name='last_seen' type='int'>1594295420</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001708298771</name>
+					<setting name='buddy_icon' type='string'>bbdcacedb856ea10e000d15b0df103586759c036.jpg</setting>
+					<setting name='icon_checksum' type='string'>775e1da52710976cbce597be5d16ac09</setting>
+					<setting name='last_seen' type='int'>1594295118</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001241468787</name>
+					<setting name='buddy_icon' type='string'>e657dcf3892f99bd4e2277174650a06b1c2b22ed.jpg</setting>
+					<setting name='icon_checksum' type='string'>9571e312ff10179bfe1780670287e2a9</setting>
+					<setting name='last_seen' type='int'>1593682796</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002391023885</name>
+					<setting name='buddy_icon' type='string'>b38e4c3deb70b9f99ec8ec3c578f87871058a605.jpg</setting>
+					<setting name='icon_checksum' type='string'>d6282489a3fd4570bfe4a733a92789ef</setting>
+					<setting name='last_seen' type='int'>1592896408</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001455446758</name>
+					<setting name='buddy_icon' type='string'>9e19bf3e429f2cf32b3025dd5056807ce49fa65c.jpg</setting>
+					<setting name='icon_checksum' type='string'>b38f120dad57e31334abc07f0c34e9cb</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000905439946</name>
+					<setting name='buddy_icon' type='string'>7abc782f9ca33b65559af7b4c7353c419bfec966.jpg</setting>
+					<setting name='icon_checksum' type='string'>c35a7a6b50706a17669735fa100d6555</setting>
+					<setting name='last_seen' type='int'>1594294816</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001105044580</name>
+					<setting name='buddy_icon' type='string'>deb523c1c62e676009c8e377203a21270df617d5.jpg</setting>
+					<setting name='icon_checksum' type='string'>48455c0f53286010e679ed0a2648951d</setting>
+					<setting name='last_seen' type='int'>1594294816</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000381788609</name>
+					<setting name='buddy_icon' type='string'>6d484b46f00a8bf96d59f0fd1ee9ec2b34cdecfd.jpg</setting>
+					<setting name='icon_checksum' type='string'>00ed3d22051b8c00a365f186aab59fc1</setting>
+					<setting name='last_seen' type='int'>1594295118</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001496636075</name>
+					<setting name='buddy_icon' type='string'>3adf7d93b5b8dca17cb747d061d2654053213ccf.jpg</setting>
+					<setting name='icon_checksum' type='string'>8e5be767db63d17fac01765f3bac38f6</setting>
+					<setting name='last_seen' type='int'>1594290739</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100003289163238</name>
+					<setting name='buddy_icon' type='string'>ea8ce76ce6228fab680da1e51e29fcfb6909df8b.jpg</setting>
+					<setting name='icon_checksum' type='string'>0de8a026c45fab9280adbdfad1474db6</setting>
+					<setting name='last_seen' type='int'>1594287266</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100003557168550</name>
+					<setting name='buddy_icon' type='string'>c38459c4a591706358d9d560ec0a6b1c5d940d09.jpg</setting>
+					<setting name='icon_checksum' type='string'>95c1f4d6080608de1333019b5ecc810d</setting>
+					<setting name='last_seen' type='int'>1594292551</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001349444386</name>
+					<setting name='buddy_icon' type='string'>19712d04fcaa48ec0762c886c76895097c12a557.jpg</setting>
+					<setting name='icon_checksum' type='string'>8d1ea4aaced7cef54dcec1ec5262cd79</setting>
+					<setting name='last_seen' type='int'>1594292853</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000858498838</name>
+					<setting name='buddy_icon' type='string'>3393bd205c932451f63c60f91f3b837e78fca035.jpg</setting>
+					<setting name='icon_checksum' type='string'>54123b14691843b70cd3de944f2dd2bd</setting>
+					<setting name='last_seen' type='int'>1594286209</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100003561434018</name>
+					<setting name='buddy_icon' type='string'>1d505b7cae7d856e0c1f29f220ffb503ae4adac9.jpg</setting>
+					<setting name='icon_checksum' type='string'>780e4d6120b0e235c9062e60fecd945f</setting>
+					<setting name='last_seen' type='int'>1594295118</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001015764760</name>
+					<setting name='buddy_icon' type='string'>c879f2cadc41ee05484ea032bf35155cc29934b8.jpg</setting>
+					<setting name='icon_checksum' type='string'>c511f729c0061fc9a40be650c11fd0b3</setting>
+					<setting name='last_seen' type='int'>1593863443</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002299346490</name>
+					<setting name='buddy_icon' type='string'>a48ddf9c9ba81bbb61b4d9d097755f6265cfa3e6.jpg</setting>
+					<setting name='icon_checksum' type='string'>58732649fe4addea8c2ceb9162ea87da</setting>
+					<setting name='last_seen' type='int'>1594288776</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000478435649</name>
+					<setting name='buddy_icon' type='string'>ffc0da0c962fb1d6a0caf6fa4450f82c370a9eb6.jpg</setting>
+					<setting name='icon_checksum' type='string'>8b1e1b554ddbbf3ac81e1cb94a727712</setting>
+					<setting name='last_seen' type='int'>1594295420</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>1615687362</name>
+					<setting name='buddy_icon' type='string'>81934387222ad5506e3af5b58ac5296a83547ea5.jpg</setting>
+					<setting name='icon_checksum' type='string'>b7eae144300e03bb9c25b0ada72ff93f</setting>
+					<setting name='last_seen' type='int'>1594295118</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>1560220732</name>
+					<setting name='buddy_icon' type='string'>5a0fd2424c43af525c5912d3fb6c4c54a92cecb1.jpg</setting>
+					<setting name='icon_checksum' type='string'>e944e18f163404e06289b9c3d1bccfe0</setting>
+					<setting name='last_seen' type='int'>1594288625</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001043913810</name>
+					<setting name='buddy_icon' type='string'>3003fc31873ad5fe15516e18b571ec8089ba2c08.jpg</setting>
+					<setting name='icon_checksum' type='string'>de13809225aa2a4fee8a6e175ed8c7d3</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001204810726</name>
+					<setting name='buddy_icon' type='string'>0d050263ac633e74712d1c76e8e78253745bed2e.jpg</setting>
+					<setting name='icon_checksum' type='string'>9a34d06a584277a2d79f2425bde6a1ae</setting>
+					<setting name='last_seen' type='int'>1592513453</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002915430288</name>
+					<setting name='buddy_icon' type='string'>86f2d5f1a2cd42a1ab583e3830b421dd90cd35bf.jpg</setting>
+					<setting name='icon_checksum' type='string'>6dae7bb4b90370a86ae8bd2a888ade2b</setting>
+					<setting name='last_seen' type='int'>1594295118</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100016124526687</name>
+					<setting name='buddy_icon' type='string'>8935d766c5184f1c1c45ad52105adf9298d8bb12.jpg</setting>
+					<setting name='icon_checksum' type='string'>90d8751dd2030cd63cb4c92e7332c6b1</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000487640457</name>
+					<setting name='buddy_icon' type='string'>055a5fc14004c1de241b4793435a653e89ea3b9d.jpg</setting>
+					<setting name='icon_checksum' type='string'>f1e1743a9b0307df65352677399b0f1d</setting>
+					<setting name='last_seen' type='int'>1594294816</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>1804408739</name>
+					<setting name='buddy_icon' type='string'>6b756cbf13d6646809e71f8864b2e40324776301.jpg</setting>
+					<setting name='icon_checksum' type='string'>6565e62c6b407d658a77cd78d5e42c1a</setting>
+					<setting name='last_seen' type='int'>1594283799</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001905491842</name>
+					<setting name='buddy_icon' type='string'>14a9d53a2868ad04377b89e35239b381336cf7ab.jpg</setting>
+					<setting name='icon_checksum' type='string'>de434571fb15f69aa7eaf1ce029b8390</setting>
+					<setting name='last_seen' type='int'>1592768310</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002652664478</name>
+					<setting name='buddy_icon' type='string'>a54f3a8854836444ae516869f11c488805c46b86.jpg</setting>
+					<setting name='icon_checksum' type='string'>9b62ecb84218483ab4b8b7ce18f9699e</setting>
+					<setting name='last_seen' type='int'>1594287719</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002775857668</name>
+					<setting name='buddy_icon' type='string'>463bbbdfc2069422a11fa12a8c1886a5cf014365.jpg</setting>
+					<setting name='icon_checksum' type='string'>555f5015f282a2c32ce1ec34137d3066</setting>
+					<setting name='last_seen' type='int'>1593423488</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>1706061571</name>
+					<setting name='buddy_icon' type='string'>a10d201177f5c7aa6772fac056d596d9574a1804.jpg</setting>
+					<setting name='icon_checksum' type='string'>f75dbdda0d63a5c509c1dad20739f62e</setting>
+					<setting name='last_seen' type='int'>1594285756</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>1722259126</name>
+					<setting name='buddy_icon' type='string'>328172b0697625ee21cd32e33ed6d7f478f2d2b4.jpg</setting>
+					<setting name='icon_checksum' type='string'>189cc6712e05d73c19a4f8850cfae21d</setting>
+					<setting name='last_seen' type='int'>1594292098</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002114868549</name>
+					<setting name='buddy_icon' type='string'>2d4630e8e7a34e2d529fa0bd4568a87477fc85da.jpg</setting>
+					<setting name='icon_checksum' type='string'>900be22f899f7dac42f4c4c703d4b0cb</setting>
+					<setting name='last_seen' type='int'>1594289531</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001133568418</name>
+					<setting name='buddy_icon' type='string'>05e23d1cf996bd1aab10c58b7590dd9cea948197.jpg</setting>
+					<setting name='icon_checksum' type='string'>3d8f16f11fb99b069e5027e374b01e72</setting>
+					<setting name='last_seen' type='int'>1594294816</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001375672774</name>
+					<setting name='buddy_icon' type='string'>2ae5146616b8e42552de8794f3cdffbbe127672a.jpg</setting>
+					<setting name='icon_checksum' type='string'>605b58e4c4eda8232124ef8f9a8f965c</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100003401111708</name>
+					<setting name='buddy_icon' type='string'>b30c4e1d625361fc2ea487ca17fb1b48f6c1e97a.jpg</setting>
+					<setting name='icon_checksum' type='string'>a46353ad8c9467ad3376e056e187cf21</setting>
+					<setting name='last_seen' type='int'>1594291796</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000978383306</name>
+					<setting name='buddy_icon' type='string'>eab49acdc30c815946aaf401a76b682749da40cd.jpg</setting>
+					<setting name='icon_checksum' type='string'>49f4ec34efd3d0275e94549556335132</setting>
+					<setting name='last_seen' type='int'>1594294363</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000176819098</name>
+					<setting name='buddy_icon' type='string'>91272cbce06a5fe378417659277accf0b77712e0.jpg</setting>
+					<setting name='icon_checksum' type='string'>e84a9f2c7c65e6fb0eb1ba4c92d95fe6</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002498634358</name>
+					<setting name='buddy_icon' type='string'>59179b51c0791bc3c535b3108dff7da287e36e60.jpg</setting>
+					<setting name='icon_checksum' type='string'>4c7d96064d74d96ba3bd19230e537386</setting>
+					<setting name='last_seen' type='int'>1594283044</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001763732876</name>
+					<setting name='buddy_icon' type='string'>8861855aadd67c78414a762a1243ed3888a3df86.jpg</setting>
+					<setting name='icon_checksum' type='string'>ec3675fa6a1b3e0b372bb805df15434c</setting>
+					<setting name='last_seen' type='int'>1594292551</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002142409103</name>
+					<setting name='buddy_icon' type='string'>b1da908f3a1ae2d489feadaa46d4985bfcc5604c.jpg</setting>
+					<setting name='icon_checksum' type='string'>cbba725576a77f870d2ef511c6d92b5d</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001060095581</name>
+					<setting name='buddy_icon' type='string'>ddcf9514999917eb09c7ebba7ad0e3800adadb9b.jpg</setting>
+					<setting name='icon_checksum' type='string'>a49ae516589922eb3f6866eb76c05aa4</setting>
+					<setting name='last_seen' type='int'>1594289985</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100003172443667</name>
+					<setting name='buddy_icon' type='string'>1410b5310167de5b92d1b0bc4ae2074593ea7caa.jpg</setting>
+					<setting name='icon_checksum' type='string'>e95565f5fd1552b69ed255152590fc2f</setting>
+					<setting name='last_seen' type='int'>1594291796</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001055328549</name>
+					<setting name='buddy_icon' type='string'>50e8bd30e744a871c737cd065c9038a9a00c1b73.jpg</setting>
+					<setting name='icon_checksum' type='string'>27d7a7221466c4f7c571dc1c6ea109ae</setting>
+					<setting name='last_seen' type='int'>1594280628</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002290881799</name>
+					<setting name='buddy_icon' type='string'>ea911e9cba2575a9416b7ab166077f4ff303dd7a.jpg</setting>
+					<setting name='icon_checksum' type='string'>b70b8be8271e182eaa4033ddd30d7f9f</setting>
+					<setting name='last_seen' type='int'>1592907582</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100003133553588</name>
+					<setting name='buddy_icon' type='string'>79054064b25825646a5ea15b4778cc899a5b5d5e.jpg</setting>
+					<setting name='icon_checksum' type='string'>49ee763a7b86c4fdf3d307a4bdc6119b</setting>
+					<setting name='last_seen' type='int'>1594294665</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001393568169</name>
+					<setting name='buddy_icon' type='string'>a5e4f5d5d254dead4a897fd0bd19c831b5cff29c.jpg</setting>
+					<setting name='icon_checksum' type='string'>16aada2af50946257465c7975f082e77</setting>
+					<setting name='last_seen' type='int'>1594294665</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001410713676</name>
+					<setting name='buddy_icon' type='string'>87ae51daeeb0fc2ab18dbf9dc0bc5502daf5c8a3.jpg</setting>
+					<setting name='icon_checksum' type='string'>f8950ac9092b66ec300290daba2d332d</setting>
+					<setting name='last_seen' type='int'>1594294363</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100003603571190</name>
+					<setting name='buddy_icon' type='string'>453ee512da8d5b53671e5fa04e96ce99ba33946f.jpg</setting>
+					<setting name='icon_checksum' type='string'>b2ce4ceb6081ae1a53f7c315ed77215d</setting>
+					<setting name='last_seen' type='int'>1594294665</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002037611068</name>
+					<setting name='buddy_icon' type='string'>e829b690f8bb0ae2b3e600785db22d53685755ae.jpg</setting>
+					<setting name='icon_checksum' type='string'>a0c91da6ced1d24b044419bbf08222d6</setting>
+					<setting name='last_seen' type='int'>1594294363</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100004296813148</name>
+					<setting name='buddy_icon' type='string'>f93789f2b19cf393bd1d140816652a36cc2ab456.jpg</setting>
+					<setting name='icon_checksum' type='string'>7cb25b5f195ff9f8c2236b96faa30542</setting>
+					<setting name='last_seen' type='int'>1594293910</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001512768497</name>
+					<setting name='buddy_icon' type='string'>444a75daad6404a61555752b0de7a76f5ea9b21b.jpg</setting>
+					<setting name='icon_checksum' type='string'>096cf116c5e3c8d26baa94af242d3bd1</setting>
+					<setting name='last_seen' type='int'>1594289380</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001780378733</name>
+					<setting name='buddy_icon' type='string'>3874f320539ef28c63fcbc32ed338d93fa64f150.jpg</setting>
+					<setting name='icon_checksum' type='string'>9d8a556e8bed499fda9853a3533700dc</setting>
+					<setting name='last_seen' type='int'>1594295118</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000247043662</name>
+					<setting name='buddy_icon' type='string'>bb9584409af87d40cbdf2c288ebae7a286133a8f.jpg</setting>
+					<setting name='icon_checksum' type='string'>5b483fce9842fb1382d26c49c2196514</setting>
+					<setting name='last_seen' type='int'>1593423186</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000035697519</name>
+					<setting name='buddy_icon' type='string'>a48ddf9c9ba81bbb61b4d9d097755f6265cfa3e6.jpg</setting>
+					<setting name='icon_checksum' type='string'>58732649fe4addea8c2ceb9162ea87da</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100012533499118</name>
+					<setting name='buddy_icon' type='string'>e979142122b196f9afe8bb9268df41d281e4a4a3.jpg</setting>
+					<setting name='icon_checksum' type='string'>7b712bbc1ac09a2c36c551a7bd85a357</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000138260428</name>
+					<setting name='buddy_icon' type='string'>82c9e59df99b7dca106e670654bc0308119aab77.jpg</setting>
+					<setting name='icon_checksum' type='string'>d296deb40ab1c0b44d4f542523777df0</setting>
+					<setting name='last_seen' type='int'>1594295420</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100010386096360</name>
+					<setting name='buddy_icon' type='string'>80c831954b71e52e9df3ce14fc84045125f3200e.jpg</setting>
+					<setting name='icon_checksum' type='string'>9ffae7587fe1a3bd56a7a2e4a66e83ad</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000685567806</name>
+					<setting name='buddy_icon' type='string'>a48ddf9c9ba81bbb61b4d9d097755f6265cfa3e6.jpg</setting>
+					<setting name='icon_checksum' type='string'>58732649fe4addea8c2ceb9162ea87da</setting>
+					<setting name='last_seen' type='int'>1592768008</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001076615110</name>
+					<setting name='buddy_icon' type='string'>5f5711fcebe54b6c21b99cec2c02bda2964798fe.jpg</setting>
+					<setting name='icon_checksum' type='string'>1a5ccf1036cdf72ab10ad4100c8e143c</setting>
+					<setting name='last_seen' type='int'>1593863154</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100004798020989</name>
+					<setting name='buddy_icon' type='string'>0647136a5b6b32796e49404f5a161a5ec32effbc.jpg</setting>
+					<setting name='icon_checksum' type='string'>4633826e4ac04f470c0bb937f627f6a0</setting>
+					<setting name='last_seen' type='int'>1592508169</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100007004703439</name>
+					<setting name='buddy_icon' type='string'>5ad22e1c7a16681c48092107dc0bea048ffb95ab.jpg</setting>
+					<setting name='icon_checksum' type='string'>f19a430a1a56b175cbe96083d74458db</setting>
+					<setting name='last_seen' type='int'>1594288021</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002263546923</name>
+					<setting name='buddy_icon' type='string'>bc51eec21bbbf63b517fe0e905b8edc7746d93af.jpg</setting>
+					<setting name='icon_checksum' type='string'>93a46b8b1a33479fd2eb79a7d40ddc4a</setting>
+					<setting name='last_seen' type='int'>1594294061</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002073711916</name>
+					<setting name='buddy_icon' type='string'>5f503e5b1ac2f54c80e763f93e76a9b51045d60f.jpg</setting>
+					<setting name='icon_checksum' type='string'>2e7f36f105001c04724d3870d66675a4</setting>
+					<setting name='last_seen' type='int'>1594295269</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000435328316</name>
+					<setting name='buddy_icon' type='string'>d8af95cca56f25a25337f70ecd0a2f1e77c25c12.jpg</setting>
+					<setting name='icon_checksum' type='string'>59286c5ab5079f16eacf1741d4490c3b</setting>
+					<setting name='last_seen' type='int'>1593851884</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001786912788</name>
+					<setting name='buddy_icon' type='string'>3d4c0e86ab04f4595d3c83fee0c0c58810f9dc7b.jpg</setting>
+					<setting name='icon_checksum' type='string'>875e23152120b98844969e50869e665f</setting>
+					<setting name='last_seen' type='int'>1594289985</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000733603832</name>
+					<setting name='buddy_icon' type='string'>bb038f07607cacafbc5430d4d46e058a96f81900.jpg</setting>
+					<setting name='icon_checksum' type='string'>b2e21102e75455e08e12d675faeaad7e</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000999376063</name>
+					<setting name='buddy_icon' type='string'>2f1702f4c407b914e64b1027072f6feaec03d6a5.jpg</setting>
+					<setting name='icon_checksum' type='string'>33860648dec788173ce7fff3a4a47aa5</setting>
+					<setting name='last_seen' type='int'>1594287719</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002454867058</name>
+					<setting name='buddy_icon' type='string'>b7ac7b6abbbf29b05057ab78e107661ae2a53312.jpg</setting>
+					<setting name='icon_checksum' type='string'>e74c0e1b50282fba8476bfe54c4bd92d</setting>
+					<setting name='last_seen' type='int'>1594295420</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000485602667</name>
+					<setting name='buddy_icon' type='string'>cce0f8ab91a3d6b605bf6f6d078082b834665da8.jpg</setting>
+					<setting name='icon_checksum' type='string'>d3fcd9ec96bd557d078b8b7681c0c9c3</setting>
+					<setting name='last_seen' type='int'>1594291796</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>1692868421</name>
+					<setting name='buddy_icon' type='string'>4ffb14c03963be547248541d5bbd4a9a871bfdce.jpg</setting>
+					<setting name='icon_checksum' type='string'>f2a5916d0430f05cfe5f07d5945f5470</setting>
+					<setting name='last_seen' type='int'>1594295118</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000273466433</name>
+					<setting name='buddy_icon' type='string'>b6df9df535196a038f1beb5a7bb85bcf2a60393d.jpg</setting>
+					<setting name='icon_checksum' type='string'>c6af757a697d4c1474c9bba6211aa234</setting>
+					<setting name='last_seen' type='int'>1594294061</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100003830006969</name>
+					<setting name='buddy_icon' type='string'>fb8246d8f58661c1284e73f74ce1936e761a2a2d.jpg</setting>
+					<setting name='icon_checksum' type='string'>dbde9c8a0de9d753011305fa5c9777fc</setting>
+					<setting name='last_seen' type='int'>1594282440</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000853187405</name>
+					<setting name='buddy_icon' type='string'>1337db4f1aaaa6884f41edbef53abaca93686283.jpg</setting>
+					<setting name='icon_checksum' type='string'>dbae8c464494df3812b2247ac6c2fd3e</setting>
+					<setting name='last_seen' type='int'>1594281232</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>1703460413</name>
+					<setting name='buddy_icon' type='string'>7f7eeec34d9708d93f4d42f30d0c34c6b9d6aef1.jpg</setting>
+					<setting name='icon_checksum' type='string'>2366e8ab1adb992add62e4e812e5c48f</setting>
+					<setting name='last_seen' type='int'>1594292702</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001177650308</name>
+					<setting name='buddy_icon' type='string'>ec3de0ceffff8dfd078a7389f054c0970d3e95c6.jpg</setting>
+					<setting name='icon_checksum' type='string'>853dae833b4211d6147458999a535df0</setting>
+					<setting name='last_seen' type='int'>1592982859</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100003359949250</name>
+					<setting name='buddy_icon' type='string'>132e63f25d1b58593292ae4192cd6a3d1d22ad28.jpg</setting>
+					<setting name='icon_checksum' type='string'>4a3962aa333e856dbb15276223a468a9</setting>
+					<setting name='last_seen' type='int'>1594295420</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000657238645</name>
+					<setting name='buddy_icon' type='string'>5c561cfb126b8e43e5662361229aaa357b8f647c.jpg</setting>
+					<setting name='icon_checksum' type='string'>0f4f81a280475f6f807ab012d199a255</setting>
+					<setting name='last_seen' type='int'>1594294213</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001055272845</name>
+					<setting name='buddy_icon' type='string'>085d41a9305ac8da566b30bbf88bc66aa9e62475.jpg</setting>
+					<setting name='icon_checksum' type='string'>892ead2cecb996e67d6e8255dd20cdf8</setting>
+					<setting name='last_seen' type='int'>1594290587</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100003311377790</name>
+					<setting name='buddy_icon' type='string'>f0c4bba42ed3ff6cb4f95a25996c781a71ca5491.jpg</setting>
+					<setting name='icon_checksum' type='string'>5d09438cc8afe16ba3453b3c2bace313</setting>
+					<setting name='last_seen' type='int'>1592907129</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100013895221805</name>
+					<setting name='buddy_icon' type='string'>712da4ebfccaa41db6e0c2cb6ef997f2a743963e.jpg</setting>
+					<setting name='icon_checksum' type='string'>4049f202acd1f69f544580edbf2e6b41</setting>
+					<setting name='last_seen' type='int'>1593423337</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002198470775</name>
+					<setting name='buddy_icon' type='string'>b118f31ff353384e6676743db691bdff273345a8.jpg</setting>
+					<setting name='icon_checksum' type='string'>b6e001bc0dabbcb01a4b60f102b36af9</setting>
+					<setting name='last_seen' type='int'>1594294061</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000555253039</name>
+					<setting name='buddy_icon' type='string'>40d0cc86443f2ab6c90c7cc50e40dd8fb4b40988.jpg</setting>
+					<setting name='icon_checksum' type='string'>889cf26ad4170b80926b3c6d96c2b457</setting>
+					<setting name='last_seen' type='int'>1592768612</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100033848560055</name>
+					<setting name='buddy_icon' type='string'>fc411ec5a8175fc7775d60aaae9fa19d832afbb8.jpg</setting>
+					<setting name='icon_checksum' type='string'>85ab131c7069cdc98c8102813a1be1a0</setting>
+					<setting name='last_seen' type='int'>1592825048</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100004286674589</name>
+					<setting name='buddy_icon' type='string'>9fafa4b828221d7838d8156b0460f3cdb3e39f4d.jpg</setting>
+					<setting name='icon_checksum' type='string'>bdf5f53beb5cbed8ef601bc23fb714a3</setting>
+					<setting name='last_seen' type='int'>1594291192</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100013356134498</name>
+					<setting name='buddy_icon' type='string'>245dd6ed72ff89f4bad95559e924342847920e0d.jpg</setting>
+					<setting name='icon_checksum' type='string'>a3957e47185c893a6c0891c05ab11bec</setting>
+					<setting name='last_seen' type='int'>1594293759</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001780828161</name>
+					<setting name='buddy_icon' type='string'>6a0cce136acf1754bddd8ab3972fbafee5d034c5.jpg</setting>
+					<setting name='icon_checksum' type='string'>21afc07762bde3642eb09409b0c75dc4</setting>
+					<setting name='last_seen' type='int'>1594292249</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100029061724433</name>
+					<setting name='buddy_icon' type='string'>fc2e5e02ebbf40146e590f7072ddb7b595fc09fa.jpg</setting>
+					<setting name='icon_checksum' type='string'>0479cad9448ea6f31dddc1ba64e821a4</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001542515709</name>
+					<setting name='buddy_icon' type='string'>b2e5d968877b48ce0562e6d4bdcdb3026b1baa6b.jpg</setting>
+					<setting name='icon_checksum' type='string'>f010e20c82d5171c918ccf92bbe5dc06</setting>
+					<setting name='last_seen' type='int'>1594289985</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001035189039</name>
+					<setting name='buddy_icon' type='string'>bc42fd9f44a3aea5ff6aa9fbb2e7a7af3084231b.jpg</setting>
+					<setting name='icon_checksum' type='string'>570141734e6312b03eb6ee9095525a77</setting>
+					<setting name='last_seen' type='int'>1594280024</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100006780156965</name>
+					<setting name='buddy_icon' type='string'>22424b5a9fa2a2b8f903c30cda4333502ad77f8f.jpg</setting>
+					<setting name='icon_checksum' type='string'>b371b905b00371d8b196f282a481f5fb</setting>
+					<setting name='last_seen' type='int'>1591013830</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100005699803911</name>
+					<setting name='buddy_icon' type='string'>45dbd29bcd2d7c33e5825141c468c435fd636eed.jpg</setting>
+					<setting name='icon_checksum' type='string'>d5c654e17ebff4f6838fb5baf4a01f2c</setting>
+					<setting name='last_seen' type='int'>1593422280</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>1499234625</name>
+					<setting name='buddy_icon' type='string'>a2589e04bd1163562c939ff7207310bb9ddae8a2.jpg</setting>
+					<setting name='icon_checksum' type='string'>1d970c496b6199e3ea870c55552fda68</setting>
+					<setting name='last_seen' type='int'>1591686948</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001782017595</name>
+					<setting name='buddy_icon' type='string'>e10eb3d1a6f9602626cd64cb6b688dc9f0e72991.jpg</setting>
+					<setting name='icon_checksum' type='string'>8228f26b554b82e66afa75de602f76ce</setting>
+					<setting name='last_seen' type='int'>1594280175</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100003690518729</name>
+					<setting name='buddy_icon' type='string'>34137b779ee423afc019cfffd00b0459ac65dacf.jpg</setting>
+					<setting name='icon_checksum' type='string'>965f57a48d0a776a210bcf164fd62688</setting>
+					<setting name='last_seen' type='int'>1592909092</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100043846020507</name>
+					<setting name='buddy_icon' type='string'>b2e494b1e73bb7d15b3625797633b800f85175c9.jpg</setting>
+					<setting name='icon_checksum' type='string'>54b792159d3424b4efa044687cc9e5de</setting>
+					<setting name='last_seen' type='int'>1589747000</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001116186997</name>
+					<setting name='buddy_icon' type='string'>f46d1c03d8a59f523928738387619ea6a4772a15.jpg</setting>
+					<setting name='icon_checksum' type='string'>5cd4ef6d6182d2ffef1d7b9276ab4ae0</setting>
+					<setting name='last_seen' type='int'>1594291796</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100004416037041</name>
+					<setting name='buddy_icon' type='string'>9b22e076ef7b86beb06c4fc4458909296e82c6e2.jpg</setting>
+					<setting name='icon_checksum' type='string'>b4d60f08052593dea113cfe5bcaa6461</setting>
+					<setting name='last_seen' type='int'>1594279874</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001118084439</name>
+					<setting name='buddy_icon' type='string'>e792f4869c4780cfb36188194c2a5a778d7a0cef.jpg</setting>
+					<setting name='icon_checksum' type='string'>334c1a3da4e0319500d057ae57792994</setting>
+					<setting name='last_seen' type='int'>1592517832</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001056228736</name>
+					<setting name='buddy_icon' type='string'>192c0fd82c70a3d12c8604967f43bb883966527d.jpg</setting>
+					<setting name='icon_checksum' type='string'>6ef71a5701881327d43ac6688b3baa9f</setting>
+					<setting name='last_seen' type='int'>1594295118</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000705313899</name>
+					<setting name='buddy_icon' type='string'>0af512355981c19e1e3d145c1aeffaaab4c518ed.jpg</setting>
+					<setting name='icon_checksum' type='string'>46fc84302b1358c807ec0ddeca50c204</setting>
+					<setting name='last_seen' type='int'>1592911017</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100008553186565</name>
+					<setting name='buddy_icon' type='string'>a48ddf9c9ba81bbb61b4d9d097755f6265cfa3e6.jpg</setting>
+					<setting name='icon_checksum' type='string'>58732649fe4addea8c2ceb9162ea87da</setting>
+					<setting name='last_seen' type='int'>1592308529</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100012860828015</name>
+					<setting name='buddy_icon' type='string'>a48ddf9c9ba81bbb61b4d9d097755f6265cfa3e6.jpg</setting>
+					<setting name='icon_checksum' type='string'>58732649fe4addea8c2ceb9162ea87da</setting>
+					<setting name='last_seen' type='int'>1593851880</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100024800123723</name>
+					<setting name='buddy_icon' type='string'>05bda3dcd1da47e1406800cbf3e47bb69d239c74.jpg</setting>
+					<setting name='icon_checksum' type='string'>f2f6fdc787428da689aed18c898d2180</setting>
+					<setting name='last_seen' type='int'>1594294213</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100003319356003</name>
+					<setting name='buddy_icon' type='string'>744480363e1f7a20ebaf7e326461e08d3de560bb.jpg</setting>
+					<setting name='icon_checksum' type='string'>455980b933a57f03efb0c46f3b391fbb</setting>
+					<setting name='last_seen' type='int'>1592905619</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000707895133</name>
+					<setting name='buddy_icon' type='string'>ae07024b9f06c8f43873c0b699dcdfc7ad9deab2.jpg</setting>
+					<setting name='icon_checksum' type='string'>36067c10b438d15c2b42155ce7ea6fea</setting>
+					<setting name='last_seen' type='int'>1594280779</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100005231653426</name>
+					<setting name='buddy_icon' type='string'>eefb76ad1ced8e9fb731159df0315c3681e7a997.jpg</setting>
+					<setting name='icon_checksum' type='string'>f9d80d45e516eeb2456ea981198eb5a6</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002161010559</name>
+					<setting name='buddy_icon' type='string'>7444431d036497238249b0a7228974037c7f3309.jpg</setting>
+					<setting name='icon_checksum' type='string'>c2ded25e824914711c75bfc4bebda614</setting>
+					<setting name='last_seen' type='int'>1593421978</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100031212018915</name>
+					<setting name='buddy_icon' type='string'>a48ddf9c9ba81bbb61b4d9d097755f6265cfa3e6.jpg</setting>
+					<setting name='icon_checksum' type='string'>58732649fe4addea8c2ceb9162ea87da</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001222603143</name>
+					<setting name='buddy_icon' type='string'>9675e5d70edd7c4d5a1edc0321663904c4abb1cd.jpg</setting>
+					<setting name='icon_checksum' type='string'>5a2439788f91339e237ad749aaf2741d</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100010333800724</name>
+					<setting name='buddy_icon' type='string'>498cd399583ff9f8054a2152e1002e99f817edf5.jpg</setting>
+					<setting name='icon_checksum' type='string'>58aaba8788615226166c8e4608ca6819</setting>
+					<setting name='last_seen' type='int'>1594292853</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000473304613</name>
+					<setting name='buddy_icon' type='string'>41e417579dd1d840a48bb2995725de345dff489f.jpg</setting>
+					<setting name='icon_checksum' type='string'>913eff2a788cd16fec4dbdc9544b6327</setting>
+					<setting name='last_seen' type='int'>1594294665</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000655634745</name>
+					<setting name='buddy_icon' type='string'>adefea823957fff6a3d180cb35cfb4b9e5704d9a.jpg</setting>
+					<setting name='icon_checksum' type='string'>13599c73ffc3245cbb4ff09846169306</setting>
+					<setting name='last_seen' type='int'>1594295269</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000021191569</name>
+					<setting name='buddy_icon' type='string'>9c030e585e4ebe68988889ac4ce9171b5e796809.jpg</setting>
+					<setting name='icon_checksum' type='string'>8a8cb8e416543810ae8bb502a71c44c6</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000584187457</name>
+					<setting name='buddy_icon' type='string'>660ee58d66422a802e09c590df1c134ef806b27e.jpg</setting>
+					<setting name='icon_checksum' type='string'>d527bd9a652db5b624acc5d7d72a3c99</setting>
+					<setting name='last_seen' type='int'>1593863443</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100005131784495</name>
+					<setting name='buddy_icon' type='string'>1a23488bed9cceaa1be4dbe608587b82275ce7e1.jpg</setting>
+					<setting name='icon_checksum' type='string'>64e61b71b3ff32c589125ac8886a883c</setting>
+					<setting name='last_seen' type='int'>1594283799</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001497249557</name>
+					<setting name='buddy_icon' type='string'>6e44b68f74ac24b547faa93cabe11aee46de8b6d.jpg</setting>
+					<setting name='icon_checksum' type='string'>3b37865c411fbfc53927b9499e515c1f</setting>
+					<setting name='last_seen' type='int'>1594294665</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100009454187762</name>
+					<setting name='buddy_icon' type='string'>355611837aee01e72a7038c62da419afc7043b4d.jpg</setting>
+					<setting name='icon_checksum' type='string'>b9db0b66380b9c9f2dcc4c5532cf71c4</setting>
+					<setting name='last_seen' type='int'>1594290437</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100012685110034</name>
+					<setting name='buddy_icon' type='string'>f12749af296fefc954e99fff53ed4ec1b75d41c7.jpg</setting>
+					<setting name='icon_checksum' type='string'>316ac22cfca6a55aa18db3c9a6d52c35</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002599305582</name>
+					<setting name='buddy_icon' type='string'>7175164fe1a4bd4aebf9d8ab35cce5706c350f7a.jpg</setting>
+					<setting name='icon_checksum' type='string'>a803bfe80d32eb02c888654c34a832b2</setting>
+					<setting name='last_seen' type='int'>1594289682</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>1216170038</name>
+					<setting name='buddy_icon' type='string'>fd1ed26f199896ed694dab4232c650e986eef352.jpg</setting>
+					<setting name='icon_checksum' type='string'>c9b403179667fcc8ee22aa5aa91940da</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100006756937040</name>
+					<setting name='buddy_icon' type='string'>e78339112ec16b7fcf12ccb650f34e122157761c.jpg</setting>
+					<setting name='icon_checksum' type='string'>e239b05944f30d2f1d52842620fccebe</setting>
+					<setting name='last_seen' type='int'>1594295420</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001417837139</name>
+					<setting name='buddy_icon' type='string'>b279a1c9c1bd81026ef7bb99038ed36fac3f0a67.jpg</setting>
+					<setting name='icon_checksum' type='string'>fe193546be7205d88317b18120600c98</setting>
+					<setting name='last_seen' type='int'>1594292702</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002562801162</name>
+					<setting name='buddy_icon' type='string'>eda3c7a2965db06c2d9e7353aebc9a7b00b1ecf9.jpg</setting>
+					<setting name='icon_checksum' type='string'>4c3a7611dd12ce61e16eefdce7d7124b</setting>
+					<setting name='last_seen' type='int'>1594293759</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100003106204731</name>
+					<setting name='buddy_icon' type='string'>c024af1e9e02c10396bb4a4a206f079215188c69.jpg</setting>
+					<setting name='icon_checksum' type='string'>5c7e7590f0a4847d171287647607632b</setting>
+					<setting name='last_seen' type='int'>1592898673</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100004039403364</name>
+					<setting name='buddy_icon' type='string'>dc4f156bd767c067824a3d2ab8a2d4eeef440529.jpg</setting>
+					<setting name='icon_checksum' type='string'>8e53fde38e85c56eae94a9081480de87</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002190692236</name>
+					<setting name='buddy_icon' type='string'>0c143db5a80947c7aa97ece635189a9ffae33542.jpg</setting>
+					<setting name='icon_checksum' type='string'>3a6676affa227be8c4b106aadcd9cfb6</setting>
+					<setting name='last_seen' type='int'>1594294816</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100010087782012</name>
+					<setting name='buddy_icon' type='string'>f4738bfaf15b7934b9ddcf537e0ed354a2360ebf.jpg</setting>
+					<setting name='icon_checksum' type='string'>a51e78d42972554056b1809b3f2cdfe6</setting>
+					<setting name='last_seen' type='int'>1593682796</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000991029372</name>
+					<setting name='buddy_icon' type='string'>f470be27c753be8603b43a07469a6544806b83cd.jpg</setting>
+					<setting name='icon_checksum' type='string'>2d4cdeca76c486f5bee00f6de660c30a</setting>
+					<setting name='last_seen' type='int'>1594294665</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100006048631253</name>
+					<setting name='buddy_icon' type='string'>6224f8a2a511a41766609143c14deabd0bd91aeb.jpg</setting>
+					<setting name='icon_checksum' type='string'>3c2471b19d8a474d39ecb551c0d2dcdb</setting>
+					<setting name='last_seen' type='int'>1594291192</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001104385184</name>
+					<setting name='buddy_icon' type='string'>7e501927ca22c1b5f6ee38df3b26dc7b2e6ba002.jpg</setting>
+					<setting name='icon_checksum' type='string'>895b3b75e544f5de60436ed72e3ac057</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002172456918</name>
+					<setting name='buddy_icon' type='string'>02e260b59a40dadc796275ff97fc0a01a23db54f.jpg</setting>
+					<setting name='icon_checksum' type='string'>5a9cc795d532f731dee18783849f9a30</setting>
+					<setting name='last_seen' type='int'>1594293910</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000796182589</name>
+					<setting name='buddy_icon' type='string'>01df88efe3a6ea7114d2a741c4131d75972e8a52.jpg</setting>
+					<setting name='icon_checksum' type='string'>f7d938fdfd0066e9187552c8dc7a862f</setting>
+					<setting name='last_seen' type='int'>1594294363</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002066982219</name>
+					<setting name='buddy_icon' type='string'>76c7db5905a92e8949dd88c96585b35fd1497dff.jpg</setting>
+					<setting name='icon_checksum' type='string'>fa09754dc0ce965d1950d11f4e3f585a</setting>
+					<setting name='last_seen' type='int'>1594294816</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100006929133888</name>
+					<setting name='buddy_icon' type='string'>0d0aaf195addf99ebb27a9dc76d31c852e76a6ba.jpg</setting>
+					<setting name='icon_checksum' type='string'>0f4fa7cf08412b3a03f26a23fee96416</setting>
+					<setting name='last_seen' type='int'>1594287114</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100009838571213</name>
+					<setting name='buddy_icon' type='string'>14c77546c949a61d781ad98edd945633908a315a.jpg</setting>
+					<setting name='icon_checksum' type='string'>2d78cb49a1fea95a8a3f96058c007898</setting>
+					<setting name='last_seen' type='int'>1592899730</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>1825118902</name>
+					<setting name='buddy_icon' type='string'>7fb15eebacfe34e432fe2ae27fa2caed76e6d89f.jpg</setting>
+					<setting name='icon_checksum' type='string'>9bf87f78321557922e3959eb199fca22</setting>
+					<setting name='last_seen' type='int'>1594284850</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100004048975599</name>
+					<setting name='buddy_icon' type='string'>23dd7287ceafceb544574ec277de0ba33bbbd3f9.jpg</setting>
+					<setting name='icon_checksum' type='string'>a4743529f5bfe89cf328820d79e88fb8</setting>
+					<setting name='last_seen' type='int'>1594288927</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001523223117</name>
+					<setting name='buddy_icon' type='string'>f5b8b81e3bf219e4708e84ef80786f221a1e930f.jpg</setting>
+					<setting name='icon_checksum' type='string'>b8277666a63cd1637e6f8342d550079c</setting>
+					<setting name='last_seen' type='int'>1594294816</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100003268274011</name>
+					<setting name='buddy_icon' type='string'>f7e873235659efd117206f38c53c1f9f3107614f.jpg</setting>
+					<setting name='icon_checksum' type='string'>9da1b30b5b63677c496f1ef2be934627</setting>
+					<setting name='last_seen' type='int'>1594289985</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001711803999</name>
+					<setting name='buddy_icon' type='string'>27fdbe56ec9348a70a0339e7edfbfa394ceb1af8.jpg</setting>
+					<setting name='icon_checksum' type='string'>ad468ba81c91c38630bf7cd0b7788d89</setting>
+					<setting name='last_seen' type='int'>1593851880</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100011424393308</name>
+					<setting name='buddy_icon' type='string'>4de33e3349daf798fdffe5dbbf4917308c676b0a.jpg</setting>
+					<setting name='icon_checksum' type='string'>2bbae2a3795f33a5322bfc0fde0605bd</setting>
+					<setting name='last_seen' type='int'>1592903958</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001346347342</name>
+					<setting name='buddy_icon' type='string'>51f18976defc122e9ab5cd6ba79648ea3d902c3f.jpg</setting>
+					<setting name='icon_checksum' type='string'>1a444140f4a69019396c484b636cd559</setting>
+					<setting name='last_seen' type='int'>1594294213</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100012680896205</name>
+					<setting name='buddy_icon' type='string'>d343b17980a460b8325584997c200339e5a68962.jpg</setting>
+					<setting name='icon_checksum' type='string'>03727d8c3279d353c57a87bcdff30d6d</setting>
+					<setting name='last_seen' type='int'>1594294514</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000444832319</name>
+					<setting name='buddy_icon' type='string'>e4bf4b97fa9b23a707ea98794f74db08b78df52f.jpg</setting>
+					<setting name='icon_checksum' type='string'>16be9ed8220c05af754f98084dafa03b</setting>
+					<setting name='last_seen' type='int'>1594294061</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>689521218</name>
+					<setting name='buddy_icon' type='string'>02c917efe5d1d839ca33f71fcd26af9afd1ad39e.jpg</setting>
+					<setting name='icon_checksum' type='string'>4b9423ab5dd5103020b17c324e12fb3c</setting>
+					<setting name='last_seen' type='int'>1594295420</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000496828961</name>
+					<setting name='buddy_icon' type='string'>f99dbd5ea60d2a8aede6799304e89fc465ea30df.jpg</setting>
+					<setting name='icon_checksum' type='string'>584faab237346b95d182d65758c3a18e</setting>
+					<setting name='last_seen' type='int'>1594290135</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100007590849256</name>
+					<setting name='buddy_icon' type='string'>24f028983d1dbaa6a7b1aad0207c238ac51a891b.jpg</setting>
+					<setting name='icon_checksum' type='string'>18fb1ef7db9ed08d0f662ab193464a32</setting>
+					<setting name='last_seen' type='int'>1592982462</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100043533525987</name>
+					<setting name='buddy_icon' type='string'>46c0e36d9bcae77d448c3dad8419ddf15fada6a2.jpg</setting>
+					<setting name='icon_checksum' type='string'>b5389f0456246abcfbaabfa8033131e1</setting>
+					<setting name='last_seen' type='int'>1594290890</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100003267962397</name>
+					<setting name='buddy_icon' type='string'>d3581a1a73978b2a3d2e160cb6c84c09c5aa0750.jpg</setting>
+					<setting name='icon_checksum' type='string'>2573337f9d846b3d77aa03c450049fa5</setting>
+					<setting name='last_seen' type='int'>1594294514</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100027384153423</name>
+					<setting name='buddy_icon' type='string'>f7a8f49a4fff60d1d8db13eccb87115982ccb3c2.jpg</setting>
+					<setting name='icon_checksum' type='string'>57aca437109ca1be563d7c155737835f</setting>
+					<setting name='last_seen' type='int'>1592506054</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100024769094586</name>
+					<setting name='buddy_icon' type='string'>62a53ec0690fa7528bf56a66c71169f3cd5c2c19.jpg</setting>
+					<setting name='icon_checksum' type='string'>57f671deb499c5a0f88c227806211666</setting>
+					<setting name='last_seen' type='int'>1592982009</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100006932618422</name>
+					<setting name='buddy_icon' type='string'>57f6d1c899643caf8683d0bd6199985e79d9730d.jpg</setting>
+					<setting name='icon_checksum' type='string'>f8d2f312930967b32a33b15091cdfdca</setting>
+					<setting name='last_seen' type='int'>1594294514</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100022874882312</name>
+					<setting name='buddy_icon' type='string'>d1800fbcc0810dd8ae84fca355ef8ce34fbc3bc1.jpg</setting>
+					<setting name='icon_checksum' type='string'>c8588d94cddcd4118767655b3976d0a2</setting>
+					<setting name='last_seen' type='int'>1594291192</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001434166410</name>
+					<setting name='buddy_icon' type='string'>b5b67b3c0f922b766fff0b09abe8913e71b88522.jpg</setting>
+					<setting name='icon_checksum' type='string'>de717346387efffeb71f9d8a7ebbc275</setting>
+					<setting name='last_seen' type='int'>1594292249</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001232274399</name>
+					<setting name='buddy_icon' type='string'>ab9aa3f66d4fbe628aa47aa67097dc990cef975b.jpg</setting>
+					<setting name='icon_checksum' type='string'>8fd06d8a0d32d9600fc52d68f88b6a53</setting>
+					<setting name='last_seen' type='int'>1594284700</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002953250338</name>
+					<setting name='buddy_icon' type='string'>30409182d39cc0524fa6e40d53926e3e95fdf613.jpg</setting>
+					<setting name='icon_checksum' type='string'>db274d00ed6cf3f97c0497ca45158cfb</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100017276709860</name>
+					<setting name='buddy_icon' type='string'>1d001805d6c0ae603ac869adcbda623c3353abe7.jpg</setting>
+					<setting name='icon_checksum' type='string'>cb69f105e0613490869d20571c02421d</setting>
+					<setting name='last_seen' type='int'>1589620684</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002040025930</name>
+					<setting name='buddy_icon' type='string'>2473f168cce7856e6d6b5ee2814aa0b07bb53372.jpg</setting>
+					<setting name='icon_checksum' type='string'>9e361aa8c528a41d01da944ead51e292</setting>
+					<setting name='last_seen' type='int'>1594291947</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100024590092506</name>
+					<setting name='buddy_icon' type='string'>0b6eb420b4f96541ae664e32c42ad5fc9e796f12.jpg</setting>
+					<setting name='icon_checksum' type='string'>6395121777998936b89fd184c1a2b2ed</setting>
+					<setting name='last_seen' type='int'>1594293306</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001880754492</name>
+					<setting name='buddy_icon' type='string'>ec233c6dc33eabcd8f405ee8e44eceddb68fc0e1.jpg</setting>
+					<setting name='icon_checksum' type='string'>2958ca6d3f18bc67c8fec5002398d95c</setting>
+					<setting name='last_seen' type='int'>1594286964</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100004008700641</name>
+					<setting name='buddy_icon' type='string'>fea7b884f1e0245c366049d36149b0a81df99143.jpg</setting>
+					<setting name='icon_checksum' type='string'>5910512aa09720803cc25d857ac87832</setting>
+					<setting name='last_seen' type='int'>1594292400</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100003939259488</name>
+					<setting name='buddy_icon' type='string'>a48ddf9c9ba81bbb61b4d9d097755f6265cfa3e6.jpg</setting>
+					<setting name='icon_checksum' type='string'>58732649fe4addea8c2ceb9162ea87da</setting>
+					<setting name='last_seen' type='int'>1592898522</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002892709945</name>
+					<setting name='buddy_icon' type='string'>af65a8d318f08f5778ef7cb21e50c1a177596c81.jpg</setting>
+					<setting name='icon_checksum' type='string'>44ca85d29eb92e79a7a4ab750bc58617</setting>
+					<setting name='last_seen' type='int'>1594294514</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000928458826</name>
+					<setting name='buddy_icon' type='string'>6e5d9567b2bda49ea92efb5d008bb47eb5ba4a18.jpg</setting>
+					<setting name='icon_checksum' type='string'>d016d0ee1904230c178f445c7202ef73</setting>
+					<setting name='last_seen' type='int'>1594294967</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100005188804825</name>
+					<setting name='buddy_icon' type='string'>0eceefb7ea7594fab34e60fb0356d5cc71c782be.jpg</setting>
+					<setting name='icon_checksum' type='string'>e6c39428796af5adf86d093f80827b22</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100003179435714</name>
+					<setting name='buddy_icon' type='string'>18b9aff4d374fbc40778854d1a3d704c93c5ed96.jpg</setting>
+					<setting name='icon_checksum' type='string'>7f984a4d3612ca329874efc9e91b996f</setting>
+					<setting name='last_seen' type='int'>1594293155</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000264960630</name>
+					<setting name='buddy_icon' type='string'>c7171d30701827a3eddffcf541d84ab49fc519eb.jpg</setting>
+					<setting name='icon_checksum' type='string'>4e7e5e3fa0f1bf98e954fdb31a9db4cd</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000578521029</name>
+					<setting name='buddy_icon' type='string'>ba4ff082e87fd81a5e0d00a0bdf73ea2d1e0f07b.jpg</setting>
+					<setting name='icon_checksum' type='string'>2cf02f1a0769aba8d18b8f7624d5cf82</setting>
+					<setting name='last_seen' type='int'>1594293306</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000866772990</name>
+					<setting name='buddy_icon' type='string'>a1c14f04351f40cdfb71b7100c3b06e80db1bbb3.jpg</setting>
+					<setting name='icon_checksum' type='string'>d3eb3c76b4c00a3092d178991bb10618</setting>
+					<setting name='last_seen' type='int'>1594292400</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000477346320</name>
+					<setting name='buddy_icon' type='string'>a48ddf9c9ba81bbb61b4d9d097755f6265cfa3e6.jpg</setting>
+					<setting name='icon_checksum' type='string'>58732649fe4addea8c2ceb9162ea87da</setting>
+					<setting name='last_seen' type='int'>1592904109</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001492628777</name>
+					<setting name='buddy_icon' type='string'>6226cae496212a4cc2296716b57d9c51fdc1cfda.jpg</setting>
+					<setting name='icon_checksum' type='string'>ed67696a169105bc552c5c9ebbdb904a</setting>
+					<setting name='last_seen' type='int'>1594294967</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001019959720</name>
+					<setting name='buddy_icon' type='string'>2bc72a13ab0f3e7f7d9f3db4f106cc842f90c671.jpg</setting>
+					<setting name='icon_checksum' type='string'>e8424672537251bc79a26b4d06bdf0c4</setting>
+					<setting name='last_seen' type='int'>1594294213</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100003068346363</name>
+					<setting name='buddy_icon' type='string'>45af59ac018056850b1e12892ae326dc07ef1e11.jpg</setting>
+					<setting name='icon_checksum' type='string'>4d30aec9e8d8ca105357ff948620ff2c</setting>
+					<setting name='last_seen' type='int'>1594282591</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001382085628</name>
+					<setting name='buddy_icon' type='string'>920cb0743b466e884833d1fdc3f2af25684bc2aa.jpg</setting>
+					<setting name='icon_checksum' type='string'>c4835af35356f52a4ee58dd26a26dfa8</setting>
+					<setting name='last_seen' type='int'>1594289985</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100004402625702</name>
+					<setting name='buddy_icon' type='string'>b4e28bc603981c7b1d9fc65bf0362d168b66008d.jpg</setting>
+					<setting name='icon_checksum' type='string'>b22caacb1938f91ea788b772c32226b0</setting>
+					<setting name='last_seen' type='int'>1594294665</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000392538063</name>
+					<setting name='buddy_icon' type='string'>40ba1ff5427a493a7d1caf94fb3209309e711186.jpg</setting>
+					<setting name='icon_checksum' type='string'>34eb782da77e05b7b0b64054c0bc8ece</setting>
+					<setting name='last_seen' type='int'>1594284850</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001342583788</name>
+					<setting name='buddy_icon' type='string'>a2589e04bd1163562c939ff7207310bb9ddae8a2.jpg</setting>
+					<setting name='icon_checksum' type='string'>1d970c496b6199e3ea870c55552fda68</setting>
+					<setting name='last_seen' type='int'>1594295420</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000762286160</name>
+					<setting name='buddy_icon' type='string'>dd0e7f4b8d86d8d14f408d5fb290dbd14fcc09b8.jpg</setting>
+					<setting name='icon_checksum' type='string'>dfa9604c81cac61580da66be685fdcfc</setting>
+					<setting name='last_seen' type='int'>1594294816</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001135006778</name>
+					<setting name='buddy_icon' type='string'>b509df30e6b80f3ade52ce222d1f61fffcedfdbe.jpg</setting>
+					<setting name='icon_checksum' type='string'>f3623c4098df2ae28405a75a83913408</setting>
+					<setting name='last_seen' type='int'>1594281232</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>1844087059</name>
+					<setting name='buddy_icon' type='string'>54c2bed401d7c4b30ba3ae71205a408c4f621e16.jpg</setting>
+					<setting name='icon_checksum' type='string'>690aaa5f554176da9bd6e933d4c179cf</setting>
+					<setting name='last_seen' type='int'>1594291494</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100004714894497</name>
+					<setting name='buddy_icon' type='string'>fe0a636d7810d08c391abf1aedff701eb1331ce6.jpg</setting>
+					<setting name='icon_checksum' type='string'>eef1c84e6645c0dc5cfccd28019f78ca</setting>
+					<setting name='last_seen' type='int'>1594293457</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000626592523</name>
+					<setting name='buddy_icon' type='string'>307b642b18b06417675769ef85054662a30d7234.jpg</setting>
+					<setting name='icon_checksum' type='string'>5ec352745ee3dea3f04a3707c4c77e1b</setting>
+					<setting name='last_seen' type='int'>1594292098</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001615845706</name>
+					<setting name='buddy_icon' type='string'>a48ddf9c9ba81bbb61b4d9d097755f6265cfa3e6.jpg</setting>
+					<setting name='icon_checksum' type='string'>58732649fe4addea8c2ceb9162ea87da</setting>
+					<setting name='last_seen' type='int'>1594295269</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100004404181552</name>
+					<setting name='buddy_icon' type='string'>8eb7031faec3ee159465d2e5c0673ce3862a97cc.jpg</setting>
+					<setting name='icon_checksum' type='string'>dd12979339a5e815b22125ccf21c1003</setting>
+					<setting name='last_seen' type='int'>1594294816</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000739366285</name>
+					<setting name='buddy_icon' type='string'>a2589e04bd1163562c939ff7207310bb9ddae8a2.jpg</setting>
+					<setting name='icon_checksum' type='string'>1d970c496b6199e3ea870c55552fda68</setting>
+					<setting name='last_seen' type='int'>1594294363</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>553361133</name>
+					<setting name='buddy_icon' type='string'>7978a5b4111ebe566673f430306567deb17eccde.jpg</setting>
+					<setting name='icon_checksum' type='string'>bac0b7cbab69ebd825e1bb2f5e981193</setting>
+					<setting name='last_seen' type='int'>1594294967</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100013738245349</name>
+					<setting name='buddy_icon' type='string'>98e70b4e5f8cddac12bb8df78ea4b72801638dbd.jpg</setting>
+					<setting name='icon_checksum' type='string'>65b894b9d75d61ef43b51762720fd4da</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100029170242856</name>
+					<setting name='buddy_icon' type='string'>0e659c5372edb9ba4027895c97d82d9b247f090a.jpg</setting>
+					<setting name='icon_checksum' type='string'>b6e8d1cc1878052c534746ce7abde4ac</setting>
+					<setting name='last_seen' type='int'>1594294363</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>1788723226</name>
+					<setting name='buddy_icon' type='string'>dbcee634ee262c71d5d5c2b9eaec5e7520947079.jpg</setting>
+					<setting name='icon_checksum' type='string'>806cd25d610f6f61a36029985e8569e5</setting>
+					<setting name='last_seen' type='int'>1594295269</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100032132102808</name>
+					<setting name='buddy_icon' type='string'>a2589e04bd1163562c939ff7207310bb9ddae8a2.jpg</setting>
+					<setting name='icon_checksum' type='string'>1d970c496b6199e3ea870c55552fda68</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000761018593</name>
+					<setting name='buddy_icon' type='string'>1caf8d26c606397d9638954fc07078c9d506d650.jpg</setting>
+					<setting name='icon_checksum' type='string'>111369179a05cb8d652551caaae20b4e</setting>
+					<setting name='last_seen' type='int'>1594295420</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000784938346</name>
+					<setting name='buddy_icon' type='string'>f43630731c3d85b371a7d02ca395c1e74e78f48f.jpg</setting>
+					<setting name='icon_checksum' type='string'>3f7e6561d814b2e4b6b8e649d0e64067</setting>
+					<setting name='last_seen' type='int'>1593682796</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>1753742159</name>
+					<setting name='buddy_icon' type='string'>473202b544e2b80cdc5932c76270727517dfdc93.jpg</setting>
+					<setting name='icon_checksum' type='string'>67492f9b6c36469db694302ac176d737</setting>
+					<setting name='last_seen' type='int'>1593863304</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100005620692568</name>
+					<setting name='buddy_icon' type='string'>e54316f8f3e0a16cdf0ed45f70a236b6f641ae11.jpg</setting>
+					<setting name='icon_checksum' type='string'>fbb3759ef5107376946be39b5e679d01</setting>
+					<setting name='last_seen' type='int'>1591095453</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>1491454617</name>
+					<setting name='buddy_icon' type='string'>a7d586d7ab755e537019e01fd4c737381f4ea3e2.jpg</setting>
+					<setting name='icon_checksum' type='string'>597ad6b56abac26f85f85f5a3ae0e3cf</setting>
+					<setting name='last_seen' type='int'>1594289078</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100012233203781</name>
+					<setting name='buddy_icon' type='string'>a48ddf9c9ba81bbb61b4d9d097755f6265cfa3e6.jpg</setting>
+					<setting name='icon_checksum' type='string'>58732649fe4addea8c2ceb9162ea87da</setting>
+					<setting name='last_seen' type='int'>1592903505</setting>
+				</buddy>
+				<setting name='gtk-mute-sound' type='bool'>0</setting>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100012854555431</name>
+					<setting name='buddy_icon' type='string'>c7c21c62cd0d5a9efebdddfc5db7e14c1b881c8c.jpg</setting>
+					<setting name='icon_checksum' type='string'>4460cb9ad567aecf0083f9efd117b1ec</setting>
+					<setting name='last_seen' type='int'>1594294665</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100003296631420</name>
+					<setting name='buddy_icon' type='string'>544f0edfb1d1796e918863d35f17063adb42c53f.jpg</setting>
+					<setting name='icon_checksum' type='string'>189b58f7c755a0a503a918a72783c63d</setting>
+					<setting name='last_seen' type='int'>1594283044</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000509060513</name>
+					<setting name='buddy_icon' type='string'>8c6d641600930cebbafa477264ecfc35ed135f01.jpg</setting>
+					<setting name='icon_checksum' type='string'>349eec0799ce5ba56a707da5002411bd</setting>
+					<setting name='last_seen' type='int'>1594294967</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001019322156</name>
+					<setting name='buddy_icon' type='string'>3a1e8b85c64d6e72e3069d3505a84d4b270acdc8.jpg</setting>
+					<setting name='icon_checksum' type='string'>da0d4e6ada07b4fe7ffa35b9b0ecf4a2</setting>
+					<setting name='last_seen' type='int'>1594294967</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000631804231</name>
+					<setting name='buddy_icon' type='string'>23dd2862f0107d9caf113802890c3579f8395e33.jpg</setting>
+					<setting name='icon_checksum' type='string'>4b490e1c5cd5f8f4ea2533e966ba2762</setting>
+					<setting name='last_seen' type='int'>1591636008</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>1280364826</name>
+					<setting name='buddy_icon' type='string'>e5e9b742081bf887d06192d811a7b450ecc2db1e.jpg</setting>
+					<setting name='icon_checksum' type='string'>edf1937190b4b9a446cd23fee1865fca</setting>
+					<setting name='last_seen' type='int'>1594292249</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000412570113</name>
+					<setting name='buddy_icon' type='string'>dda7f488958f187e8f3a598d3f370852fbb682df.jpg</setting>
+					<setting name='icon_checksum' type='string'>939136d12f435f2d16a272702b65a244</setting>
+					<setting name='last_seen' type='int'>1592982311</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001445475999</name>
+					<setting name='buddy_icon' type='string'>f893d19735ca9aed3b0932b0eed0c39811ced821.jpg</setting>
+					<setting name='icon_checksum' type='string'>4c4ef3626df52a4f5c1b104834d81c3b</setting>
+					<setting name='last_seen' type='int'>1594280779</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100006022053386</name>
+					<setting name='buddy_icon' type='string'>31f8ddd54e49be577074174f04aff265e2a41775.jpg</setting>
+					<setting name='icon_checksum' type='string'>ca30b21d2c404ccb1e53c971a297e97f</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002988428392</name>
+					<setting name='buddy_icon' type='string'>6b40de929e9e71a325edd81f7a000f5f0895e487.jpg</setting>
+					<setting name='icon_checksum' type='string'>7365724dc025b85440713cd0ad10be1d</setting>
+					<setting name='last_seen' type='int'>1594293759</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100003556234814</name>
+					<setting name='buddy_icon' type='string'>94e59845276ea6a6ea20acacdeb2517e244ef7f9.jpg</setting>
+					<setting name='icon_checksum' type='string'>f60d6ceb9ad821f8015e48685bf52741</setting>
+					<setting name='last_seen' type='int'>1592506961</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000921343677</name>
+					<setting name='buddy_icon' type='string'>22e5c6f01bdfc7b6bf6b835d6dc764f32c81a825.jpg</setting>
+					<setting name='icon_checksum' type='string'>8c87e16ad7b559611acb3c50ff174fb3</setting>
+					<setting name='last_seen' type='int'>1594286060</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000141901342</name>
+					<setting name='buddy_icon' type='string'>397e62ebf3784eaa28a8f2decb0e67c281bca5f2.jpg</setting>
+					<setting name='icon_checksum' type='string'>3d00407334a7682bb12eec097fc90cf7</setting>
+					<setting name='last_seen' type='int'>1593682613</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000902195502</name>
+					<setting name='buddy_icon' type='string'>63a3bcb2f316534794d8dd53cb2e81fc77ef8bcc.jpg</setting>
+					<setting name='icon_checksum' type='string'>35fb494b1b71fb9ef65731ada4347fed</setting>
+					<setting name='last_seen' type='int'>1594289380</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>1095531845</name>
+					<setting name='buddy_icon' type='string'>c98912491f941fc08db1de69605aeacd97c916e7.jpg</setting>
+					<setting name='icon_checksum' type='string'>dd2f8a46ad9fcd0dabf5b99b007699c5</setting>
+					<setting name='last_seen' type='int'>1594288323</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000833630243</name>
+					<setting name='buddy_icon' type='string'>373131cd28ea7a1f7aa46d217945491fcd3ac9ac.jpg</setting>
+					<setting name='icon_checksum' type='string'>d14203422fd59688b326e86403a0282e</setting>
+					<setting name='last_seen' type='int'>1594294665</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000534151014</name>
+					<setting name='buddy_icon' type='string'>c3beb50d0c3b78cd888f929ba10d5b3101588695.jpg</setting>
+					<setting name='icon_checksum' type='string'>b6a6988730efa8d10adc4e3f4f46dfbf</setting>
+					<setting name='last_seen' type='int'>1585945449</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000766299775</name>
+					<setting name='buddy_icon' type='string'>a48ddf9c9ba81bbb61b4d9d097755f6265cfa3e6.jpg</setting>
+					<setting name='icon_checksum' type='string'>58732649fe4addea8c2ceb9162ea87da</setting>
+					<setting name='last_seen' type='int'>1594287114</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002548413413</name>
+					<setting name='buddy_icon' type='string'>abcbd1212a1502504f828d66042642937a789cc6.jpg</setting>
+					<setting name='icon_checksum' type='string'>7d0f082987e4f6d675bf73360d6b4b28</setting>
+					<setting name='last_seen' type='int'>1594287568</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000546367396</name>
+					<setting name='buddy_icon' type='string'>4f8ae8048784092e3d0d2aa2cd4bb670d33772ac.jpg</setting>
+					<setting name='icon_checksum' type='string'>ee801c99ca0cda762171058d3204a03d</setting>
+					<setting name='last_seen' type='int'>1594290739</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001834608010</name>
+					<setting name='buddy_icon' type='string'>7a405287c0c99f5542993d7d6fcc417fb51ec094.jpg</setting>
+					<setting name='icon_checksum' type='string'>d594cff89d04b42a635e551040dcbe13</setting>
+					<setting name='last_seen' type='int'>1594292400</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100007192110619</name>
+					<setting name='buddy_icon' type='string'>6256b9ac3e09ef9c0d8f30f278190b03d5a3f820.jpg</setting>
+					<setting name='icon_checksum' type='string'>6845acbd11166035db29b9cbab8149ed</setting>
+					<setting name='last_seen' type='int'>1594280628</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001129119837</name>
+					<setting name='buddy_icon' type='string'>19498d7248cdbc1d0072f27e97f516d738107806.jpg</setting>
+					<setting name='icon_checksum' type='string'>b68a8d6adb648ef024f54f9230771ace</setting>
+					<setting name='last_seen' type='int'>1594295420</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>576119482</name>
+					<setting name='buddy_icon' type='string'>3c8f9ec0ae650c544d88e706321f4f177ce5a103.jpg</setting>
+					<setting name='icon_checksum' type='string'>fd43c2e05dd95cec7a6b0862c0a74743</setting>
+					<setting name='last_seen' type='int'>1594291947</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002235828675</name>
+					<setting name='buddy_icon' type='string'>29d9ed5584d5b1e62210747e77392ba117b38efa.jpg</setting>
+					<setting name='icon_checksum' type='string'>a6abebf9cdea56c179dcaf7c28866e28</setting>
+					<setting name='last_seen' type='int'>1594291192</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100013697676554</name>
+					<setting name='buddy_icon' type='string'>16b1dd2ec0c4399670a299cfa388b1ef3d2757b3.jpg</setting>
+					<setting name='icon_checksum' type='string'>c70aeffe65099ca2a7cfe06c03585e38</setting>
+					<setting name='last_seen' type='int'>1594292098</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>1481706656</name>
+					<setting name='buddy_icon' type='string'>2e256863aad17fa130e0f00455557dda22703228.jpg</setting>
+					<setting name='icon_checksum' type='string'>7f5a422328dc5811454f5e6a503b5539</setting>
+					<setting name='last_seen' type='int'>1594292702</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000912020390</name>
+					<setting name='buddy_icon' type='string'>88734b7dbffa4ecf03af6fb6fde7525464760b56.jpg</setting>
+					<setting name='icon_checksum' type='string'>a7424e82ac6d68cacd8dae48e2d3a19d</setting>
+					<setting name='last_seen' type='int'>1592898673</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100003024488376</name>
+					<setting name='buddy_icon' type='string'>5f76eafbee519c4853a204deb49ec73cbd9a7bee.jpg</setting>
+					<setting name='icon_checksum' type='string'>8090f8efa8a0c1cb27a1af940c88bd2c</setting>
+					<setting name='last_seen' type='int'>1593682796</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000451725685</name>
+					<setting name='buddy_icon' type='string'>c315ea56c18c2d539c604a4c3c277f6cd743ccc9.jpg</setting>
+					<setting name='icon_checksum' type='string'>c0836115d23106a5f8d6d71d1b0f809f</setting>
+					<setting name='last_seen' type='int'>1594292400</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100004447056626</name>
+					<setting name='buddy_icon' type='string'>a48ddf9c9ba81bbb61b4d9d097755f6265cfa3e6.jpg</setting>
+					<setting name='icon_checksum' type='string'>58732649fe4addea8c2ceb9162ea87da</setting>
+					<setting name='last_seen' type='int'>1594294514</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>1270794507</name>
+					<setting name='buddy_icon' type='string'>826aa89f2b7906a54fb375330e19ea6203911d45.jpg</setting>
+					<setting name='icon_checksum' type='string'>92cd283569fe7f909484c3503823f98c</setting>
+					<setting name='last_seen' type='int'>1594287417</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000538511626</name>
+					<setting name='buddy_icon' type='string'>2c8b80fe0a23a4e2fa26ba5398b1826c1057fa24.jpg</setting>
+					<setting name='icon_checksum' type='string'>1e9cd9b210f5d0408c277f51f6fdafbb</setting>
+					<setting name='last_seen' type='int'>1594293457</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>519889021</name>
+					<setting name='buddy_icon' type='string'>53c86328af36db5e616b75dc5962f8246b0989c4.jpg</setting>
+					<setting name='icon_checksum' type='string'>77d43a6c06f10d97da3063f11d88b7dd</setting>
+					<setting name='last_seen' type='int'>1592900938</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>1364133905</name>
+					<setting name='buddy_icon' type='string'>052a9c6a034fce902d94676145afda212a732aa1.jpg</setting>
+					<setting name='icon_checksum' type='string'>0ead0ff51a1e2d89811700d242e280b4</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100004365005021</name>
+					<setting name='buddy_icon' type='string'>14623a54dec7f9c9a8a4412850f4094e734432df.jpg</setting>
+					<setting name='icon_checksum' type='string'>74c022dacc062909ba25c672fa242c92</setting>
+					<setting name='last_seen' type='int'>1594288323</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000707517048</name>
+					<setting name='buddy_icon' type='string'>575e3a558eacc1e472b6e85d570c3ffaa8f650b7.jpg</setting>
+					<setting name='icon_checksum' type='string'>d977bacbeed48b47c9453276b455f0d0</setting>
+					<setting name='last_seen' type='int'>1594294061</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001075023454</name>
+					<setting name='buddy_icon' type='string'>420be6529e6205d4e43a20ab0aafb50396e40403.jpg</setting>
+					<setting name='icon_checksum' type='string'>83a9c5e9558784b9593ffcf1bfa8ba4d</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000866674300</name>
+					<setting name='buddy_icon' type='string'>7048ad5673846090c9e9de7fac3ede06ff2d2243.jpg</setting>
+					<setting name='icon_checksum' type='string'>9244a2442087707bdb74b0c4530e1b81</setting>
+					<setting name='last_seen' type='int'>1594294816</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000909120310</name>
+					<setting name='buddy_icon' type='string'>c181ee1c23671766af82eea3ad17543cdcc79ba5.jpg</setting>
+					<setting name='icon_checksum' type='string'>e736150586c57712d73e9d5eb591fdef</setting>
+					<setting name='last_seen' type='int'>1594284850</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002397844362</name>
+					<setting name='buddy_icon' type='string'>6a35135a0baa619105eee58fc1bdf3411935101a.jpg</setting>
+					<setting name='icon_checksum' type='string'>64f3ad80f724489d8ceac851126b00f4</setting>
+					<setting name='last_seen' type='int'>1594295118</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001633687602</name>
+					<setting name='buddy_icon' type='string'>0833def1040385425076150ed7da139a503d9a8a.jpg</setting>
+					<setting name='icon_checksum' type='string'>a7a0af18dd7af92a865bd0a82bca77a6</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001433373340</name>
+					<setting name='buddy_icon' type='string'>0199be151d39e3207aa5dc4688739835deb676e9.jpg</setting>
+					<setting name='icon_checksum' type='string'>31a987735b96f7f68348a85565ae20f1</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>1275620554</name>
+					<setting name='buddy_icon' type='string'>046d9f8842917c3230e6504e586ae1e6e62b0639.jpg</setting>
+					<setting name='icon_checksum' type='string'>e00400b520b330c6225eedc20bcb703d</setting>
+					<setting name='last_seen' type='int'>1592908790</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100002462353512</name>
+					<setting name='buddy_icon' type='string'>fc97950cc8b7af4ab687cd206756b7b0cf0cf54a.jpg</setting>
+					<setting name='icon_checksum' type='string'>d86b5a553cdc394e2d80846124265f56</setting>
+					<setting name='last_seen' type='int'>1594293608</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100003150901896</name>
+					<setting name='buddy_icon' type='string'>c2d812e9622ee343205a6ab5b1549ee437672788.jpg</setting>
+					<setting name='icon_checksum' type='string'>27837dd7542ac94ac706253da8756787</setting>
+					<setting name='last_seen' type='int'>1594295420</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000717074809</name>
+					<setting name='buddy_icon' type='string'>b460f5d77e375739437fa8f24e7aad43d8879705.jpg</setting>
+					<setting name='icon_checksum' type='string'>d9a6d6dcc2f4bbec96333b1cc8ec3db3</setting>
+					<setting name='last_seen' type='int'>1594293004</setting>
+				</buddy>
+				<setting name='gtk-mute-sound' type='bool'>0</setting>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100048098025609</name>
+					<setting name='buddy_icon' type='string'>8d69f12385622191225d02056dda7332180a6a6e.jpg</setting>
+					<setting name='icon_checksum' type='string'>ac600defc77c0742e6bf51837f38ee20</setting>
+					<setting name='last_seen' type='int'>1592910904</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100003321022383</name>
+					<setting name='buddy_icon' type='string'>e92e8af4fe0a19938b59c65d4f68ae5dc9b821fe.jpg</setting>
+					<setting name='icon_checksum' type='string'>05a9732168c1c6a038f5cd827b9dc0bc</setting>
+					<setting name='last_seen' type='int'>1594294665</setting>
+				</buddy>
+				<setting name='gtk-mute-sound' type='bool'>0</setting>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000408463207</name>
+					<setting name='buddy_icon' type='string'>e1bb21a976b4d02cd934a12777aad8c73b8a4d6d.jpg</setting>
+					<setting name='icon_checksum' type='string'>6d456d5347bb69e53b8316eafee62747</setting>
+					<setting name='last_seen' type='int'>1594295269</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001377304950</name>
+					<setting name='buddy_icon' type='string'>a2589e04bd1163562c939ff7207310bb9ddae8a2.jpg</setting>
+					<setting name='icon_checksum' type='string'>1d970c496b6199e3ea870c55552fda68</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000703447222</name>
+					<setting name='buddy_icon' type='string'>ca30c1bda4b8b3aa10825063e7be2dbec4421f9c.jpg</setting>
+					<setting name='icon_checksum' type='string'>e844b04349ea33eec84cf5cd3596b5ef</setting>
+					<setting name='last_seen' type='int'>1594293759</setting>
+				</buddy>
+				<setting name='gtk-mute-sound' type='bool'>0</setting>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100026798298299</name>
+					<setting name='buddy_icon' type='string'>11f74392f6cc69bc3ce060287545282cd342db3e.jpg</setting>
+					<setting name='icon_checksum' type='string'>3031051bfcb8f11c8ff8fccbd00c3003</setting>
+					<setting name='last_seen' type='int'>1593422582</setting>
+				</buddy>
+				<setting name='gtk-mute-sound' type='bool'>0</setting>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000608973608</name>
+					<setting name='buddy_icon' type='string'>2c3d03897b0bd23ef4f5b0c4bb04be2bb38975d4.jpg</setting>
+					<setting name='icon_checksum' type='string'>808402a3d26083386781ce2d0c2012ed</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001620489062</name>
+					<setting name='buddy_icon' type='string'>08551c8f408452f834b29776ffd97d31ab24b6ac.jpg</setting>
+					<setting name='icon_checksum' type='string'>a7130dadfa55e46f006a547d938ea072</setting>
+					<setting name='last_seen' type='int'>1594287869</setting>
+				</buddy>
+				<setting name='gtk-mute-sound' type='bool'>0</setting>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100021977010502</name>
+					<setting name='buddy_icon' type='string'>5eba6bbed9d0ffb4fa11652528abbe20c8784098.jpg</setting>
+					<setting name='icon_checksum' type='string'>5ca85e5fc7307b1d43d6175c12514acd</setting>
+					<setting name='last_seen' type='int'>1594289985</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100010523281057</name>
+					<setting name='buddy_icon' type='string'>00d60d9c9d09819dc28bbcaa5950ca2206b6f006.jpg</setting>
+					<setting name='icon_checksum' type='string'>f11e81d5b85a55332a35055cd5641cea</setting>
+					<setting name='last_seen' type='int'>1593422582</setting>
+				</buddy>
+				<setting name='gtk-mute-sound' type='bool'>0</setting>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000492230948</name>
+					<setting name='buddy_icon' type='string'>3c13f5d1412b5f9c2fe0234586e3a507e41038ad.jpg</setting>
+					<setting name='icon_checksum' type='string'>ea03c44d374bb2db237f650884bb6a39</setting>
+					<setting name='last_seen' type='int'>1594290587</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000885602985</name>
+					<setting name='buddy_icon' type='string'>d427bddef412ff58a12df60ed8893deab8a95a93.jpg</setting>
+					<setting name='icon_checksum' type='string'>9fb7369249431bf5c7a548ba9fdab8ca</setting>
+					<setting name='last_seen' type='int'>1594291947</setting>
+				</buddy>
+				<setting name='gtk-mute-sound' type='bool'>0</setting>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100000516133911</name>
+					<setting name='buddy_icon' type='string'>280aabd9ec733de7047bfa1750fd63f84abe97d3.jpg</setting>
+					<setting name='icon_checksum' type='string'>db2ba08df756b68885df62986b63228f</setting>
+					<setting name='last_seen' type='int'>1594295118</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100049115674694</name>
+					<setting name='buddy_icon' type='string'>adb714c8f2d2fcea889983c9ff354848005f2081.jpg</setting>
+					<setting name='icon_checksum' type='string'>81021e14c669b9de593c463000da36e9</setting>
+					<setting name='last_seen' type='int'>1594292551</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100050578746745</name>
+					<setting name='buddy_icon' type='string'>dc55b68855bb454156b6641eccef2c0ff5168f45.jpg</setting>
+					<setting name='icon_checksum' type='string'>ec97df644d81b069c5bdbbe3c893e734</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001988122864</name>
+					<setting name='buddy_icon' type='string'>57469866ca843f692a4df967d67e7298414c990a.jpg</setting>
+					<setting name='icon_checksum' type='string'>e304fdd77b125c5bd6dab746d274ac11</setting>
+					<setting name='last_seen' type='int'>1594295269</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100001016185631</name>
+					<setting name='buddy_icon' type='string'>92bfb6f29c3745e85c156b2a3a4ad08832580fcb.jpg</setting>
+					<setting name='icon_checksum' type='string'>1a8aa7d3993147dba26d5fc591f1e94b</setting>
+					<setting name='last_seen' type='int'>1594292853</setting>
+				</buddy>
+			</contact>
+		</group>
+		<group name='Facebook Non-Friends'>
+			<setting name='collapsed' type='bool'>1</setting>
+			<contact>
+				<buddy account='mateusz.stomski' proto='prpl-facebook'>
+					<name>100006269221577</name>
+					<alias>Mateusz Stomski</alias>
+				</buddy>
+			</contact>
+		</group>
+	</blist>
+	<privacy>
+		<account proto='prpl-facebook' name='mateusz.stomski' mode='1'/>
+		<account proto='prpl-irc' name='soda2[m]@irc.freenode.net' mode='1'/>
+	</privacy>
+</purple>

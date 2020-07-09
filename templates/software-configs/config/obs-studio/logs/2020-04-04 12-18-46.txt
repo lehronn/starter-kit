@@ -1,0 +1,237 @@
+12:18:46.863: CPU Name: Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz
+12:18:46.864: CPU Speed: 3233.155MHz
+12:18:46.864: Physical Cores: 4, Logical Cores: 4
+12:18:46.864: Physical Memory: 7916MB Total, 1855MB Free
+12:18:46.864: Kernel Version: Linux 5.6.0-300.fc32.x86_64
+12:18:46.864: Distribution: Generic 32
+12:18:46.864: Window System: X11.0 - vendor string: Fedora Project - vendor release: 12008000
+12:18:46.865: Portable mode: false
+12:18:46.918: OBS 25.0.3 (linux)
+12:18:46.918: ---------------------------------
+12:18:46.918: ---------------------------------
+12:18:46.918: audio settings reset:
+12:18:46.918: 	samples per sec: 44100
+12:18:46.918: 	speakers:        1
+12:18:46.927: ---------------------------------
+12:18:46.927: Initializing OpenGL...
+12:18:47.033: Loading up OpenGL on adapter NVIDIA Corporation GeForce GTX 770/PCIe/SSE2
+12:18:47.033: OpenGL loaded successfully, version 3.3.0 NVIDIA 440.64, shading language 3.30 NVIDIA via Cg compiler
+12:18:47.127: ---------------------------------
+12:18:47.127: video settings reset:
+12:18:47.127: 	base resolution:   1920x1080
+12:18:47.127: 	output resolution: 1920x1080
+12:18:47.127: 	downscale filter:  Bicubic
+12:18:47.127: 	fps:               30/1
+12:18:47.127: 	format:            NV12
+12:18:47.127: 	YUV mode:          601/Partial
+12:18:47.127: NV12 texture support not available
+12:18:47.127: Audio monitoring device:
+12:18:47.127: 	name: Domyślne
+12:18:47.127: 	id: default
+12:18:47.130: ---------------------------------
+12:18:47.136: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+12:18:47.233: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+12:18:47.233: No blackmagic support
+12:18:47.281: NVENC supported
+12:18:47.282: FFMPEG VAAPI supported
+12:18:47.316: VLC found, VLC video source enabled
+12:18:47.316: ---------------------------------
+12:18:47.316:   Loaded Modules:
+12:18:47.316:     vlc-video.so
+12:18:47.316:     text-freetype2.so
+12:18:47.316:     rtmp-services.so
+12:18:47.316:     obs-x264.so
+12:18:47.316:     obs-transitions.so
+12:18:47.316:     obs-outputs.so
+12:18:47.316:     obs-filters.so
+12:18:47.316:     obs-ffmpeg.so
+12:18:47.316:     linux-v4l2.so
+12:18:47.316:     linux-pulseaudio.so
+12:18:47.316:     linux-jack.so
+12:18:47.316:     linux-decklink.so
+12:18:47.316:     linux-capture.so
+12:18:47.316:     linux-alsa.so
+12:18:47.316:     image-source.so
+12:18:47.316:     frontend-tools.so
+12:18:47.316:     decklink-ouput-ui.so
+12:18:47.316: ---------------------------------
+12:18:47.316: ==== Startup complete ===============================================
+12:18:47.318: Service '' not found
+12:18:47.323: All scene data cleared
+12:18:47.323: ------------------------------------------------
+12:18:49.101: pulse-input: Server name: 'pulseaudio 13.99.1-rebootstrapped'
+12:18:49.102: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+12:18:49.102: pulse-input: Started recording from 'alsa_output.pci-0000_01_00.1.hdmi-stereo-extra1.monitor'
+12:18:49.102: pulse-input: Server name: 'pulseaudio 13.99.1-rebootstrapped'
+12:18:49.103: pulse-input: Audio format: s16le, 16000 Hz, 1 channels
+12:18:49.103: pulse-input: Started recording from 'alsa_input.usb-046d_09a5_D2A39120-02.mono-fallback'
+12:18:49.356: v4l2-input: Start capture from /dev/video0
+12:18:49.370: v4l2-input: Unable to set input 0
+12:18:49.370: v4l2-input: Initialization failed
+12:18:49.384: xshm-input: Geometry 1920x1080 @ 0,0
+12:18:49.441: Switched to scene '1 logo'
+12:18:49.442: ------------------------------------------------
+12:18:49.442: Loaded scenes:
+12:18:49.442: - scene '1 logo':
+12:18:49.442:     - source: 'Obraz 2' (image_source)
+12:18:49.442:     - source: 'Tekst (FreeType 2)' (text_ft2_source_v2)
+12:18:49.442: - scene '2 wiekszywebcam':
+12:18:49.442:     - source: 'Pulpit' (xshm_input)
+12:18:49.442:     - source: 'Kolor' (color_source_v2)
+12:18:49.442:     - source: 'Webcam' (v4l2_input)
+12:18:49.442:     - source: 'Obraz 4' (image_source)
+12:18:49.442: - scene '3 combo':
+12:18:49.442:     - source: 'Pulpit' (xshm_input)
+12:18:49.442:     - source: 'Webcam' (v4l2_input)
+12:18:49.442: - scene '4 ja':
+12:18:49.442:     - source: 'Obraz' (image_source)
+12:18:49.442:     - source: 'Webcam' (v4l2_input)
+12:18:49.442:     - source: 'Obraz 3' (image_source)
+12:18:49.442: - scene '5 maly pulpit':
+12:18:49.442:     - source: 'Webcam' (v4l2_input)
+12:18:49.442:     - source: 'Pulpit' (xshm_input)
+12:18:49.442:     - source: 'Obraz 4' (image_source)
+12:18:49.442: ------------------------------------------------
+12:18:49.662: adding 69 milliseconds of audio buffering, total audio buffering is now 69 milliseconds (source: Mikrofon/Wejście liniowe)
+12:18:49.662: 
+12:18:53.280: User switched to scene '3 combo'
+12:19:03.695: User switched to scene '4 ja'
+12:19:04.872: adding 2312:19:04.873: adding 23 milliseconds of audio buffering, total audio buffering is now 69 milliseconds (source: Mikrofon/Wejście l12:19:05.435: User swit12:20:38.013: Starting recording due to hotkey
+12:20:38.014: ---------------------------------
+12:20:38.018: [NVENC encoder: 'simple_h264_recording'] settings:
+12:20:38.018: 	rate_control: CQP
+12:20:38.018: 	bitrate:      0
+12:20:38.018: 	cqp:          23
+12:20:38.018: 	keyint:       250
+12:20:38.018: 	preset:       hq
+12:20:38.018: 	profile:      high
+12:20:38.018: 	width:        1920
+12:20:38.018: 	height:       1080
+12:20:38.018: 	2-pass:       false
+12:20:38.018: 	b-frames:     2
+12:20:38.018: 	GPU:          0
+12:20:38.018: 
+12:20:38.240: ---------------------------------
+12:20:38.240: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 192, channels: 1, channel_layout: 4
+12:20:38.240: 
+12:20:38.250: ==== Recording Start ===============================================
+12:20:38.250: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/soda2/2020-04-04 12-20-38.mkv'...
+12:21:00.692: Stopping recording due to hotkey
+12:21:01.195: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/soda2/2020-04-04 12-20-38.mkv' stopped
+12:21:01.195: Output 'simple_file_output': stopping
+12:21:01.195: Output 'simple_file_output': Total frames output: 675
+12:21:01.195: Output 'simple_file_output': Total drawn frames: 685 (689 attempted)
+12:21:01.195: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 4 (0,6%)
+12:21:01.196: ==== Recording Stop ================================================
+12:21:05.102: Starting recording due to hotkey
+12:21:05.104: ---------------------------------
+12:21:05.104: [NVENC encoder: 'simple_h264_recording'] settings:
+12:21:05.104: 	rate_control: CQP
+12:21:05.104: 	bitrate:      0
+12:21:05.104: 	cqp:          23
+12:21:05.104: 	keyint:       250
+12:21:05.104: 	preset:       hq
+12:21:05.104: 	profile:      high
+12:21:05.104: 	width:        1920
+12:21:05.104: 	height:       1080
+12:21:05.104: 	2-pass:       false
+12:21:05.104: 	b-frames:     2
+12:21:05.104: 	GPU:          0
+12:21:05.104: 
+12:21:05.240: ---------------------------------
+12:21:05.240: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 192, channels: 1, channel_layout: 4
+12:21:05.240: 
+12:21:05.248: ==== Recording Start ===============================================
+12:21:05.248: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/soda2/2020-04-04 12-21-05.mkv'...
+12:21:51.062: Stopping recording due to hotkey
+12:21:51.560: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/soda2/2020-04-04 12-21-05.mkv' stopped
+12:21:51.560: Output 'simple_file_output': stopping
+12:21:51.560: Output 'simple_file_output': Total frames output: 1376
+12:21:51.560: Output 'simple_file_output': Total drawn frames: 1385 (1389 attempted)
+12:21:51.560: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 4 (0,3%)
+12:21:51.560: ==== Recording Stop ================================================
+12:22:42.193: Starting recording due to hotkey
+12:22:42.196: ---------------------------------
+12:22:42.196: [NVENC encoder: 'simple_h264_recording'] settings:
+12:22:42.196: 	rate_control: CQP
+12:22:42.196: 	bitrate:      0
+12:22:42.196: 	cqp:          23
+12:22:42.196: 	keyint:       250
+12:22:42.196: 	preset:       hq
+12:22:42.196: 	profile:      high
+12:22:42.196: 	width:        1920
+12:22:42.196: 	height:       1080
+12:22:42.196: 	2-pass:       false
+12:22:42.196: 	b-frames:     2
+12:22:42.196: 	GPU:          0
+12:22:42.196: 
+12:22:42.281: ---------------------------------
+12:22:42.281: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 192, channels: 1, channel_layout: 4
+12:22:42.281: 
+12:22:42.283: ==== Recording Start ===============================================
+12:22:42.283: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/soda2/2020-04-04 12-22-42.mkv'...
+12:23:11.840: Stopping recording due to hotkey
+12:23:12.331: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/soda2/2020-04-04 12-22-42.mkv' stopped
+12:23:12.331: Output 'simple_file_output': stopping
+12:23:12.331: Output 'simple_file_output': Total frames output: 888
+12:23:12.331: Output 'simple_file_output': Total drawn frames: 900 (902 attempted)
+12:23:12.331: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 2 (0,2%)
+12:23:12.332: ==== Recording Stop ================================================
+13:27:47.403: Starting recording due to hotkey
+13:27:47.404: ---------------------------------
+13:27:47.404: [NVENC encoder: 'simple_h264_recording'] settings:
+13:27:47.404: 	rate_control: CQP
+13:27:47.404: 	bitrate:      0
+13:27:47.404: 	cqp:          23
+13:27:47.404: 	keyint:       250
+13:27:47.404: 	preset:       hq
+13:27:47.404: 	profile:      high
+13:27:47.404: 	width:        1920
+13:27:47.404: 	height:       1080
+13:27:47.404: 	2-pass:       false
+13:27:47.404: 	b-frames:     2
+13:27:47.404: 	GPU:          0
+13:27:47.404: 
+13:27:47.510: ---------------------------------
+13:27:47.510: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 192, channels: 1, channel_layout: 4
+13:27:47.510: 
+13:27:47.511: ==== Recording Start ===============================================
+13:27:47.511: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/soda2/2020-04-04 13-27-47.mkv'...
+13:37:22.438: ==== Shutting down ==================================================
+13:37:22.440: Switched to scene '(null)'
+13:37:22.503: v4l2-input: Stopped capture after 70728 frames
+13:37:22.908: pulse-input: Stopped recording from 'alsa_output.pci-0000_01_00.1.hdmi-stereo-extra1.monitor'
+13:37:22.908: pulse-input: Got 1064970 packets with 226349180 frames
+13:37:22.909: pulse-input: Stopped recording from 'alsa_input.usb-046d_09a5_D2A39120-02.mono-fallback'
+13:37:22.909: pulse-input: Got 471239 packets with 75419347 frames
+13:37:22.909: All scene data cleared
+13:37:22.909: ------------------------------------------------
+13:37:22.931: X Error: GLXBadDrawable, Major opcode: 150, Minor opcode: 26, Serial: 1300067
+13:37:22.931: Failed to make context current.
+13:37:22.933: X Error: GLXBadDrawable, Major opcode: 150, Minor opcode: 26, Serial: 1300069
+13:37:22.933: Failed to make context current.
+958: 
+12:23:11.961: ==== Recording Start ===============================================
+12:23:11.961: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/soda2/2020-04-04 12-23-11.mkv'...
+13:27:47.385: Stopping recording due to hotkey
+13:27:47.854: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/soda2/2020-04-04 12-23-11.mkv' stopped
+13:27:47.854: Output 'simple_file_output': stopping
+13:27:47.854: Output 'simple_file_output': Total frames output: 116264
+13:27:47.854: Output 'simple_file_output': Total drawn frames: 116274 (116277 attempted)
+13:27:47.854: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 3 (0,0%)
+13:27:47.854: ==== Recording Stop ================================================
+13:37:24.286: ==== Shutting down ==================================================
+13:37:24.290: Switched to scene '(null)'
+13:37:24.293: pulse-input: Stopped recording from 'alsa_output.pci-0000_01_00.1.hdmi-stereo-extra1.monitor'
+13:37:24.293: pulse-input: Got 1065065 packets with 226332047 frames
+13:37:24.294: pulse-input: Stopped recording from 'alsa_input.usb-046d_09a5_D2A39120-02.mono-fallback'
+13:37:24.294: pulse-input: Got 471378 packets with 75441459 frames
+13:37:24.296: All scene data cleared
+13:37:24.296: ------------------------------------------------
+13:37:24.301: X Error: GLXBadDrawable, Major opcode: 150, Minor opcode: 26, Serial: 1723012
+13:37:24.301: Failed to make context current.
+13:37:24.302: X Error: GLXBadDrawable, Major opcode: 150, Minor opcode: 26, Serial: 1723014
+13:37:24.302: Failed to make context current.
+13:37:24.302: X Error: GLXBadDrawable, Major opcode: 150, Minor opcode: 26, Serial: 1723016
+13:37:24.302: Failed to make context current.
+13:37:24.373: Freeing OBS context data
